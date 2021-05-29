@@ -12,7 +12,7 @@
 
    Modification for HIDStream after start signal- parsed from csv file
 */
-
+//#include <SD.h>
 
 void setup() {
   Serial.begin(9600);
@@ -23,6 +23,7 @@ void setup() {
 }
 
 // RawHID packets are always 64 bytes
+byte inputbuff[64];
 byte buffer1[64];
 byte buffer2[64];
 byte ch1[3];
@@ -62,27 +63,31 @@ bool sendSamples;
 bool sendingSamples;
 bool readEnd;
 byte channel[1];
+bool bufferflag;
 
 void loop() {
   int n;
   n = RawHID.recv(inputbuff, 0); // 0 timeout = do not wait
   if (n > 0) {
     if(inputbuff[0] == 0x02){
-      if (sendingSamples){
-        sendSamples = 1;
-      }
-      else{
+//      if (sendingSamples){
+//        sendSamples = 1;
+//      }
+//      else{
+//      sendingSamples = 1;
+//      }
       sendingSamples = 1;
-      }
+      bufferflag = 0;
     }
     else {
       sendingSamples = 0;
     }
     }
-  }
+  
+  
   if (sendingSamples){
     if (readEnd) {
-      if (sendSamples = 1){
+      if (sendSamples == 1){
         sendingSamples = 1;
       }
       sendingSamples = 0;
@@ -90,11 +95,11 @@ void loop() {
   // every 1 ms, send a packet to the computer
     if (usUntilNextSend > 1000) {
       usUntilNextSend = usUntilNextSend - 1000;
-    for (j=0; j < 16; j++){
+    for (int j=0; j < 16; j++){
     buffer1[j*4] = j+1;
     buffer2[j*4] = j+17;
     }
-    for (i = 0; i <3, i++){
+    for (int i = 0; i <3; i++){
     buffer1[i+1] = ch1[i];
     buffer1[i+5] = ch2[i];
     buffer1[i+9] = ch3[i];
@@ -129,7 +134,14 @@ void loop() {
     buffer2[i+57] = ch31[i];
     buffer2[i+61] = ch32[i];
     }
-      n = RawHID.send(buffer, 0);
+    if (bufferflag == 0){
+      n = RawHID.send(buffer1, 0);
+      bufferflag = 1;
+    }
+    else {
+       n = RawHID.send(buffer2, 0);
+       bufferflag = 0;
+    }
       if (n > 0) {
         Serial.print(F("Transmit packet "));
       } else {
