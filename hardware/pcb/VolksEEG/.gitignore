@@ -1,0 +1,24 @@
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*\__Previews
+*\History
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+# Useless dirs
+Project\ Logs
+
+#History
+History
+
+*.zip
+*.xlsx
