@@ -131,6 +131,8 @@ will result in a design for a full, FDA clearable device.
 
 A basic block diagram of the prototype system architecture is below:
 
+https://github.com/alcohen/VolksEEG/blob/main/Images/EE%20Architecture%20Block%20DIagram%202.png
+
 Other relevant information:
 
   - MCU is a nrf52840. Firmware is currently written in Arduino, but
