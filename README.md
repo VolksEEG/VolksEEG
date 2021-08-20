@@ -131,7 +131,7 @@ will result in a design for a full, FDA clearable device.
 
 A basic block diagram of the prototype system architecture is below:
 
-https://github.com/alcohen/VolksEEG/blob/main/Images/EE%20Architecture%20Block%20DIagram%202.png
+![System Hardware Block Diagram](https://github.com/alcohen/VolksEEG/blob/main/Images/EE%20Architecture%20Block%20DIagram%202.png "System Block Diagram")
 
 Other relevant information:
 
