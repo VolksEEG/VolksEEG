@@ -142,6 +142,10 @@ Other relevant information:
   - The MCU and electronics support Bluetooth and NFC – we’re not
     particularly planning to use these initially, but like the idea of
     being able to enable it later by flashing a firmware update.
+	
+  - The SD card will contain EEG waveforms as standard \*.edf files. 
+    For test puposes these files can be read over USB and will appear 
+	to be "real" EEG waveforms.
 
   - The PC software is being developed in C\#, a language that makes
     good tradeoffs between performance and software reliability.
