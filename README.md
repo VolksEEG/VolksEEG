@@ -25,6 +25,8 @@ idea?](#why-are-open-source-medical-devices-a-good-idea)
 
 [What needs to be done?](#what-needs-to-be-done)
 
+[How can I help?](#how-can-I-help)
+
 # Medical devices? How is this safe?
 
 The founding members of VolksEEG are:
@@ -155,6 +157,8 @@ Other relevant information:
 
   - The PC software is being developed in C\#, a language that makes
     good tradeoffs between performance and software reliability.
+
+# How can I help?
 
 Development of this prototype breaks down into the following major
 tasks:
