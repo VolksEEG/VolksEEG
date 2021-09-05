@@ -8,6 +8,12 @@ libre and in beer).*
 *We intend VolksEEG to be the first in a line of open-source medical
 devices that will dramatically improve the world of medicine.*
 
+Here is a video showing the real-time display of 32 waveform channels, from a UI proof-of-concept application:
+
+https://user-images.githubusercontent.com/58418/132131736-32bca075-f591-47dc-b3fa-c07dddc95de6.mp4
+
+(The final device will display EEG channels rather than sine waves, of course.)
+
 You may have a few questions; we have answers:
 
 [Medical devices?\! How this safe?](#medical-devices-how-is-this-safe)
