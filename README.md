@@ -27,6 +27,8 @@ idea?](#why-are-open-source-medical-devices-a-good-idea)
 
 [How can I help?](#how-can-I-help)
 
+[Project Planning](#Project-planning)
+
 # Medical devices? How is this safe?
 
 The founding members of VolksEEG are:
@@ -213,8 +215,8 @@ Some non-engineering help we could use:
 
 <!-- end list -->
 
-#Project Planning
-A detailed overview of the project plan may be found [here].(https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
+#Project planning
+A detailed overview of the project plan may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
 
 
 1.  Wenzl, Martin, and Elias Mossialos. “Prices For Cardiac Implant
