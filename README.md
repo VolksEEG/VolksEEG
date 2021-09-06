@@ -215,7 +215,7 @@ Some non-engineering help we could use:
 
 <!-- end list -->
 
-#Project planning
+## Project planning
 A detailed overview of the project plan may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
 
 
