@@ -27,7 +27,7 @@ idea?](#why-are-open-source-medical-devices-a-good-idea)
 
 [How can I help?](#how-can-I-help)
 
-[Project Planning](#Project-planning)
+[Project planning](#Project-planning)
 
 # Medical devices? How is this safe?
 
