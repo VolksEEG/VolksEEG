@@ -153,7 +153,7 @@ Other relevant information:
 	
   - The SD card will contain EEG waveforms as standard \*.edf files. 
     For test puposes these files can be read over USB and will appear 
-	to be "real" EEG waveforms.
+    to be "real" EEG waveforms.
 
   - The PC software is being developed in C\#, a language that makes
     good tradeoffs between performance and software reliability.
@@ -178,12 +178,14 @@ tasks:
     things.
 
   - Mechanical: designing and fabricating enclosures. This will be
-    fairly low-effort, to start.
+    fairly low-effort, to start, probably 3D printed. Later we'll likely 
+    use injection molding.
 
-  - Regulatory: we have this reasonably under control, but would welcome
+  - Regulatory: we have this reasonably under control, but welcome
     experienced help.
 
-  - Quality: this will ramp up over time, and we could use some help.
+  - Quality: this activity will ramp up over time, and we can use some help 
+    in writing documentation. 
 
 We can use some help on the software/firmware tasks above. Beyond the
 “writing application code” work, we can use a hand in:
@@ -209,8 +211,11 @@ Some non-engineering help we could use:
     
       - IP issues
 
-  - 
 <!-- end list -->
+
+#Project Planning
+A detailed overview of the project plan may be found [here].(https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
+
 
 1.  Wenzl, Martin, and Elias Mossialos. “Prices For Cardiac Implant
     Devices May Be Up To Six Times Higher In The US Than In Some
