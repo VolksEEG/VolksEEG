@@ -2,8 +2,7 @@
 clearance by the USA FDA, and CE marking (the equivalent of FDA
 clearance in the EU).*
 
-*All hardware and software designs will be freely available (free as in
-libre and in beer).*
+*All hardware and software designs will be freely available ([free as in speech and as in beer](https://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean)).*
 
 *We intend VolksEEG to be the first in a line of open-source medical
 devices that will dramatically improve the world of medicine.*
@@ -43,7 +42,7 @@ The founding members of VolksEEG are:
 VolksEEG development will result in a safe design whose development
 conforms to US and EU regulations – no different than any other
 commercial medical device. Project participants will gain some knowledge
-and experience in medical device design/development processes.
+and experience in the medical device design/development processes.
 
 # Why are open-source medical devices a good idea? 
 
@@ -54,13 +53,15 @@ innovation, and reduced device costs.
 
 Like all devices, medical devices have become much more complex over
 time. *Unlike* all devices, medical devices are often safety- or
-life-critical. As complexity increases, it becomes ever easier to
+life-critical. 
+
+As complexity increases, it becomes ever easier to
 overlook small design flaws during development, often leading to recalls
 later – each year, hundreds of thousands of devices are subject to Class
 I recalls, the FDA’s most serious class of recall, reserved for issues
 that could cause serious injury or death.
 
-Design flaws are detected by design reviews. A core challenge of medical
+Design flaws are detected by *design reviews*. A core challenge of medical
 device safety is ensuring the adequacy of design reviews – both in the
 person-hours spent, and the expertise of the reviewers. While design
 reviews of proprietary medical devices typically involve only a handful
@@ -88,10 +89,14 @@ and even make changes to devices to test new concepts. (To ensure
 safety, the FDA and all hospitals have strict rules around how altered
 devices can be used.)
 
+In fact... VolksEEG will contain essentially the same circuitry as will be
+used in our clinical EEG, and will directly fill a currently-unmet need 
+for research into making anesthesia safer. 
+
 ## Reduced Device Costs
 
 Medical devices are expensive. There are various reasons for this – some
-of these contribute to better patient health, but many don’t. A simple
+of these contribute to better patient care, but many don’t. A simple
 illustration of this can be seen in the title of a recent journal
 article *Prices for Cardiac Implant Devices May Be Up To Six Times
 Higher In The US Than In Some European Countries*\[1\]. Frankly, if
@@ -100,11 +105,11 @@ cost… *they wouldn’t*.
 
 Open-source designs will democratize medical devices, resulting in
 substantially lower prices. While relatively few companies have the
-ability to design devices which meet regulatory standards, many more can
+ability to *design* devices which meet regulatory standards, many more can
 manufacture them. A verified design can be adopted by multiple vendors
 who otherwise would not be able to develop devices, and competition
 reduces pricing. Open-source designs will also enable poorer countries
-and NGOs to manufacture their own devices, cutting out costs due to
+and NGOs to manufacture their own devices, cutting out costs added by
 middle-men.
 
 # Why an EEG machine?
@@ -128,7 +133,7 @@ devices:
 
 2.  EEG machines are a lower safety risk than other sophisticated
     medical devices, such as vital signs monitors and infusion pumps. A
-    fundamental principal of medical device development is that efforts
+    fundamental principal of medical device development is that effort
     should be based on risk. At the start of a project, potential risks
     are identified then addressed in development. Fewer potential risks
     translates into less effort to assure safety.
@@ -137,25 +142,25 @@ devices:
 
 VolksEEG development will have several phases. The first will result in
 a “protoduction”\[2\] device to be used for EEG research. The second
-will result in a design for a full, FDA clearable device.
+will result in a reference design for a full, FDA-clearable device.
 
 A basic block diagram of the prototype system architecture is below:
 
 ![System Hardware Block Diagram](https://github.com/alcohen/VolksEEG/blob/main/Images/EE%20Architecture%20Block%20DIagram%203.png "System Block Diagram")
 
-Other relevant information:
+Other relevant information for nerds ☺️:
 
   - MCU is a nrf52840. Firmware is currently written in Arduino, but
     we’ve not yet decided what it will ultimately be. C? C++? Arduino?
     Mbed? Also we might want to add an RTOS. Or we might not.
 
   - The MCU and electronics support Bluetooth and NFC – we’re not
-    particularly planning to use these initially, but like the idea of
+    particularly planning to use these initially, but we like the idea of
     being able to enable it later by flashing a firmware update.
 	
   - The SD card will contain EEG waveforms as standard \*.edf files. 
     For test puposes these files can be read over USB and will appear 
-    to be "real" EEG waveforms.
+    to the PC application as "real" EEG waveforms.
 
   - The PC software is being developed in C\#, a language that makes
     good tradeoffs between performance and software reliability.
@@ -173,14 +178,14 @@ tasks:
     demonstrate concepts such as reading the serial port at
     sufficiently-high speeds, writing 32 real-time waveforms to the
     screen in C\#/Windows, and so forth. The next step is to build
-    *some* real software using best practices, we could definitely use
-    some help with this.
+    the Windows-based spplication software using best practices, 
+    and we would definitely appreciate some help with this.
 
-  - Cybersecurity. Could use help, mainly on the embedded side of
+  - Cybersecurity. We could use expertise/help, mainly on the embedded side of
     things.
 
   - Mechanical: designing and fabricating enclosures. This will be
-    fairly low-effort, to start, probably 3D printed. Later we'll likely 
+    fairly low effort, to start, probably 3D printed. Later we'll likely 
     use injection molding.
 
   - Regulatory: we have this reasonably under control, but welcome
@@ -189,13 +194,12 @@ tasks:
   - Quality: this activity will ramp up over time, and we can use some help 
     in writing documentation. 
 
-We can use some help on the software/firmware tasks above. Beyond the
-“writing application code” work, we can use a hand in:
+On the software, writing code work we can use a hand in:
 
   - Working with doctors and technicians to understand and document
-    workflow
+    workflow so our software can work the way our customers want.
 
-  - Competent UI design
+  - UI/UxD design.
 
 Some non-engineering help we could use:
 
