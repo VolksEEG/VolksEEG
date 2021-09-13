@@ -1,11 +1,13 @@
-*VolksEEG will be the first open-source medical device to receive
-clearance by the USA FDA, and CE marking (the equivalent of FDA
-clearance in the EU).*
+*The VolksEEG project will culminate in the creation of an open-source 
+electroencephalogram (EEG) machine, fully-functional for clinical use.
+The device will obtain clearance by the USA FDA, and CE marking 
+(the equivalent of FDA clearance in the EU). Currently, no other 
+open-source electronic medical device has full regulatory clearance.*
 
 *All hardware and software designs will be freely available ([free as in speech and as in beer](https://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean)).*
 
 *We intend VolksEEG to be the first in a line of open-source medical
-devices that will dramatically improve the world of medicine.*
+devices that can dramatically improve the world of medicine.*
 
 Here is a video showing the real-time display of 32 waveform channels, from a UI proof-of-concept application:
 
