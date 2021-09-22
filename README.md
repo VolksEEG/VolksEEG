@@ -34,7 +34,7 @@ idea?](#why-are-open-source-medical-devices-a-good-idea)
 
 The founding members of VolksEEG are:
 
-  - Bryan Glezerson, a neurosurgical anesthesiologist (Bryan add stuff
+  - [Bryan Glezerson](https://www.linkedin.com/in/bryan-glezerson-ba71221a9/), a neurosurgical anesthesiologist (Bryan add stuff
     here).
 
   - [Alan Cohen](https://www.linkedin.com/in/meddev/), an engineer with
