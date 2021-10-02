@@ -9,6 +9,8 @@ open-source electronic medical device has full regulatory clearance.*
 *We intend VolksEEG to be the first in a line of open-source medical
 devices that can dramatically improve the world of medicine.*
 
+To sign up for updates about the project, head to [volkseeg.org](https://volkseeg.org).
+
 Here is a video showing the real-time display of 32 waveform channels, from a UI proof-of-concept application:
 
 https://user-images.githubusercontent.com/58418/132131736-32bca075-f591-47dc-b3fa-c07dddc95de6.mp4
