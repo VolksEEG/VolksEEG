@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1299IPAG
+F http://www.ti.com/lit/ds/symlink/ads1299.pdf
+$ENDCMP
+#
+$CMP LM2660MX
+F https://www.ti.com/lit/ds/symlink/lm2660.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1633188209511&ref_url=https%253A%252F%252Feu.mouser.com%252F
+$ENDCMP
+#
+$CMP LP3990MF-3.3
+F https://www.ti.com/lit/ds/symlink/lp3990.pdf?ts=1633191563532
+$ENDCMP
+#
+#End Doc Library
