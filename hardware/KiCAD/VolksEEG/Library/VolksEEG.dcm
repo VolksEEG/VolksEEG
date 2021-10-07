@@ -1,15 +1,28 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ADS1299IPAG
+D IC AFE 8 CHAN 24BIT 64TQFP
 F http://www.ti.com/lit/ds/symlink/ads1299.pdf
 $ENDCMP
 #
 $CMP LM2660MX
-F https://www.ti.com/lit/ds/symlink/lm2660.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1633188209511&ref_url=https%253A%252F%252Feu.mouser.com%252F
+D IC REG CHARGE PUMP INV 8SOIC
+F https://www.ti.com/lit/gpn/LM2660
 $ENDCMP
 #
 $CMP LP3990MF-3.3
-F https://www.ti.com/lit/ds/symlink/lp3990.pdf?ts=1633191563532
+D IC REG LINEAR 3.3V 150MA SOT23-5
+F https://www.ti.com/lit/gpn/LP3990
+$ENDCMP
+#
+$CMP TPS72325Q
+D IC REG LINEAR -2.5V 200MA SOT23-5
+F https://www.ti.com/lit/gpn/tps723
+$ENDCMP
+#
+$CMP TPS78425Q
+D IC REG LINEAR 2.5V 300MA SOT23-5
+F https://www.ti.com/lit/gpn/tps784-q1
 $ENDCMP
 #
 #End Doc Library
