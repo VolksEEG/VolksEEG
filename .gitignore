@@ -5,3 +5,4 @@
 /.vs/slnx.sqlite
 hardware/pcb.zip
 hardware/pcb/VolksEEG.zip
+*.step

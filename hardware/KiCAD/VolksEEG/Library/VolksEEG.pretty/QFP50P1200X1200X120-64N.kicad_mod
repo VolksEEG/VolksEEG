@@ -1,4 +1,4 @@
-(module QFP50P1200X1200X120-64N (layer F.Cu) (tedit 615B5DFB)
+(module QFP50P1200X1200X120-64N (layer F.Cu) (tedit 6162DFB1)
   (fp_text reference REF** (at -3.985 -7.845) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -87,7 +87,7 @@
   (pad 46 smd roundrect (at 5.68 -2.75) (size 1.56 0.28) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.04))
   (pad 47 smd roundrect (at 5.68 -3.25) (size 1.56 0.28) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.04))
   (pad 48 smd roundrect (at 5.68 -3.75) (size 1.56 0.28) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.04))
-  (model ${KIPRJMOD}/Library/ADS1299IPAG/ADS1299IPAG.step
+  (model ${KIPRJMOD}/Library/STEP/ADS1299IPAG.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

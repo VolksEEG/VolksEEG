@@ -1,4 +1,4 @@
-(module SOIC127P599X175-8N (layer F.Cu) (tedit 615B89DA)
+(module SOIC127P599X175-8N (layer F.Cu) (tedit 6162DF95)
   (fp_text reference REF** (at -0.53 -3.537) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -25,4 +25,9 @@
   (pad 6 smd roundrect (at 2.47 0.635) (size 1.97 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
   (pad 7 smd roundrect (at 2.47 -0.635) (size 1.97 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
   (pad 8 smd roundrect (at 2.47 -1.905) (size 1.97 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
+  (model ${KIPRJMOD}/Library/STEP/SOIC127P599X175-8N.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

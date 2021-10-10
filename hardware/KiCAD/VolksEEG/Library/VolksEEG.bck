@@ -16,13 +16,18 @@ F https://www.ti.com/lit/gpn/LP3990
 $ENDCMP
 #
 $CMP TPS72325Q
-D IC REG LIN -2.5V 200MA SOT23-5
+D IC REG LINEAR -2.5V 200MA SOT23-5
 F https://www.ti.com/lit/gpn/tps723
 $ENDCMP
 #
 $CMP TPS78425Q
 D IC REG LINEAR 2.5V 300MA SOT23-5
 F https://www.ti.com/lit/gpn/tps784-q1
+$ENDCMP
+#
+$CMP nRF52840-Feather-Sense
+D nRF52840 series Transceiver; Bluetooth® 5 Evaluation Board
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-sense.pdf
 $ENDCMP
 #
 #End Doc Library
