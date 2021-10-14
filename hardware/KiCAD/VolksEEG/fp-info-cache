@@ -1,4 +1,4 @@
-18731774417631276
+18736676397775588
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80920,6 +80920,13 @@ varistor SIOV
 2
 2
 VolksEEG
+693061010911
+<B>WR-CRD</B><BR>SD CARD CONNECTOR<BR>PUSH & PUSH<BR>WITH CARD DETECTION<BR>9 PINS
+
+0
+13
+13
+VolksEEG
 QFP50P1200X1200X120-64N
 
 
@@ -80928,6 +80935,20 @@ QFP50P1200X1200X120-64N
 64
 VolksEEG
 SOIC127P599X175-8N
+
+
+0
+8
+8
+VolksEEG
+SOIC127P1030X265-16N
+
+
+0
+16
+16
+VolksEEG
+SOP65P490X110-8N
 
 
 0

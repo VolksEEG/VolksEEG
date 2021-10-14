@@ -5,4 +5,5 @@
 /.vs/slnx.sqlite
 hardware/pcb.zip
 hardware/pcb/VolksEEG.zip
+/hardware/KiCAD/VolksEEG/_bak
 *.step

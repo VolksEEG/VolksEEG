@@ -1,8 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 693061010911
+F https://www.we-online.com/catalog/datasheet/693061010911.pdf
+$ENDCMP
+#
 $CMP ADS1299IPAG
 D IC AFE 8 CHAN 24BIT 64TQFP
 F http://www.ti.com/lit/ds/symlink/ads1299.pdf
+$ENDCMP
+#
+$CMP ISO7741DW
+D DGTL ISO 5000VRMS 4CH GP 16SOIC
+F https://www.ti.com/lit/gpn/iso7741
 $ENDCMP
 #
 $CMP LM2660MX
@@ -15,6 +24,11 @@ D IC REG LINEAR 3.3V 150MA SOT23-5
 F https://www.ti.com/lit/gpn/LP3990
 $ENDCMP
 #
+$CMP OPA388IDGKR
+D IC OPAMP ZERO-DRIFT 1CIRC 8VSSOP
+F https://www.ti.com/lit/gpn/opa388
+$ENDCMP
+#
 $CMP TPS72325Q
 D IC REG LINEAR -2.5V 200MA SOT23-5
 F https://www.ti.com/lit/gpn/tps723
@@ -23,6 +37,11 @@ $ENDCMP
 $CMP TPS78425Q
 D IC REG LINEAR 2.5V 300MA SOT23-5
 F https://www.ti.com/lit/gpn/tps784-q1
+$ENDCMP
+#
+$CMP UCC12050DVER
+D DC DC CONVERTER 3.3V 5V 500MW
+F https://www.ti.com/lit/gpn/ucc12050
 $ENDCMP
 #
 $CMP nRF52840-Feather-Sense
