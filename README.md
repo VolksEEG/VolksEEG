@@ -1,3 +1,7 @@
+For more information on VolksEEG (beyond this readme):
+- Further technial details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
+- The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4) 
+
 *The VolksEEG project will culminate in the creation of an open-source 
 electroencephalogram (EEG) machine, fully-functional for clinical use.
 The device will obtain clearance by the USA FDA, and CE marking 
@@ -224,7 +228,7 @@ Some non-engineering help we could use:
 <!-- end list -->
 
 ## Project planning
-A detailed overview of the project plan may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
+The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4)
 
 
 1.  Wenzl, Martin, and Elias Mossialos. “Prices For Cardiac Implant
