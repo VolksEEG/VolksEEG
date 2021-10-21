@@ -2,7 +2,7 @@ For more information on VolksEEG (beyond this readme):
 - Further technial details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
 - The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4) 
 
-*The VolksEEG project will culminate in the creation of an open-source 
+*The VolksEEG project will culminate in the creation of an open-source
 electroencephalogram (EEG) machine, fully-functional for clinical use.
 The device will obtain clearance by the USA FDA, and CE marking 
 (the equivalent of FDA clearance in the EU). Currently, no other 
@@ -11,7 +11,7 @@ open-source electronic medical device has full regulatory clearance.*
 *All hardware and software designs will be freely available ([free as in speech and as in beer](https://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean)).*
 
 *We intend VolksEEG to be the first in a line of open-source medical
-devices that can dramatically improve the world of medicine.*
+devices that can substantially improve the world of medicine.*
 
 To sign up for updates about the project, head to [volkseeg.org](https://volkseeg.org).
 
