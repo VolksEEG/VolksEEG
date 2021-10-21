@@ -63,8 +63,8 @@ Like all devices, medical devices have become much more complex over
 time. *Unlike* all devices, medical devices are often safety- or
 life-critical. 
 
-As complexity increases, it becomes ever easier to
-overlook small design flaws during development, often leading to recalls
+As complexity increases, it becomes ever easier to overlook
+small design flaws during development, often leading to recalls
 later – each year, hundreds of thousands of devices are subject to Class
 I recalls, the FDA’s most serious class of recall, reserved for issues
 that could cause serious injury or death.
