@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
-Title ""
+Sheet 1 6
+Title "Main"
 Date ""
 Rev ""
-Comp ""
+Comp "VolksEEG"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -190,4 +190,26 @@ F 3 "" H 7500 3050 50  0001 C CNN
 	1    7500 3050
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6250 1100 1250 1250
+U 61731DC5
+F0 "Isolation" 50
+F1 "isolation.sch" 50
+F2 "PWR_ni" I L 6250 1200 50 
+F3 "GND_in" I L 6250 2250 50 
+F4 "PWR_iso" O R 7500 1200 50 
+F5 "GND_iso" O R 7500 2250 50 
+F6 "MOSI_iso" O R 7500 1350 50 
+F7 "ADS_nRST_iso" O R 7500 1500 50 
+F8 "nCS_iso" O R 7500 1650 50 
+F9 "SCK_iso" O R 7500 1800 50 
+F10 "MISO_iso" I R 7500 1950 50 
+F11 "ADS_DRDY_iso" I R 7500 2100 50 
+F12 "MOSI_ni" I L 6250 1350 50 
+F13 "ADS_nRST_ni" I L 6250 1500 50 
+F14 "nCS_ni" I L 6250 1650 50 
+F15 "SCK_ni" I L 6250 1800 50 
+F16 "MISO_ni" O L 6250 1950 50 
+F17 "ADS_DRDY_ni" O L 6250 2100 50 
+$EndSheet
 $EndSCHEMATC
