@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -14,19 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 6800 3400 2    50   Output ~ 0
-MOSI
+MOSI_nrf
 Text HLabel 6800 3500 2    50   Output ~ 0
-SCK
+SCK_nrf
 Text HLabel 6800 3300 2    50   Input ~ 0
-MISO
-Text HLabel 4100 3700 0    50   Output ~ 0
-nCS0
-Text HLabel 4100 3900 0    50   Output ~ 0
-ADS-nRST
-Wire Wire Line
-	5050 3700 4500 3700
-Wire Wire Line
-	5050 3900 4100 3900
+MISO_nrf
+Text HLabel 3400 3900 0    50   Output ~ 0
+ADS-nCS_nrf
+Text HLabel 3400 4000 0    50   Output ~ 0
+ADS-nRST_nrf
 Wire Wire Line
 	6050 3300 6800 3300
 Wire Wire Line
@@ -77,19 +73,15 @@ F 3 "https://www.we-online.com/catalog/datasheet/693061010911.pdf" H 9600 2250 5
 	1    9600 2250
 	1    0    0    -1  
 $EndComp
-Text HLabel 4100 3800 0    50   Output ~ 0
-nCS1
-Wire Wire Line
-	5050 3800 4750 3800
 $Comp
 L Device:R R17
 U 1 1 61650065
-P 4500 3350
-F 0 "R17" H 4570 3396 50  0000 L CNN
-F 1 "R" H 4570 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4430 3350 50  0001 C CNN
-F 3 "~" H 4500 3350 50  0001 C CNN
-	1    4500 3350
+P 4450 3350
+F 0 "R17" H 4520 3396 50  0000 L CNN
+F 1 "R" H 4520 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4380 3350 50  0001 C CNN
+F 3 "~" H 4450 3350 50  0001 C CNN
+	1    4450 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -103,52 +95,16 @@ F 3 "~" H 4750 3350 50  0001 C CNN
 	1    4750 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDC #PWR0101
-U 1 1 61650AD7
-P 4500 3100
-F 0 "#PWR0101" H 4500 3000 50  0001 C CNN
-F 1 "VDC" H 4515 3273 50  0000 C CNN
-F 2 "" H 4500 3100 50  0001 C CNN
-F 3 "" H 4500 3100 50  0001 C CNN
-	1    4500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDC #PWR0102
-U 1 1 61650CE3
-P 4750 3100
-F 0 "#PWR0102" H 4750 3000 50  0001 C CNN
-F 1 "VDC" H 4765 3273 50  0000 C CNN
-F 2 "" H 4750 3100 50  0001 C CNN
-F 3 "" H 4750 3100 50  0001 C CNN
-	1    4750 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 4500 3700
-Wire Wire Line
-	4500 3700 4100 3700
-Wire Wire Line
-	4750 3500 4750 3800
-Connection ~ 4750 3800
-Wire Wire Line
-	4750 3800 4100 3800
-Wire Wire Line
-	4500 3500 4500 3700
-Wire Wire Line
-	4750 3200 4750 3100
-Wire Wire Line
-	4500 3100 4500 3200
 Text Label 8650 1850 0    50   ~ 0
-nCS1
+SD-nCS_nrf
 Text Label 8650 1950 0    50   ~ 0
-MOSI
+MOSI_nrf
 Text Label 8650 2450 0    50   ~ 0
-MISO
+MISO_nrf
 Text Label 8650 2250 0    50   ~ 0
-SCK
+SCK_nrf
 Text Label 8650 2750 0    50   ~ 0
-SD_nCD
+SD-nCD_nrf
 $Comp
 L power:VDC #PWR0103
 U 1 1 61652DA7
@@ -269,4 +225,99 @@ Text Label 8100 4550 0    50   ~ 0
 SDA
 Text Label 8100 4650 0    50   ~ 0
 SCL
+Text HLabel 3400 4100 0    50   Input ~ 0
+ADS-DRDY_nrf
+Text Label 3400 3700 2    50   ~ 0
+SD-nCD_nrf
+Text HLabel 6800 2700 2    50   Output ~ 0
++3V3_nrf
+Connection ~ 6200 2700
+Wire Wire Line
+	6200 2700 6800 2700
+$Comp
+L Device:R R?
+U 1 1 61746C2B
+P 4150 3350
+F 0 "R?" H 4220 3396 50  0000 L CNN
+F 1 "R" H 4220 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 3350 50  0001 C CNN
+F 3 "~" H 4150 3350 50  0001 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+Text Label 3400 3800 2    50   ~ 0
+SD-nCS_nrf
+$Comp
+L Device:R R?
+U 1 1 6174C834
+P 3850 3350
+F 0 "R?" H 3920 3396 50  0000 L CNN
+F 1 "R" H 3920 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3780 3350 50  0001 C CNN
+F 3 "~" H 3850 3350 50  0001 C CNN
+	1    3850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3900 4450 3900
+Wire Wire Line
+	3400 3700 3850 3700
+Wire Wire Line
+	3400 3800 4150 3800
+$Comp
+L power:VDC #PWR?
+U 1 1 6174E817
+P 4300 2950
+F 0 "#PWR?" H 4300 2850 50  0001 C CNN
+F 1 "VDC" H 4315 3123 50  0000 C CNN
+F 2 "" H 4300 2950 50  0001 C CNN
+F 3 "" H 4300 2950 50  0001 C CNN
+	1    4300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4000 4750 4000
+Wire Wire Line
+	3850 3500 3850 3700
+Connection ~ 3850 3700
+Wire Wire Line
+	3850 3700 5050 3700
+Wire Wire Line
+	4150 3500 4150 3800
+Connection ~ 4150 3800
+Wire Wire Line
+	4150 3800 5050 3800
+Wire Wire Line
+	4450 3500 4450 3900
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 3900 5050 3900
+Wire Wire Line
+	4750 3500 4750 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 5050 4000
+Wire Wire Line
+	4300 3100 4150 3100
+Wire Wire Line
+	3850 3100 3850 3200
+Wire Wire Line
+	4150 3200 4150 3100
+Connection ~ 4150 3100
+Wire Wire Line
+	4150 3100 3850 3100
+Wire Wire Line
+	4750 3200 4750 3100
+Wire Wire Line
+	4750 3100 4450 3100
+Connection ~ 4300 3100
+Wire Wire Line
+	4450 3200 4450 3100
+Connection ~ 4450 3100
+Wire Wire Line
+	4450 3100 4300 3100
+Wire Wire Line
+	4300 2950 4300 3100
+Wire Wire Line
+	3400 4100 5050 4100
 $EndSCHEMATC
