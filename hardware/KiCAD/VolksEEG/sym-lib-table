@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name VolksEEG)(type Legacy)(uri ${KIPRJMOD}/Library/VolksEEG.lib)(options "")(descr ""))
-  (lib (name 2021-10-21_21-49-35)(type Legacy)(uri C:/Users/Graham/Downloads/VolksEeg/ul_TME-0303S/KiCAD/2021-10-21_21-49-35/2021-10-21_21-49-35.lib)(options "")(descr ""))
+  (lib (name MEJ1S0305SC)(type Legacy)(uri ${KIPRJMOD}/Library/MEJ1/MEJ1S0305SC.lib)(options "")(descr ""))
 )

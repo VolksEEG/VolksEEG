@@ -226,7 +226,7 @@ SDA
 Text Label 8100 4650 0    50   ~ 0
 SCL
 Text HLabel 3400 4100 0    50   Input ~ 0
-ADS-DRDY_nrf
+ADS-nDRDY_nrf
 Text Label 3400 3700 2    50   ~ 0
 SD-nCD_nrf
 Text HLabel 6800 2700 2    50   Output ~ 0
