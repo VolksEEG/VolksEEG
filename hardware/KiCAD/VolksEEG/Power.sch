@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5300 3350 5300
 Wire Wire Line
-	2000 5300 1350 5300
+	2000 5300 1800 5300
 Wire Wire Line
 	1350 5300 1350 5150
 Text Notes 1950 3200 0    50   ~ 0
@@ -94,9 +94,6 @@ Text Notes 2750 5300 0    50   ~ 0
 -2.5V@200mA
 Wire Wire Line
 	2000 4050 2000 3950
-Wire Wire Line
-	2000 5550 2000 5300
-Connection ~ 2000 5300
 Wire Wire Line
 	2000 5800 2000 5700
 $Comp
@@ -406,24 +403,13 @@ $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 61837039
-P 4900 2300
-F 0 "#PWR?" H 4900 2050 50  0001 C CNN
-F 1 "GNDA" H 4905 2127 50  0000 C CNN
-F 2 "" H 4900 2300 50  0001 C CNN
-F 3 "" H 4900 2300 50  0001 C CNN
-	1    4900 2300
+P 4900 1950
+F 0 "#PWR?" H 4900 1700 50  0001 C CNN
+F 1 "GNDA" H 4905 1777 50  0000 C CNN
+F 2 "" H 4900 1950 50  0001 C CNN
+F 3 "" H 4900 1950 50  0001 C CNN
+	1    4900 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61837EDF
-P 3200 2200
-F 0 "R?" V 2993 2200 50  0000 C CNN
-F 1 "0" V 3084 2200 50  0000 C CNN
-F 2 "" V 3130 2200 50  0001 C CNN
-F 3 "~" H 3200 2200 50  0001 C CNN
-	1    3200 2200
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C?
@@ -842,18 +828,16 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 6195A2BF
-P 1500 1550
+P 1850 1550
 AR Path="/615BA255/6195A2BF" Ref="C?"  Part="1" 
 AR Path="/61731DC5/6195A2BF" Ref="C?"  Part="1" 
-F 0 "C?" H 1615 1596 50  0000 L CNN
-F 1 "2.2u" H 1615 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1538 1400 50  0001 C CNN
-F 3 "~" H 1500 1550 50  0001 C CNN
-	1    1500 1550
+F 0 "C?" H 1965 1596 50  0000 L CNN
+F 1 "2.2u" H 1965 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1400 50  0001 C CNN
+F 3 "~" H 1850 1550 50  0001 C CNN
+	1    1850 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 1800 1500 1700
 Wire Wire Line
 	3800 1400 3800 1300
 NoConn ~ 3150 1700
@@ -878,41 +862,12 @@ F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LP3990MF-33-NOPB?qs=1
 	1    2800 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND2 #PWR?
-U 1 1 6195A2DE
-P 1500 1800
-AR Path="/61731DC5/6195A2DE" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/6195A2DE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1500 1550 50  0001 C CNN
-F 1 "GND2" H 1505 1627 50  0000 C CNN
-F 2 "" H 1500 1800 50  0001 C CNN
-F 3 "" H 1500 1800 50  0001 C CNN
-	1    1500 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR?
-U 1 1 6195A2E4
-P 2450 2300
-AR Path="/61731DC5/6195A2E4" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/6195A2E4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2450 2050 50  0001 C CNN
-F 1 "GND2" H 2455 2127 50  0000 C CNN
-F 2 "" H 2450 2300 50  0001 C CNN
-F 3 "" H 2450 2300 50  0001 C CNN
-	1    2450 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1500 1400 1500 1300
-Connection ~ 1500 1300
-Wire Wire Line
-	2200 1550 2450 1550
-Text HLabel 1150 1300 0    50   Output ~ 0
+	1850 1400 1850 1300
+Text HLabel 1500 1300 0    50   Input ~ 0
 +5V_iso
 Wire Wire Line
-	1150 1300 1500 1300
+	1500 1300 1850 1300
 Wire Wire Line
 	4900 1150 4900 1300
 $Comp
@@ -926,8 +881,8 @@ F 3 "" H 4900 1150 50  0001 C CNN
 	1    4900 1150
 	1    0    0    -1  
 $EndComp
-Text HLabel 5100 1300 2    50   Input ~ 0
-+3V3_ads
+Text HLabel 5100 1300 2    50   Output ~ 0
++3V3_out
 Wire Wire Line
 	5100 1300 4900 1300
 $Comp
@@ -952,40 +907,17 @@ F 3 "" H 1350 3400 50  0001 C CNN
 	1    1350 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 1700 2450 2200
-Connection ~ 2450 2200
-Wire Wire Line
-	2450 2200 2450 2300
 $Comp
 L power:GNDA #PWR?
 U 1 1 61970A4A
-P 3800 2300
-F 0 "#PWR?" H 3800 2050 50  0001 C CNN
-F 1 "GNDA" H 3805 2127 50  0000 C CNN
-F 2 "" H 3800 2300 50  0001 C CNN
-F 3 "" H 3800 2300 50  0001 C CNN
-	1    3800 2300
+P 3800 1950
+F 0 "#PWR?" H 3800 1700 50  0001 C CNN
+F 1 "GNDA" H 3805 1777 50  0000 C CNN
+F 2 "" H 3800 1950 50  0001 C CNN
+F 3 "" H 3800 1950 50  0001 C CNN
+	1    3800 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 1700 4900 2300
-Wire Wire Line
-	2450 2200 3050 2200
-Wire Wire Line
-	3800 1700 3800 2200
-Wire Wire Line
-	3350 2200 3800 2200
-Connection ~ 3800 2200
-Wire Wire Line
-	3800 2200 3800 2300
-Wire Wire Line
-	1500 1300 2200 1300
-Wire Wire Line
-	2200 1550 2200 1300
-Connection ~ 2200 1300
-Wire Wire Line
-	2200 1300 2450 1300
 Wire Wire Line
 	2000 3800 1850 3800
 Wire Wire Line
@@ -994,9 +926,9 @@ Connection ~ 1850 3550
 Wire Wire Line
 	1850 3550 2000 3550
 Text HLabel 5600 3550 2    50   Output ~ 0
-+2V5_ads
++2V5_out
 Text HLabel 5550 5300 2    50   Output ~ 0
--2V5_ads
+-2V5_out
 $Comp
 L Device:C C?
 U 1 1 619D4E35
@@ -1194,4 +1126,53 @@ Wire Wire Line
 Connection ~ 5300 5300
 Wire Wire Line
 	5300 5300 5550 5300
+Wire Wire Line
+	2450 1550 2300 1550
+Wire Wire Line
+	2300 1550 2300 1300
+Wire Wire Line
+	2300 1300 2450 1300
+Wire Wire Line
+	1850 1300 2300 1300
+Connection ~ 1850 1300
+Connection ~ 2300 1300
+$Comp
+L power:GNDA #PWR?
+U 1 1 61A49E67
+P 2300 1950
+F 0 "#PWR?" H 2300 1700 50  0001 C CNN
+F 1 "GNDA" H 2305 1777 50  0000 C CNN
+F 2 "" H 2300 1950 50  0001 C CNN
+F 3 "" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61A4A061
+P 1850 1950
+F 0 "#PWR?" H 1850 1700 50  0001 C CNN
+F 1 "GNDA" H 1855 1777 50  0000 C CNN
+F 2 "" H 1850 1950 50  0001 C CNN
+F 3 "" H 1850 1950 50  0001 C CNN
+	1    1850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1700 1850 1950
+Wire Wire Line
+	2300 1950 2300 1700
+Wire Wire Line
+	2300 1700 2450 1700
+Wire Wire Line
+	3800 1950 3800 1700
+Wire Wire Line
+	4900 1700 4900 1950
+Wire Wire Line
+	2000 5550 1800 5550
+Wire Wire Line
+	1800 5550 1800 5300
+Connection ~ 1800 5300
+Wire Wire Line
+	1800 5300 1350 5300
 $EndSCHEMATC
