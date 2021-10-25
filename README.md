@@ -36,6 +36,9 @@ idea?](#why-are-open-source-medical-devices-a-good-idea)
 
 [Project planning](#Project-planning)
 
+[Wait... don't medical devices need to have full requirements and specifications before starting any development?](#where-are-the-detailed-requirements-and-specs)
+
+
 # Medical devices? How is this safe?
 
 The founding members of VolksEEG are:
@@ -241,3 +244,24 @@ The start of a detailed project overview may be found [here](https://1drv.ms/w/s
     used for its intended use, but not a fully-developed commercial
     product. Production quantities are typically low, in the ones or
     tens.
+    
+## Where are the detailed requirements and specs?
+The short story is that our initial effort will be a highly-functional prototype, 
+not a medical device.
+
+When a medical device is cleared by the FDA, it's required that there be
+detailed requirements and specifications, and that development and testing 
+has proceeded deliberately to meet those requirements and specifications. 
+
+Medical device development uses relatively-heavyweight development processes 
+(i.e., there's a good bit of documentation, traceability matrices, etc) that 
+the FDA generally refers to as design controls. If development only proceeds 
+after writing and reviewing formal requirements/architecture/specs etc., we run
+the risk of finding technical surprises that will cause us to back up and update 
+those requirements/architecture/specs that we worked so hard on. So, to avoid 
+wasted effort in creating requirements/architecture/specs that might get changed 
+later, it often makes sense to start by building a fairly-functional prototype 
+without using full medical-grade design controls, then once that's working to
+circle back and redo the process using design controls. This usually ends up
+reusing the designs produced during the prototype build, but now we document
+and otherwise control them properly.
