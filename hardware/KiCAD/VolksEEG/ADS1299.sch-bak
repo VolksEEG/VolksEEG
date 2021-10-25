@@ -34,24 +34,16 @@ Text HLabel 6000 4250 2    50   Output ~ 0
 MISO_ads
 Wire Wire Line
 	5550 4250 6000 4250
-Text HLabel 3550 1500 0    50   Input ~ 0
+Text HLabel 3500 1500 0    50   Input ~ 0
 ADS-nRST
-Text HLabel 3500 3250 0    50   Input ~ 0
-AIN5N
 Text HLabel 3500 3350 0    50   Input ~ 0
-AIN5P
-Text HLabel 3500 3450 0    50   Input ~ 0
-AIN6N
+AIN5
 Text HLabel 3500 3550 0    50   Input ~ 0
-AIN6P
-Text HLabel 3500 3650 0    50   Input ~ 0
-AIN7N
+AIN6
 Text HLabel 3500 3750 0    50   Input ~ 0
-AIN7P
-Text HLabel 3500 3850 0    50   Input ~ 0
-AIN8N
+AIN7
 Text HLabel 3500 3950 0    50   Input ~ 0
-AIN8P
+AIN8
 Wire Wire Line
 	3500 4250 4150 4250
 Wire Wire Line
@@ -61,51 +53,27 @@ Wire Wire Line
 Wire Wire Line
 	4150 3950 3500 3950
 Wire Wire Line
-	4150 3850 3500 3850
-Wire Wire Line
 	4150 3750 3500 3750
-Wire Wire Line
-	4150 3650 3500 3650
 Wire Wire Line
 	3500 3550 4150 3550
 Wire Wire Line
-	4150 3450 3500 3450
-Wire Wire Line
 	3500 3350 4150 3350
-Wire Wire Line
-	4150 3250 3500 3250
-Text HLabel 3500 2450 0    50   Input ~ 0
-AIN1N
 Text HLabel 3500 2550 0    50   Input ~ 0
-AIN1P
-Text HLabel 3500 2650 0    50   Input ~ 0
-AIN2N
+AIN1
 Text HLabel 3500 2750 0    50   Input ~ 0
-AIN2P
-Text HLabel 3500 2850 0    50   Input ~ 0
-AIN3N
+AIN2
 Text HLabel 3500 2950 0    50   Input ~ 0
-AIN3P
-Text HLabel 3500 3050 0    50   Input ~ 0
-AIN4N
+AIN3
 Text HLabel 3500 3150 0    50   Input ~ 0
-AIN4P
+AIN4
 Wire Wire Line
 	4150 3150 3500 3150
 Wire Wire Line
-	4150 3050 3500 3050
-Wire Wire Line
 	4150 2950 3500 2950
-Wire Wire Line
-	4150 2850 3500 2850
 Wire Wire Line
 	3500 2750 4150 2750
 Wire Wire Line
-	4150 2650 3500 2650
-Wire Wire Line
 	3500 2550 4150 2550
-Wire Wire Line
-	4150 2450 3500 2450
 Wire Wire Line
 	5550 1750 5550 1650
 Connection ~ 5550 1350
@@ -540,17 +508,6 @@ F 3 "~" H 6650 2050 50  0001 C CNN
 $EndComp
 Text HLabel 6800 2250 2    50   Output ~ 0
 nDRDY_ads
-$Comp
-L power:+3V3 #PWR?
-U 1 1 617DA57B
-P 6650 1500
-F 0 "#PWR?" H 6650 1350 50  0001 C CNN
-F 1 "+3V3" V 6665 1628 50  0000 L CNN
-F 2 "" H 6650 1500 50  0001 C CNN
-F 3 "" H 6650 1500 50  0001 C CNN
-	1    6650 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 2000 5900 1800
 Connection ~ 5900 1800
@@ -572,7 +529,7 @@ Wire Wire Line
 	6650 2250 6800 2250
 Connection ~ 6650 2250
 Wire Wire Line
-	3550 1500 4150 1500
+	3500 1500 4150 1500
 Wire Wire Line
 	6650 1500 6650 1600
 Wire Wire Line
@@ -645,4 +602,156 @@ Wire Wire Line
 	6150 6000 6550 6000
 Text HLabel 6550 6000 2    50   Input ~ 0
 -2V5
+$Comp
+L power:VDD #PWR?
+U 1 1 61A7B2BC
+P 6650 1500
+AR Path="/615BA255/61A7B2BC" Ref="#PWR?"  Part="1" 
+AR Path="/615BA110/61A7B2BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 1350 50  0001 C CNN
+F 1 "VDD" H 6665 1673 50  0000 C CNN
+F 2 "" H 6650 1500 50  0001 C CNN
+F 3 "" H 6650 1500 50  0001 C CNN
+	1    6650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A7F38E
+P 3850 1750
+F 0 "R?" V 3950 1650 50  0000 L CNN
+F 1 "10K" V 3950 1800 50  0000 L CNN
+F 2 "" V 3780 1750 50  0001 C CNN
+F 3 "~" H 3850 1750 50  0001 C CNN
+	1    3850 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61A7F869
+P 2750 1550
+AR Path="/615BA255/61A7F869" Ref="#PWR?"  Part="1" 
+AR Path="/615BA110/61A7F869" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2750 1400 50  0001 C CNN
+F 1 "VDD" H 2765 1723 50  0000 C CNN
+F 2 "" H 2750 1550 50  0001 C CNN
+F 3 "" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1550 2750 1750
+Wire Wire Line
+	2750 1750 3700 1750
+Wire Wire Line
+	4000 1750 4150 1750
+Text HLabel 5850 2350 2    50   Output ~ 0
+BIAS_OUT
+Text HLabel 3500 2100 0    50   Output ~ 0
+BIAS_INV
+Wire Wire Line
+	3500 2100 4150 2100
+Wire Wire Line
+	5550 2350 5850 2350
+$Comp
+L Device:R R?
+U 1 1 61AF48E0
+P 3850 1400
+F 0 "R?" V 3950 1300 50  0000 L CNN
+F 1 "10K" V 3950 1450 50  0000 L CNN
+F 2 "" V 3780 1400 50  0001 C CNN
+F 3 "~" H 3850 1400 50  0001 C CNN
+	1    3850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61AF7617
+P 3500 1200
+AR Path="/615BA255/61AF7617" Ref="#PWR?"  Part="1" 
+AR Path="/615BA110/61AF7617" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 1050 50  0001 C CNN
+F 1 "VDD" H 3515 1373 50  0000 C CNN
+F 2 "" H 3500 1200 50  0001 C CNN
+F 3 "" H 3500 1200 50  0001 C CNN
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1200 3500 1400
+Wire Wire Line
+	3500 1400 3700 1400
+Wire Wire Line
+	4000 1400 4150 1400
+Text HLabel 3500 5600 0    50   Input ~ 0
+REF
+Wire Wire Line
+	3500 5600 4150 5600
+$Comp
+L power:VDD #PWR?
+U 1 1 61B0BA08
+P 2750 2400
+AR Path="/615BA255/61B0BA08" Ref="#PWR?"  Part="1" 
+AR Path="/615BA110/61B0BA08" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2750 2250 50  0001 C CNN
+F 1 "VDD" H 2765 2573 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2400 2750 2450
+Wire Wire Line
+	2750 3850 4150 3850
+Wire Wire Line
+	4150 3650 2750 3650
+Connection ~ 2750 3650
+Wire Wire Line
+	2750 3650 2750 3850
+Wire Wire Line
+	4150 3450 2750 3450
+Connection ~ 2750 3450
+Wire Wire Line
+	2750 3450 2750 3650
+Wire Wire Line
+	2750 3250 4150 3250
+Connection ~ 2750 3250
+Wire Wire Line
+	2750 3250 2750 3450
+Wire Wire Line
+	4150 3050 2750 3050
+Connection ~ 2750 3050
+Wire Wire Line
+	2750 3050 2750 3250
+Wire Wire Line
+	2750 2850 4150 2850
+Connection ~ 2750 2850
+Wire Wire Line
+	2750 2850 2750 3050
+Wire Wire Line
+	2750 2650 4150 2650
+Connection ~ 2750 2650
+Wire Wire Line
+	2750 2650 2750 2850
+Wire Wire Line
+	2750 2450 4150 2450
+Connection ~ 2750 2450
+Wire Wire Line
+	2750 2450 2750 2650
+$Comp
+L power:GNDA #PWR?
+U 1 1 61B27A78
+P 2950 1950
+F 0 "#PWR?" H 2950 1700 50  0001 C CNN
+F 1 "GNDA" H 2955 1777 50  0000 C CNN
+F 2 "" H 2950 1950 50  0001 C CNN
+F 3 "" H 2950 1950 50  0001 C CNN
+	1    2950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1950 2950 1850
+Wire Wire Line
+	2950 1850 4150 1850
 $EndSCHEMATC
