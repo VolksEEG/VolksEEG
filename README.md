@@ -1,5 +1,5 @@
 For more information on VolksEEG (beyond this readme):
-- Further technial details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
+- Further technical details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
 - The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4) 
 
 *The VolksEEG project will culminate in the creation of an open-source
