@@ -14,15 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 6800 3400 2    50   Output ~ 0
-MOSI_nrf
+MOSI_ni
 Text HLabel 6800 3500 2    50   Output ~ 0
-SCK_nrf
+SCK_ni
 Text HLabel 6800 3300 2    50   Input ~ 0
-MISO_nrf
+MISO_ni
 Text HLabel 3400 3900 0    50   Output ~ 0
-ADS-nCS_nrf
+ADS-nCS_ni
 Text HLabel 3400 4000 0    50   Output ~ 0
-ADS-nRST_nrf
+ADS-nRST_ni
 Wire Wire Line
 	6050 3300 6800 3300
 Wire Wire Line
@@ -96,44 +96,44 @@ F 3 "~" H 4750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8650 1850 0    50   ~ 0
-SD-nCS_nrf
+SD-nCS_ni
 Text Label 8650 1950 0    50   ~ 0
-MOSI_nrf
+MOSI_ni
 Text Label 8650 2450 0    50   ~ 0
-MISO_nrf
+MISO_ni
 Text Label 8650 2250 0    50   ~ 0
-SCK_nrf
+SCK_ni
 Text Label 8650 2750 0    50   ~ 0
-SD-nCD_nrf
+SD-nCD_ni
 $Comp
 L power:VDC #PWR0103
 U 1 1 61652DA7
-P 8950 1700
-F 0 "#PWR0103" H 8950 1600 50  0001 C CNN
-F 1 "VDC" H 8965 1873 50  0000 C CNN
-F 2 "" H 8950 1700 50  0001 C CNN
-F 3 "" H 8950 1700 50  0001 C CNN
-	1    8950 1700
+P 8400 1700
+F 0 "#PWR0103" H 8400 1600 50  0001 C CNN
+F 1 "VDC" H 8415 1873 50  0000 C CNN
+F 2 "" H 8400 1700 50  0001 C CNN
+F 3 "" H 8400 1700 50  0001 C CNN
+	1    8400 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 2050 9000 2050
+	9100 2050 8550 2050
 Wire Wire Line
-	9000 2050 9000 2350
+	8550 2050 8550 2350
 Wire Wire Line
-	9100 2350 9000 2350
-Connection ~ 9000 2350
+	9100 2350 8550 2350
+Connection ~ 8550 2350
 Wire Wire Line
-	9000 2350 9000 3250
+	8550 2350 8550 3250
 Wire Wire Line
-	9100 2150 8950 2150
+	9100 2150 8400 2150
 Wire Wire Line
-	8950 2150 8950 1700
+	8400 2150 8400 1700
 Wire Wire Line
-	9600 3250 9000 3250
+	9600 3250 8550 3250
 Wire Wire Line
-	9000 3350 9000 3250
-Connection ~ 9000 3250
+	8550 3350 8550 3250
+Connection ~ 8550 3250
 Wire Wire Line
 	9100 2250 8650 2250
 Wire Wire Line
@@ -213,24 +213,24 @@ $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 6181E9E7
-P 9000 3350
-F 0 "#PWR?" H 9000 3100 50  0001 C CNN
-F 1 "GNDD" H 9004 3195 50  0000 C CNN
-F 2 "" H 9000 3350 50  0001 C CNN
-F 3 "" H 9000 3350 50  0001 C CNN
-	1    9000 3350
+P 8550 3350
+F 0 "#PWR?" H 8550 3100 50  0001 C CNN
+F 1 "GNDD" H 8554 3195 50  0000 C CNN
+F 2 "" H 8550 3350 50  0001 C CNN
+F 3 "" H 8550 3350 50  0001 C CNN
+	1    8550 3350
 	1    0    0    -1  
 $EndComp
 Text Label 8100 4550 0    50   ~ 0
-SDA
+SDA_ni
 Text Label 8100 4650 0    50   ~ 0
-SCL
+SCL_ni
 Text HLabel 3400 4100 0    50   Input ~ 0
-ADS-nDRDY_nrf
+ADS-nDRDY_ni
 Text Label 3400 3700 2    50   ~ 0
-SD-nCD_nrf
+SD-nCD_ni
 Text HLabel 6800 2700 2    50   Output ~ 0
-+3V3_nrf
++3V3_ni
 Connection ~ 6200 2700
 Wire Wire Line
 	6200 2700 6800 2700
@@ -246,7 +246,7 @@ F 3 "~" H 4150 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3400 3800 2    50   ~ 0
-SD-nCS_nrf
+SD-nCS_ni
 $Comp
 L Device:R R?
 U 1 1 6174C834

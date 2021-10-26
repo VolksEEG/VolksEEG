@@ -52,189 +52,6 @@ AIN7
 Text HLabel 2200 3950 0    50   Output ~ 0
 AIN8
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even J1
-U 1 1 61659FCB
-P 8600 3450
-F 0 "J1" H 8650 2625 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 8650 2716 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 8600 3450 50  0001 C CNN
-F 3 "~" H 8600 3450 50  0001 C CNN
-	1    8600 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR036
-U 1 1 6165D31B
-P 7950 2750
-F 0 "#PWR036" H 7950 2600 50  0001 C CNN
-F 1 "VDDA" H 7965 2923 50  0000 C CNN
-F 2 "" H 7950 2750 50  0001 C CNN
-F 3 "" H 7950 2750 50  0001 C CNN
-	1    7950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR039
-U 1 1 6165DEAF
-P 9150 2750
-F 0 "#PWR039" H 9150 2600 50  0001 C CNN
-F 1 "VDDA" H 9165 2923 50  0000 C CNN
-F 2 "" H 9150 2750 50  0001 C CNN
-F 3 "" H 9150 2750 50  0001 C CNN
-	1    9150 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VSSA #PWR038
-U 1 1 6165EC47
-P 8800 4150
-F 0 "#PWR038" H 8800 4000 50  0001 C CNN
-F 1 "VSSA" H 8815 4323 50  0000 C CNN
-F 2 "" H 8800 4150 50  0001 C CNN
-F 3 "" H 8800 4150 50  0001 C CNN
-	1    8800 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VSSA #PWR037
-U 1 1 6165FAEA
-P 8300 4150
-F 0 "#PWR037" H 8300 4000 50  0001 C CNN
-F 1 "VSSA" H 8315 4323 50  0000 C CNN
-F 2 "" H 8300 4150 50  0001 C CNN
-F 3 "" H 8300 4150 50  0001 C CNN
-	1    8300 4150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9200 2950 8800 2950
-Wire Wire Line
-	8800 2850 9150 2850
-Wire Wire Line
-	9150 2850 9150 2750
-Wire Wire Line
-	8300 2850 7950 2850
-Wire Wire Line
-	7950 2850 7950 2750
-Wire Wire Line
-	7900 2950 8300 2950
-Wire Wire Line
-	8300 4150 8300 4050
-Wire Wire Line
-	8800 4050 8800 4150
-Wire Wire Line
-	7950 3050 8300 3050
-Wire Wire Line
-	7950 3150 8300 3150
-Wire Wire Line
-	7950 3250 8300 3250
-Wire Wire Line
-	7950 3350 8300 3350
-Wire Wire Line
-	7950 3450 8300 3450
-Wire Wire Line
-	7950 3550 8300 3550
-Wire Wire Line
-	7950 3650 8300 3650
-Wire Wire Line
-	7950 3750 8300 3750
-Wire Wire Line
-	7950 3850 8300 3850
-Wire Wire Line
-	7950 3950 8300 3950
-Wire Wire Line
-	9150 3950 8800 3950
-Wire Wire Line
-	9150 3850 8800 3850
-Wire Wire Line
-	9150 3750 8800 3750
-Wire Wire Line
-	9150 3650 8800 3650
-Wire Wire Line
-	9150 3550 8800 3550
-Wire Wire Line
-	9150 3450 8800 3450
-Wire Wire Line
-	9150 3350 8800 3350
-Wire Wire Line
-	9150 3250 8800 3250
-Wire Wire Line
-	9150 3150 8800 3150
-Wire Wire Line
-	9150 3050 8800 3050
-Text Label 7950 3850 0    50   ~ 0
-ELEC1N
-Text Label 8850 3850 0    50   ~ 0
-ELEC1P
-Entry Wire Line
-	7850 3250 7950 3150
-Entry Wire Line
-	7850 3150 7950 3050
-Entry Wire Line
-	7850 3350 7950 3250
-Entry Wire Line
-	7850 3450 7950 3350
-Entry Wire Line
-	7850 3550 7950 3450
-Entry Wire Line
-	7850 3650 7950 3550
-Entry Wire Line
-	7850 3750 7950 3650
-Entry Wire Line
-	7850 3850 7950 3750
-Entry Wire Line
-	7850 3950 7950 3850
-Entry Wire Line
-	7850 4050 7950 3950
-Entry Wire Line
-	9250 3150 9150 3050
-Entry Wire Line
-	9250 3250 9150 3150
-Entry Wire Line
-	9250 3350 9150 3250
-Entry Wire Line
-	9250 3450 9150 3350
-Entry Wire Line
-	9250 3550 9150 3450
-Entry Wire Line
-	9250 3650 9150 3550
-Entry Wire Line
-	9250 3750 9150 3650
-Entry Wire Line
-	9250 3850 9150 3750
-Entry Wire Line
-	9250 3950 9150 3850
-Entry Wire Line
-	9250 4050 9150 3950
-Text Label 7950 3750 0    50   ~ 0
-ELEC2N
-Text Label 8850 3750 0    50   ~ 0
-ELEC2P
-Text Label 7950 3650 0    50   ~ 0
-ELEC3N
-Text Label 8850 3650 0    50   ~ 0
-ELEC3P
-Text Label 7950 3550 0    50   ~ 0
-ELEC4N
-Text Label 8850 3550 0    50   ~ 0
-ELEC4P
-Text Label 7950 3450 0    50   ~ 0
-ELEC5N
-Text Label 8850 3450 0    50   ~ 0
-ELEC5P
-Text Label 7950 3350 0    50   ~ 0
-ELEC6N
-Text Label 8850 3350 0    50   ~ 0
-ELEC6P
-Text Label 7950 3250 0    50   ~ 0
-ELEC7N
-Text Label 8850 3250 0    50   ~ 0
-ELEC7P
-Text Label 7950 3150 0    50   ~ 0
-ELEC8N
-Text Label 8850 3150 0    50   ~ 0
-ELEC8P
-$Comp
 L Device:R R?
 U 1 1 6167497C
 P 5800 2150
@@ -310,28 +127,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3950 50  0
 F 3 "~" H 5800 3950 50  0001 C CNN
 	1    5800 3950
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 617E796B
-P 7900 2950
-F 0 "#PWR?" H 7900 2700 50  0001 C CNN
-F 1 "GNDA" H 7905 2777 50  0000 C CNN
-F 2 "" H 7900 2950 50  0001 C CNN
-F 3 "" H 7900 2950 50  0001 C CNN
-	1    7900 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 617EC38A
-P 9200 2950
-F 0 "#PWR?" H 9200 2700 50  0001 C CNN
-F 1 "GNDA" H 9205 2777 50  0000 C CNN
-F 2 "" H 9200 2950 50  0001 C CNN
-F 3 "" H 9200 2950 50  0001 C CNN
-	1    9200 2950
-	0    -1   -1   0   
 $EndComp
 Text HLabel 2200 4600 0    50   Output ~ 0
 REF
@@ -577,4 +372,75 @@ Connection ~ 2750 5200
 Wire Wire Line
 	5650 5200 3100 5200
 Connection ~ 3100 5200
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 61B400D9
+P 8500 3150
+F 0 "J?" H 8580 3142 50  0000 L CNN
+F 1 "Conn_01x10" H 8580 3051 50  0000 L CNN
+F 2 "" H 8500 3150 50  0001 C CNN
+F 3 "~" H 8500 3150 50  0001 C CNN
+	1    8500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1850 7750 1850
+Wire Wire Line
+	7750 1850 7750 2750
+Wire Wire Line
+	7750 2750 8300 2750
+Wire Wire Line
+	5950 2150 7600 2150
+Wire Wire Line
+	7600 2150 7600 2850
+Wire Wire Line
+	7600 2850 8300 2850
+Wire Wire Line
+	7450 2950 7450 2450
+Wire Wire Line
+	7450 2450 5950 2450
+Wire Wire Line
+	5950 2750 7300 2750
+Wire Wire Line
+	7300 2750 7300 3050
+Wire Wire Line
+	7300 3050 8300 3050
+Wire Wire Line
+	8300 3150 7150 3150
+Wire Wire Line
+	7150 3150 7150 3050
+Wire Wire Line
+	7150 3050 5950 3050
+Wire Wire Line
+	7450 2950 8300 2950
+Wire Wire Line
+	5950 3350 7150 3350
+Wire Wire Line
+	7150 3350 7150 3250
+Wire Wire Line
+	7150 3250 8300 3250
+Wire Wire Line
+	8300 3350 7300 3350
+Wire Wire Line
+	7300 3650 5950 3650
+Wire Wire Line
+	7300 3350 7300 3650
+Wire Wire Line
+	5950 3950 7450 3950
+Wire Wire Line
+	7450 3950 7450 3450
+Wire Wire Line
+	7450 3450 8300 3450
+Wire Wire Line
+	5950 4600 7600 4600
+Wire Wire Line
+	7600 4600 7600 3550
+Wire Wire Line
+	7600 3550 8300 3550
+Wire Wire Line
+	5950 5200 7750 5200
+Wire Wire Line
+	7750 5200 7750 3650
+Wire Wire Line
+	7750 3650 8300 3650
 $EndSCHEMATC

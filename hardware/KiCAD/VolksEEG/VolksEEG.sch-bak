@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 6
 Title "Main"
 Date ""
-Rev "6378737"
+Rev ""
 Comp "VolksEEG"
 Comment1 ""
 Comment2 ""
@@ -32,10 +32,10 @@ F12 "AIN2" I R 7650 2400 50
 F13 "AIN3" I R 7650 2550 50 
 F14 "AIN4" I R 7650 2700 50 
 F15 "ADS_nDRDY_ads" O L 6600 3000 50 
-F16 "+3V3_ads" I L 6600 3250 50 
-F17 "+2V5_ads" I L 6600 3400 50 
-F18 "-2V5_ads" I L 6600 3550 50 
-F19 "GND_ads" I L 6600 3700 50 
+F16 "+3V3" I L 6600 3250 50 
+F17 "+2V5" I L 6600 3400 50 
+F18 "-2V5" I L 6600 3550 50 
+F19 "GND" I L 6600 3700 50 
 F20 "REF" I R 7650 3550 50 
 F21 "BIAS_OUT" O R 7650 3700 50 
 F22 "BIAS_INV" O R 7650 3850 50 
@@ -45,25 +45,25 @@ S 5250 3100 1000 1000
 U 615BA255
 F0 "ADS1299 Power" 50
 F1 "Power.sch" 50
-F2 "GND_in" I L 5250 3400 50 
-F3 "+3V3_out" O R 6250 3250 50 
-F4 "+2V5_out" O R 6250 3400 50 
-F5 "-2V5_out" O R 6250 3550 50 
-F6 "+5V_in" I L 5250 3250 50 
+F2 "GND" I L 5250 3400 50 
+F3 "+3V3" O R 6250 3250 50 
+F4 "+2V5" O R 6250 3400 50 
+F5 "-2V5" O R 6250 3550 50 
+F6 "+5V" I L 5250 3250 50 
 $EndSheet
 $Sheet
 S 1500 1950 1200 1400
 U 615BA20B
 F0 "nRF52840 Feather Sense Express Board" 50
 F1 "nRF52840.sch" 50
-F2 "MOSI_nrf" O R 2700 2250 50 
-F3 "SCK_nrf" O R 2700 2700 50 
-F4 "MISO_nrf" I R 2700 2850 50 
-F5 "ADS-nRST_nrf" O R 2700 2400 50 
-F6 "ADS-nCS_nrf" O R 2700 2550 50 
-F7 "ADS-nDRDY_nrf" I R 2700 3000 50 
-F8 "+3V3_nrf" O R 2700 2100 50 
-F9 "GND_nrf" O R 2700 3150 50 
+F2 "MOSI_ni" O R 2700 2250 50 
+F3 "SCK_ni" O R 2700 2700 50 
+F4 "MISO_ni" I R 2700 2850 50 
+F5 "ADS-nRST_ni" O R 2700 2400 50 
+F6 "ADS-nCS_ni" O R 2700 2550 50 
+F7 "ADS-nDRDY_ni" I R 2700 3000 50 
+F8 "+3V3_ni" O R 2700 2100 50 
+F9 "GND_ni" O R 2700 3150 50 
 $EndSheet
 Wire Wire Line
 	2700 2250 3450 2250
@@ -114,21 +114,21 @@ F0 "Isolation" 50
 F1 "isolation.sch" 50
 F2 "+3V3_ni" I L 3450 2100 50 
 F3 "GND_ni" I L 3450 3150 50 
-F4 "+3V3_iso" I R 4800 2100 50 
-F5 "GND_iso" O R 4800 3300 50 
-F6 "MOSI_iso" O R 4800 2250 50 
-F7 "ADS_nRST_iso" O R 4800 2400 50 
-F8 "nCS_iso" O R 4800 2550 50 
-F9 "SCK_iso" O R 4800 2700 50 
-F10 "MISO_iso" I R 4800 2850 50 
-F11 "ADS_nDRDY_iso" I R 4800 3000 50 
+F4 "+3V3" I R 4800 2100 50 
+F5 "GND" O R 4800 3300 50 
+F6 "MOSI" O R 4800 2250 50 
+F7 "ADS_nRST" O R 4800 2400 50 
+F8 "nCS" O R 4800 2550 50 
+F9 "SCK" O R 4800 2700 50 
+F10 "MISO" I R 4800 2850 50 
+F11 "ADS_nDRDY" I R 4800 3000 50 
 F12 "MOSI_ni" I L 3450 2250 50 
 F13 "ADS_nRST_ni" I L 3450 2400 50 
 F14 "nCS_ni" I L 3450 2550 50 
 F15 "SCK_ni" I L 3450 2700 50 
 F16 "MISO_ni" O L 3450 2850 50 
 F17 "ADS_nDRDY_ni" O L 3450 3000 50 
-F18 "+5V_iso" O R 4800 3150 50 
+F18 "+5V" O R 4800 3150 50 
 $EndSheet
 Wire Wire Line
 	4800 3150 5050 3150
@@ -190,5 +190,5 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8150 3850
 Text Notes 1550 5550 0    50   ~ 0
-Known Remaining Tasks:\n* Finish Referential Montage configuration of ADS1299 Electrodes.\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Adjust names of hierarchical pins to sheets.\n* Seperate Analogue and digital supplies?\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.
+Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Adjust names of hierarchical pins to sheets.\n* Seperate Analogue and digital supplies?\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.\n* Header for GPIOs
 $EndSCHEMATC

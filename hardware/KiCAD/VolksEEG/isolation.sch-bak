@@ -30,19 +30,19 @@ ADS_nDRDY_ni
 Text HLabel 3700 3750 2    50   Input ~ 0
 GND_ni
 Text HLabel 8800 2550 2    50   Output ~ 0
-MOSI_iso
+MOSI
 Text HLabel 8800 2650 2    50   Output ~ 0
-ADS_nRST_iso
+ADS_nRST
 Text HLabel 8800 2750 2    50   Output ~ 0
-nCS_iso
+nCS
 Text HLabel 8800 2850 2    50   Output ~ 0
-SCK_iso
+SCK
 Text HLabel 8800 4550 2    50   Input ~ 0
-MISO_iso
+MISO
 Text HLabel 8800 4650 2    50   Input ~ 0
-ADS_nDRDY_iso
+ADS_nDRDY
 Text HLabel 3700 3850 2    50   Output ~ 0
-GND_iso
+GND
 $Comp
 L MEJ1S0305SC:MEJ1S0305SC U?
 U 1 1 6187C705
@@ -224,7 +224,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4650 6600 4650
 Text HLabel 3700 3650 2    50   Output ~ 0
-+5V_iso
++5V
 Wire Wire Line
 	3250 3650 3700 3650
 Wire Wire Line
@@ -243,7 +243,7 @@ F 3 "" H 8550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 8800 2350 2    50   Input ~ 0
-+3V3_iso
++3V3
 Wire Wire Line
 	8800 2350 8550 2350
 Connection ~ 8550 2350

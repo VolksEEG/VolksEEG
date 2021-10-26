@@ -865,7 +865,7 @@ $EndComp
 Wire Wire Line
 	1850 1400 1850 1300
 Text HLabel 1500 1300 0    50   Input ~ 0
-+5V_iso
++5V
 Wire Wire Line
 	1500 1300 1850 1300
 Wire Wire Line
@@ -882,7 +882,7 @@ F 3 "" H 4900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5100 1300 2    50   Output ~ 0
-+3V3_out
++3V3
 Wire Wire Line
 	5100 1300 4900 1300
 $Comp
@@ -926,9 +926,9 @@ Connection ~ 1850 3550
 Wire Wire Line
 	1850 3550 2000 3550
 Text HLabel 5600 3550 2    50   Output ~ 0
-+2V5_out
++2V5
 Text HLabel 5550 5300 2    50   Output ~ 0
--2V5_out
+-2V5
 $Comp
 L Device:C C?
 U 1 1 619D4E35
