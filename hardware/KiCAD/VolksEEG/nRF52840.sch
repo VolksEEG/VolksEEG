@@ -56,7 +56,7 @@ L VolksEEG:nRF52840-Feather-Sense U2
 U 1 1 6162EBF7
 P 5550 3550
 F 0 "U2" H 5550 4665 50  0000 C CNN
-F 1 "nRF52840-Feather-Sense" H 5550 4574 50  0000 C CNN
+F 1 "nRF52840-Feather-Sense-Board" H 5450 4600 50  0000 C CNN
 F 2 "VolksEEG:nRF52840_Feather_Sense" H 5200 4550 50  0001 C CNN
 F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-sense.pdf" H 5200 4550 50  0001 C CNN
 	1    5550 3550
