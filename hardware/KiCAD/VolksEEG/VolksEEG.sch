@@ -35,21 +35,23 @@ F15 "ADS_nDRDY" O L 6600 3000 50
 F16 "+3V3" I L 6600 3250 50 
 F17 "+2V5" I L 6600 3400 50 
 F18 "-2V5" I L 6600 3550 50 
-F19 "GND" I L 6600 3700 50 
+F19 "GNDD" I L 6600 3850 50 
 F20 "REF" I R 7650 3550 50 
 F21 "BIAS_OUT" O R 7650 3700 50 
 F22 "BIAS_INV" O R 7650 3850 50 
+F23 "GNDA" I L 6600 3700 50 
 $EndSheet
 $Sheet
 S 5250 3100 1000 1000
 U 615BA255
 F0 "ADS1299 Power" 50
 F1 "Power.sch" 50
-F2 "GND" I L 5250 3400 50 
+F2 "GNDD" I L 5250 3400 50 
 F3 "+3V3" O R 6250 3250 50 
 F4 "+2V5" O R 6250 3400 50 
 F5 "-2V5" O R 6250 3550 50 
 F6 "+5V" I L 5250 3250 50 
+F7 "GNDA" O R 6250 3700 50 
 $EndSheet
 $Sheet
 S 1500 1950 1200 1400
@@ -115,7 +117,7 @@ F1 "isolation.sch" 50
 F2 "+3V3_ni" I L 3450 2100 50 
 F3 "GND_ni" I L 3450 3150 50 
 F4 "+3V3" I R 4800 2100 50 
-F5 "GND" O R 4800 3300 50 
+F5 "GNDD" O R 4800 3300 50 
 F6 "MOSI" O R 4800 2250 50 
 F7 "ADS_nRST" O R 4800 2400 50 
 F8 "nCS" O R 4800 2550 50 
@@ -144,9 +146,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 3250 5250 3250
 Wire Wire Line
-	6600 3700 6400 3700
+	6600 3850 6400 3850
 Wire Wire Line
-	6400 3700 6400 4250
+	6400 3850 6400 4250
 Wire Wire Line
 	6400 4250 4950 4250
 Wire Wire Line
@@ -190,5 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8150 3850
 Text Notes 1550 5550 0    50   ~ 0
-Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Adjust names of hierarchical pins to sheets.\n* Seperate Analogue and digital supplies?\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.\n* Header for GPIOs
+Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.
+Wire Wire Line
+	6250 3700 6600 3700
 $EndSCHEMATC

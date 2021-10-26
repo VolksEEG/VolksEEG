@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name VolksEEG)(type Legacy)(uri ${KIPRJMOD}/Library/VolksEEG.lib)(options "")(descr ""))
   (lib (name MEJ1S0305SC)(type Legacy)(uri ${KIPRJMOD}/Library/MEJ1/MEJ1S0305SC.lib)(options "")(descr ""))
+  (lib (name gnd_ni)(type Legacy)(uri C:/Projects/SchematicPDFPrints/gnd_ni.lib)(options "")(descr ""))
 )
