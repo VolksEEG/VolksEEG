@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -13,317 +13,736 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6800 3400 2    50   Output ~ 0
+Text HLabel 6900 4100 2    50   Output ~ 0
 MOSI_ni
-Text HLabel 6800 3500 2    50   Output ~ 0
+Text HLabel 6900 4200 2    50   Output ~ 0
 SCK_ni
-Text HLabel 6800 3300 2    50   Input ~ 0
+Text HLabel 6900 4000 2    50   Input ~ 0
 MISO_ni
-Text HLabel 3400 3900 0    50   Output ~ 0
+Text HLabel 1700 4700 0    50   Output ~ 0
 ADS-nCS_ni
-Text HLabel 3400 4000 0    50   Output ~ 0
+Text HLabel 1700 4800 0    50   Output ~ 0
 ADS-nRST_ni
 Wire Wire Line
-	6050 3300 6800 3300
+	5400 4000 6000 4000
 Wire Wire Line
-	6800 3400 6050 3400
+	6900 4100 6550 4100
 Wire Wire Line
-	6050 3500 6800 3500
-NoConn ~ 5050 2750
-NoConn ~ 5050 2900
-NoConn ~ 6050 3100
-NoConn ~ 6050 3000
-NoConn ~ 6050 2800
+	5400 4200 6500 4200
+NoConn ~ 4400 3450
+NoConn ~ 4400 3600
+NoConn ~ 5400 3800
+NoConn ~ 5400 3700
+NoConn ~ 5400 3500
 Wire Wire Line
-	6050 4400 6050 4550
+	5400 3400 5650 3400
 Wire Wire Line
-	6050 2700 6200 2700
-Wire Wire Line
-	6200 2700 6200 2550
+	5650 3400 5650 3250
 $Comp
 L VolksEEG:nRF52840-Feather-Sense U2
 U 1 1 6162EBF7
-P 5550 3550
-F 0 "U2" H 5550 4665 50  0000 C CNN
-F 1 "nRF52840-Feather-Sense-Board" H 5450 4600 50  0000 C CNN
-F 2 "VolksEEG:nRF52840_Feather_Sense" H 5200 4550 50  0001 C CNN
-F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-sense.pdf" H 5200 4550 50  0001 C CNN
-	1    5550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:693061010911 J2
-U 1 1 6164CE12
-P 9600 2250
-F 0 "J2" H 10030 2039 50  0000 L CNN
-F 1 "693061010911" H 10030 1948 50  0000 L CNN
-F 2 "VolksEEG:693061010911" H 9600 2250 50  0001 L BNN
-F 3 "https://www.we-online.com/catalog/datasheet/693061010911.pdf" H 9600 2250 50  0001 L BNN
-	1    9600 2250
+P 4900 4250
+F 0 "U2" H 4900 5365 50  0000 C CNN
+F 1 "nRF52840-Feather-Sense-Board" H 4800 5300 50  0000 C CNN
+F 2 "VolksEEG:nRF52840_Feather_Sense" H 4550 5250 50  0001 C CNN
+F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-sense.pdf" H 4550 5250 50  0001 C CNN
+	1    4900 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 61650065
-P 4450 3350
-F 0 "R17" H 4520 3396 50  0000 L CNN
-F 1 "R" H 4520 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4380 3350 50  0001 C CNN
-F 3 "~" H 4450 3350 50  0001 C CNN
-	1    4450 3350
+P 3800 4050
+F 0 "R17" H 3870 4096 50  0000 L CNN
+F 1 "4K7" H 3870 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3730 4050 50  0001 C CNN
+F 3 "~" H 3800 4050 50  0001 C CNN
+	1    3800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 6165062D
-P 4750 3350
-F 0 "R18" H 4820 3396 50  0000 L CNN
-F 1 "R" H 4820 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4680 3350 50  0001 C CNN
-F 3 "~" H 4750 3350 50  0001 C CNN
-	1    4750 3350
+P 4100 4050
+F 0 "R18" H 4170 4096 50  0000 L CNN
+F 1 "4K7" H 4170 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4030 4050 50  0001 C CNN
+F 3 "~" H 4100 4050 50  0001 C CNN
+	1    4100 4050
 	1    0    0    -1  
 $EndComp
-Text Label 8650 1850 0    50   ~ 0
-SD-nCS_ni
-Text Label 8650 1950 0    50   ~ 0
-MOSI_ni
-Text Label 8650 2450 0    50   ~ 0
-MISO_ni
-Text Label 8650 2250 0    50   ~ 0
-SCK_ni
-Text Label 8650 2750 0    50   ~ 0
-SD-nCD_ni
-Wire Wire Line
-	9100 2050 8550 2050
-Wire Wire Line
-	8550 2050 8550 2350
-Wire Wire Line
-	9100 2350 8550 2350
-Connection ~ 8550 2350
-Wire Wire Line
-	8550 2350 8550 3250
-Wire Wire Line
-	9100 2150 8400 2150
-Wire Wire Line
-	8400 2150 8400 1700
-Wire Wire Line
-	9600 3250 8550 3250
-Wire Wire Line
-	8550 3350 8550 3250
-Connection ~ 8550 3250
-Wire Wire Line
-	9100 2250 8650 2250
-Wire Wire Line
-	9100 1950 8650 1950
-Wire Wire Line
-	9100 1850 8650 1850
-Wire Wire Line
-	9100 2450 8650 2450
-Wire Wire Line
-	9100 2750 8650 2750
 $Comp
 L VolksEEG:QWIIC J?
 U 1 1 6165AEA1
-P 9400 4500
-F 0 "J?" H 9578 4546 50  0000 L CNN
-F 1 "QWIIC" H 9578 4455 50  0000 L CNN
-F 2 "" H 9400 4500 50  0001 C CNN
-F 3 "" H 9400 4500 50  0001 C CNN
-	1    9400 4500
+P 8250 5500
+F 0 "J?" H 8428 5546 50  0000 L CNN
+F 1 "QWIIC" H 8428 5455 50  0000 L CNN
+F 2 "" H 8250 5500 50  0001 C CNN
+F 3 "" H 8250 5500 50  0001 C CNN
+	1    8250 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 4000 7600 4000
+	5400 4700 6450 4700
 Wire Wire Line
-	7600 4000 7600 4550
+	6600 4600 5400 4600
 Wire Wire Line
-	7600 4550 9150 4550
+	8000 5450 7850 5450
 Wire Wire Line
-	9150 4650 7750 4650
+	7850 5450 7850 5200
 Wire Wire Line
-	7750 4650 7750 3900
+	8000 5350 7950 5350
 Wire Wire Line
-	7750 3900 6050 3900
-Wire Wire Line
-	9150 4450 9000 4450
-Wire Wire Line
-	9000 4450 9000 4200
-Wire Wire Line
-	9150 4350 9100 4350
-Wire Wire Line
-	9100 4350 9100 4850
-Text Notes 6200 3850 0    50   ~ 0
-Pull-ups are on the nRF preinstalled
-Text Label 8100 4550 0    50   ~ 0
+	7950 5350 7950 5850
+Text Notes 5600 4900 0    50   ~ 0
+Pull-ups are on the \nnRF preinstalled
+Text Label 7200 5550 0    50   ~ 0
 SDA_ni
-Text Label 8100 4650 0    50   ~ 0
+Text Label 7200 5650 0    50   ~ 0
 SCL_ni
-Text HLabel 3400 4100 0    50   Input ~ 0
+Text HLabel 1700 4900 0    50   Input ~ 0
 ADS-nDRDY_ni
-Text Label 3400 3700 2    50   ~ 0
+Text Label 1700 4400 2    50   ~ 0
 SD-nCD_ni
-Text HLabel 6800 2700 2    50   Output ~ 0
+Text HLabel 6150 3400 2    50   Output ~ 0
 +3V3_ni
-Connection ~ 6200 2700
+Connection ~ 5650 3400
 Wire Wire Line
-	6200 2700 6800 2700
+	5650 3400 5900 3400
 $Comp
 L Device:R R?
 U 1 1 61746C2B
-P 4150 3350
-F 0 "R?" H 4220 3396 50  0000 L CNN
-F 1 "R" H 4220 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 3350 50  0001 C CNN
-F 3 "~" H 4150 3350 50  0001 C CNN
-	1    4150 3350
+P 3500 4050
+F 0 "R?" H 3570 4096 50  0000 L CNN
+F 1 "4K7" H 3570 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3430 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
 	1    0    0    -1  
 $EndComp
-Text Label 3400 3800 2    50   ~ 0
+Text Label 1700 4600 2    50   ~ 0
 SD-nCS_ni
 $Comp
 L Device:R R?
 U 1 1 6174C834
-P 3850 3350
-F 0 "R?" H 3920 3396 50  0000 L CNN
-F 1 "R" H 3920 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3780 3350 50  0001 C CNN
-F 3 "~" H 3850 3350 50  0001 C CNN
-	1    3850 3350
+P 3200 4050
+F 0 "R?" H 3270 4096 50  0000 L CNN
+F 1 "4K7" H 3270 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3130 4050 50  0001 C CNN
+F 3 "~" H 3200 4050 50  0001 C CNN
+	1    3200 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3900 4450 3900
+	3200 3800 3200 3900
 Wire Wire Line
-	3400 3700 3850 3700
+	3500 3900 3500 3800
+Connection ~ 3500 3800
 Wire Wire Line
-	3400 3800 4150 3800
+	3500 3800 3200 3800
 Wire Wire Line
-	3400 4000 4750 4000
+	4100 3900 4100 3800
 Wire Wire Line
-	3850 3500 3850 3700
-Connection ~ 3850 3700
+	4100 3800 3800 3800
 Wire Wire Line
-	3850 3700 5050 3700
-Wire Wire Line
-	4150 3500 4150 3800
-Connection ~ 4150 3800
-Wire Wire Line
-	4150 3800 5050 3800
-Wire Wire Line
-	4450 3500 4450 3900
-Connection ~ 4450 3900
-Wire Wire Line
-	4450 3900 5050 3900
-Wire Wire Line
-	4750 3500 4750 4000
-Connection ~ 4750 4000
-Wire Wire Line
-	4750 4000 5050 4000
-Wire Wire Line
-	4300 3100 4150 3100
-Wire Wire Line
-	3850 3100 3850 3200
-Wire Wire Line
-	4150 3200 4150 3100
-Connection ~ 4150 3100
-Wire Wire Line
-	4150 3100 3850 3100
-Wire Wire Line
-	4750 3200 4750 3100
-Wire Wire Line
-	4750 3100 4450 3100
-Connection ~ 4300 3100
-Wire Wire Line
-	4450 3200 4450 3100
-Connection ~ 4450 3100
-Wire Wire Line
-	4450 3100 4300 3100
-Wire Wire Line
-	4300 2950 4300 3100
-Wire Wire Line
-	3400 4100 5050 4100
-$Comp
-L VolksEEG:+3V3_ni #PWR?
-U 1 1 61BCCA44
-P 8400 1700
-F 0 "#PWR?" H 8400 1550 50  0001 C CNN
-F 1 "+3V3_ni" H 8415 1873 50  0000 C CNN
-F 2 "" H 8400 1700 50  0001 C CNN
-F 3 "" H 8400 1700 50  0001 C CNN
-	1    8400 1700
-	1    0    0    -1  
-$EndComp
+	3800 3900 3800 3800
+Connection ~ 3800 3800
 $Comp
 L VolksEEG:+3V3_ni #PWR?
 U 1 1 61BCCD8D
-P 9000 4200
-F 0 "#PWR?" H 9000 4050 50  0001 C CNN
-F 1 "+3V3_ni" H 9015 4373 50  0000 C CNN
-F 2 "" H 9000 4200 50  0001 C CNN
-F 3 "" H 9000 4200 50  0001 C CNN
-	1    9000 4200
+P 7850 5200
+F 0 "#PWR?" H 7850 5050 50  0001 C CNN
+F 1 "+3V3_ni" H 7865 5373 50  0000 C CNN
+F 2 "" H 7850 5200 50  0001 C CNN
+F 3 "" H 7850 5200 50  0001 C CNN
+	1    7850 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L VolksEEG:+3V3_ni #PWR?
 U 1 1 61BCD276
-P 6200 2550
-F 0 "#PWR?" H 6200 2400 50  0001 C CNN
-F 1 "+3V3_ni" H 6215 2723 50  0000 C CNN
-F 2 "" H 6200 2550 50  0001 C CNN
-F 3 "" H 6200 2550 50  0001 C CNN
-	1    6200 2550
+P 5650 3250
+F 0 "#PWR?" H 5650 3100 50  0001 C CNN
+F 1 "+3V3_ni" H 5665 3423 50  0000 C CNN
+F 2 "" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5650 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L VolksEEG:+3V3_ni #PWR?
 U 1 1 61BCEE26
-P 4300 2950
-F 0 "#PWR?" H 4300 2800 50  0001 C CNN
-F 1 "+3V3_ni" H 4315 3123 50  0000 C CNN
-F 2 "" H 4300 2950 50  0001 C CNN
-F 3 "" H 4300 2950 50  0001 C CNN
-	1    4300 2950
+P 3500 3650
+F 0 "#PWR?" H 3500 3500 50  0001 C CNN
+F 1 "+3V3_ni" H 3515 3823 50  0000 C CNN
+F 2 "" H 3500 3650 50  0001 C CNN
+F 3 "" H 3500 3650 50  0001 C CNN
+	1    3500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L VolksEEG:GND_ni #PWR?
 U 1 1 61BCF5D6
-P 6050 4550
-F 0 "#PWR?" H 6050 4300 50  0001 C CNN
-F 1 "GND_ni" H 6055 4377 50  0000 C CNN
-F 2 "" H 6050 4550 50  0001 C CNN
-F 3 "" H 6050 4550 50  0001 C CNN
-	1    6050 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:GND_ni #PWR?
-U 1 1 61BCF9B4
-P 8550 3350
-F 0 "#PWR?" H 8550 3100 50  0001 C CNN
-F 1 "GND_ni" H 8555 3177 50  0000 C CNN
-F 2 "" H 8550 3350 50  0001 C CNN
-F 3 "" H 8550 3350 50  0001 C CNN
-	1    8550 3350
+P 5400 5550
+F 0 "#PWR?" H 5400 5300 50  0001 C CNN
+F 1 "GND_ni" H 5405 5377 50  0000 C CNN
+F 2 "" H 5400 5550 50  0001 C CNN
+F 3 "" H 5400 5550 50  0001 C CNN
+	1    5400 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L VolksEEG:GND_ni #PWR?
 U 1 1 61BD20F9
-P 9100 4850
-F 0 "#PWR?" H 9100 4600 50  0001 C CNN
-F 1 "GND_ni" H 9105 4677 50  0000 C CNN
-F 2 "" H 9100 4850 50  0001 C CNN
-F 3 "" H 9100 4850 50  0001 C CNN
-	1    9100 4850
+P 7950 5850
+F 0 "#PWR?" H 7950 5600 50  0001 C CNN
+F 1 "GND_ni" H 7955 5677 50  0000 C CNN
+F 2 "" H 7950 5850 50  0001 C CNN
+F 3 "" H 7950 5850 50  0001 C CNN
+	1    7950 5850
 	1    0    0    -1  
 $EndComp
-Text Label 6300 3300 0    50   ~ 0
+Text Label 5650 4000 0    50   ~ 0
 MISO_ni
-Text Label 6300 3400 0    50   ~ 0
+Text Label 5650 4100 0    50   ~ 0
 MOSI_ni
-Text Label 6300 3500 0    50   ~ 0
+Text Label 5650 4200 0    50   ~ 0
 SCK_ni
+Wire Wire Line
+	6450 4700 6450 5550
+Wire Wire Line
+	6450 5550 6800 5550
+Wire Wire Line
+	6600 5650 7000 5650
+Wire Wire Line
+	6600 4600 6600 5650
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 61DCAE44
+P 8150 4600
+F 0 "J?" H 8230 4642 50  0000 L CNN
+F 1 "Conn_01x03" H 8230 4551 50  0000 L CNN
+F 2 "" H 8150 4600 50  0001 C CNN
+F 3 "~" H 8150 4600 50  0001 C CNN
+	1    8150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4500 7850 4500
+Wire Wire Line
+	7950 4600 7500 4600
+Wire Wire Line
+	7500 4450 5400 4450
+Wire Wire Line
+	7500 4450 7500 4600
+$Comp
+L VolksEEG:GND_ni #PWR?
+U 1 1 61DCE213
+P 7500 4850
+F 0 "#PWR?" H 7500 4600 50  0001 C CNN
+F 1 "GND_ni" H 7505 4677 50  0000 C CNN
+F 2 "" H 7500 4850 50  0001 C CNN
+F 3 "" H 7500 4850 50  0001 C CNN
+	1    7500 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4850 7500 4700
+Wire Wire Line
+	7500 4700 7950 4700
+Wire Wire Line
+	7850 1600 8000 1600
+Wire Wire Line
+	7850 1700 7850 1600
+$Comp
+L VolksEEG:GND_ni #PWR?
+U 1 1 61DD143A
+P 7850 1700
+F 0 "#PWR?" H 7850 1450 50  0001 C CNN
+F 1 "GND_ni" H 7855 1527 50  0000 C CNN
+F 2 "" H 7850 1700 50  0001 C CNN
+F 3 "" H 7850 1700 50  0001 C CNN
+	1    7850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61DD0AC7
+P 8150 1600
+F 0 "C?" V 7898 1600 50  0000 C CNN
+F 1 "100n" V 7989 1600 50  0000 C CNN
+F 2 "" H 8188 1450 50  0001 C CNN
+F 3 "~" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 4350 7600 4500
+Wire Wire Line
+	5400 4350 7600 4350
+$Comp
+L VolksEEG:GND_ni #PWR?
+U 1 1 61BCF9B4
+P 8550 2950
+F 0 "#PWR?" H 8550 2700 50  0001 C CNN
+F 1 "GND_ni" H 8555 2777 50  0000 C CNN
+F 2 "" H 8550 2950 50  0001 C CNN
+F 3 "" H 8550 2950 50  0001 C CNN
+	1    8550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VolksEEG:+3V3_ni #PWR?
+U 1 1 61BCCA44
+P 8400 1050
+F 0 "#PWR?" H 8400 900 50  0001 C CNN
+F 1 "+3V3_ni" H 8415 1223 50  0000 C CNN
+F 2 "" H 8400 1050 50  0001 C CNN
+F 3 "" H 8400 1050 50  0001 C CNN
+	1    8400 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2350 8650 2350
+Wire Wire Line
+	9100 2050 8650 2050
+Wire Wire Line
+	9100 1450 8650 1450
+Wire Wire Line
+	9100 1550 8650 1550
+Wire Wire Line
+	9100 1850 8650 1850
+Wire Wire Line
+	8550 2950 8550 2850
+Wire Wire Line
+	9600 2850 8550 2850
+Wire Wire Line
+	9100 1750 8400 1750
+Wire Wire Line
+	8550 1950 8550 2850
+Connection ~ 8550 1950
+Wire Wire Line
+	9100 1950 8550 1950
+Wire Wire Line
+	8550 1650 8550 1950
+Wire Wire Line
+	9100 1650 8550 1650
+Text Label 8650 2350 0    50   ~ 0
+SD-nCD_ni
+Text Label 8650 1850 0    50   ~ 0
+SCK_ni
+Text Label 8650 2050 0    50   ~ 0
+MISO_ni
+Text Label 8650 1550 0    50   ~ 0
+MOSI_ni
+Text Label 8650 1450 0    50   ~ 0
+SD-nCS_ni
+$Comp
+L VolksEEG:693061010911 J2
+U 1 1 6164CE12
+P 9600 1850
+F 0 "J2" H 10030 1639 50  0000 L CNN
+F 1 "693061010911" H 10030 1548 50  0000 L CNN
+F 2 "VolksEEG:693061010911" H 9600 1850 50  0001 L BNN
+F 3 "https://www.we-online.com/catalog/datasheet/693061010911.pdf" H 9600 1850 50  0001 L BNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2450 8650 2450
+Text Label 8650 2450 0    50   ~ 0
+SD-nWP_ni
+$Comp
+L Device:R R?
+U 1 1 61DE1525
+P 2900 4050
+F 0 "R?" H 2970 4096 50  0000 L CNN
+F 1 "4K7" H 2970 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 4050 50  0001 C CNN
+F 3 "~" H 2900 4050 50  0001 C CNN
+	1    2900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3900 2900 3800
+Wire Wire Line
+	2900 3800 3200 3800
+Connection ~ 3200 3800
+Text Label 1700 4500 2    50   ~ 0
+SD-nWP_ni
+Wire Wire Line
+	6300 4000 6900 4000
+$Comp
+L Device:R R?
+U 1 1 61DF07C8
+P 6400 4100
+F 0 "R?" V 6100 4100 50  0000 C CNN
+F 1 "0R" V 6200 4100 50  0000 C CNN
+F 2 "" V 6330 4100 50  0001 C CNN
+F 3 "~" H 6400 4100 50  0001 C CNN
+	1    6400 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 4100 5400 4100
+$Comp
+L Device:R R?
+U 1 1 61DF0A54
+P 6650 4200
+F 0 "R?" V 6250 4200 50  0000 C CNN
+F 1 "0R" V 6350 4200 50  0000 C CNN
+F 2 "" V 6580 4200 50  0001 C CNN
+F 3 "~" H 6650 4200 50  0001 C CNN
+	1    6650 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 4200 6900 4200
+Wire Wire Line
+	1700 4600 1950 4600
+Wire Wire Line
+	1700 4500 1850 4500
+Wire Wire Line
+	1700 4400 1750 4400
+Wire Wire Line
+	4100 4200 4100 4400
+Connection ~ 4100 4400
+Wire Wire Line
+	4100 4400 4400 4400
+Wire Wire Line
+	3800 4200 3800 4500
+Connection ~ 3800 4500
+Wire Wire Line
+	3800 4500 4400 4500
+Wire Wire Line
+	3500 4200 3500 4600
+Connection ~ 3500 4600
+Wire Wire Line
+	3500 4600 4400 4600
+Wire Wire Line
+	3200 4200 3200 4700
+Connection ~ 3200 4700
+Wire Wire Line
+	3200 4700 4400 4700
+Wire Wire Line
+	2900 4200 2900 4700
+Connection ~ 2900 4700
+Wire Wire Line
+	2900 4700 3200 4700
+$Comp
+L Device:R R?
+U 1 1 61E02D80
+P 2650 4400
+F 0 "R?" V 2443 4400 50  0000 C CNN
+F 1 "0R" V 2534 4400 50  0000 C CNN
+F 2 "" V 2580 4400 50  0001 C CNN
+F 3 "~" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4400 4100 4400
+$Comp
+L Device:R R?
+U 1 1 61E0363F
+P 2400 4500
+F 0 "R?" V 2100 4500 50  0000 C CNN
+F 1 "0R" V 2200 4500 50  0000 C CNN
+F 2 "" V 2330 4500 50  0001 C CNN
+F 3 "~" H 2400 4500 50  0001 C CNN
+	1    2400 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 4500 3800 4500
+$Comp
+L Device:R R?
+U 1 1 61E039A1
+P 2150 4600
+F 0 "R?" V 1750 4600 50  0000 C CNN
+F 1 "0R" V 1850 4600 50  0000 C CNN
+F 2 "" V 2080 4600 50  0001 C CNN
+F 3 "~" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 4600 3500 4600
+Wire Wire Line
+	1700 4800 2250 4800
+Wire Wire Line
+	1700 4700 2500 4700
+$Comp
+L Device:R R?
+U 1 1 61E05B21
+P 2650 4700
+F 0 "R?" V 2950 4700 50  0000 C CNN
+F 1 "0R" V 3050 4700 50  0000 C CNN
+F 2 "" V 2580 4700 50  0001 C CNN
+F 3 "~" H 2650 4700 50  0001 C CNN
+	1    2650 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4700 2900 4700
+$Comp
+L Device:R R?
+U 1 1 61E05E7E
+P 2400 4800
+F 0 "R?" V 2600 4800 50  0000 C CNN
+F 1 "0R" V 2700 4800 50  0000 C CNN
+F 2 "" V 2330 4800 50  0001 C CNN
+F 3 "~" H 2400 4800 50  0001 C CNN
+	1    2400 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 4800 4400 4800
+$Comp
+L Device:R R?
+U 1 1 61DF0030
+P 6150 4000
+F 0 "R?" V 5943 4000 50  0000 C CNN
+F 1 "0R" V 6034 4000 50  0000 C CNN
+F 2 "" V 6080 4000 50  0001 C CNN
+F 3 "~" H 6150 4000 50  0001 C CNN
+	1    6150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E06148
+P 2150 4900
+F 0 "R?" V 2250 4900 50  0000 C CNN
+F 1 "0R" V 2350 4900 50  0000 C CNN
+F 2 "" V 2080 4900 50  0001 C CNN
+F 3 "~" H 2150 4900 50  0001 C CNN
+	1    2150 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 4900 4400 4900
+Wire Wire Line
+	1700 4900 2000 4900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E155A2
+P 5900 3300
+F 0 "TP?" H 5958 3418 50  0000 L CNN
+F 1 "TestPoint" H 5958 3327 50  0000 L CNN
+F 2 "" H 6100 3300 50  0001 C CNN
+F 3 "~" H 6100 3300 50  0001 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E15CF2
+P 7000 5400
+F 0 "TP?" H 7058 5518 50  0000 L CNN
+F 1 "TestPoint" H 7058 5427 50  0000 L CNN
+F 2 "" H 7200 5400 50  0001 C CNN
+F 3 "~" H 7200 5400 50  0001 C CNN
+	1    7000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E17694
+P 6800 5150
+F 0 "TP?" H 6858 5268 50  0000 L CNN
+F 1 "TestPoint" H 6858 5177 50  0000 L CNN
+F 2 "" H 7000 5150 50  0001 C CNN
+F 3 "~" H 7000 5150 50  0001 C CNN
+	1    6800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5150 6800 5550
+Connection ~ 6800 5550
+Wire Wire Line
+	6800 5550 8000 5550
+Wire Wire Line
+	7000 5400 7000 5650
+Connection ~ 7000 5650
+Wire Wire Line
+	7000 5650 8000 5650
+Wire Wire Line
+	5900 3300 5900 3400
+Connection ~ 5900 3400
+Wire Wire Line
+	5900 3400 6150 3400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E1FCAC
+P 7850 4350
+F 0 "TP?" H 7908 4468 50  0000 L CNN
+F 1 "TestPoint" H 7908 4377 50  0000 L CNN
+F 2 "" H 8050 4350 50  0001 C CNN
+F 3 "~" H 8050 4350 50  0001 C CNN
+	1    7850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E20117
+P 7500 4100
+F 0 "TP?" H 7558 4218 50  0000 L CNN
+F 1 "TestPoint" H 7558 4127 50  0000 L CNN
+F 2 "" H 7700 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4100 7500 4450
+Connection ~ 7500 4450
+Wire Wire Line
+	7850 4350 7850 4500
+Connection ~ 7850 4500
+Wire Wire Line
+	7850 4500 7950 4500
+$Comp
+L Device:R R?
+U 1 1 61E287F4
+P 5550 5300
+F 0 "R?" V 5343 5300 50  0000 C CNN
+F 1 "0R" V 5434 5300 50  0000 C CNN
+F 2 "" V 5480 5300 50  0001 C CNN
+F 3 "~" H 5550 5300 50  0001 C CNN
+	1    5550 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5100 5400 5500
+Wire Wire Line
+	5550 5150 5550 5100
+Wire Wire Line
+	5550 5100 5400 5100
+Connection ~ 5400 5100
+Wire Wire Line
+	5550 5450 5550 5500
+Wire Wire Line
+	5550 5500 5400 5500
+Connection ~ 5400 5500
+Wire Wire Line
+	5400 5500 5400 5550
+Text Notes 5650 6050 0    50   ~ 0
+Through hole \n1/4 Watt Resistor \nfootprint to \nsolder tinned wire \nas a scope probe \nground connection\nfor Non-\nisolated side.
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E37626
+P 1950 4100
+F 0 "TP?" H 2008 4218 50  0000 L CNN
+F 1 "TestPoint" H 2008 4127 50  0000 L CNN
+F 2 "" H 2150 4100 50  0001 C CNN
+F 3 "~" H 2150 4100 50  0001 C CNN
+	1    1950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E384B9
+P 1850 3900
+F 0 "TP?" H 1908 4018 50  0000 L CNN
+F 1 "TestPoint" H 1908 3927 50  0000 L CNN
+F 2 "" H 2050 3900 50  0001 C CNN
+F 3 "~" H 2050 3900 50  0001 C CNN
+	1    1850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E3895A
+P 1750 3700
+F 0 "TP?" H 1808 3818 50  0000 L CNN
+F 1 "TestPoint" H 1808 3727 50  0000 L CNN
+F 2 "" H 1950 3700 50  0001 C CNN
+F 3 "~" H 1950 3700 50  0001 C CNN
+	1    1750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3700 1750 4400
+Connection ~ 1750 4400
+Wire Wire Line
+	1750 4400 2500 4400
+Wire Wire Line
+	1850 3900 1850 4500
+Connection ~ 1850 4500
+Wire Wire Line
+	1850 4500 2250 4500
+Wire Wire Line
+	1950 4100 1950 4600
+Connection ~ 1950 4600
+Wire Wire Line
+	1950 4600 2000 4600
+Wire Wire Line
+	3500 3800 3800 3800
+Wire Wire Line
+	3500 3650 3500 3800
+Wire Wire Line
+	8400 1050 8400 1200
+$Comp
+L Device:R R?
+U 1 1 61E69046
+P 8400 1350
+F 0 "R?" V 8193 1350 50  0000 C CNN
+F 1 "2R2" V 8284 1350 50  0000 C CNN
+F 2 "" V 8330 1350 50  0001 C CNN
+F 3 "~" H 8400 1350 50  0001 C CNN
+	1    8400 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 1500 8400 1600
+Wire Wire Line
+	8300 1600 8400 1600
+Connection ~ 8400 1600
+Wire Wire Line
+	8400 1600 8400 1750
+$Comp
+L Device:LED D?
+U 1 1 61E714BC
+P 6750 3600
+F 0 "D?" H 6850 3450 50  0000 C CNN
+F 1 "Red" H 6700 3450 50  0000 C CNN
+F 2 "" H 6750 3600 50  0001 C CNN
+F 3 "~" H 6750 3600 50  0001 C CNN
+	1    6750 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E73825
+P 7200 3600
+F 0 "R?" V 6993 3600 50  0000 C CNN
+F 1 "220R" V 7084 3600 50  0000 C CNN
+F 2 "" V 7130 3600 50  0001 C CNN
+F 3 "~" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L VolksEEG:GND_ni #PWR?
+U 1 1 61E7424B
+P 7500 3650
+F 0 "#PWR?" H 7500 3400 50  0001 C CNN
+F 1 "GND_ni" H 7505 3477 50  0000 C CNN
+F 2 "" H 7500 3650 50  0001 C CNN
+F 3 "" H 7500 3650 50  0001 C CNN
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3650 7500 3600
+Wire Wire Line
+	7500 3600 7350 3600
+Wire Wire Line
+	7050 3600 6900 3600
+Wire Wire Line
+	6600 3600 5900 3600
+Wire Wire Line
+	5900 3600 5900 3400
+Connection ~ 8550 2850
 $EndSCHEMATC
