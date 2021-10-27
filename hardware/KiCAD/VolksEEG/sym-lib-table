@@ -2,4 +2,5 @@
   (lib (name VolksEEG)(type Legacy)(uri ${KIPRJMOD}/Library/VolksEEG.lib)(options "")(descr ""))
   (lib (name MEJ1S0305SC)(type Legacy)(uri ${KIPRJMOD}/Library/MEJ1/MEJ1S0305SC.lib)(options "")(descr ""))
   (lib (name gnd_ni)(type Legacy)(uri C:/Projects/SchematicPDFPrints/gnd_ni.lib)(options "")(descr ""))
+  (lib (name dk_Digital-Isolators)(type Legacy)(uri ${KIPRJMOD}/Library/digikey-kicad-library-master/digikey-symbols/dk_Digital-Isolators.lib)(options "")(descr ""))
 )

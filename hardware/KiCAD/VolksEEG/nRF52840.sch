@@ -320,4 +320,10 @@ F 3 "" H 9100 4850 50  0001 C CNN
 	1    9100 4850
 	1    0    0    -1  
 $EndComp
+Text Label 6300 3300 0    50   ~ 0
+MISO_ni
+Text Label 6300 3400 0    50   ~ 0
+MOSI_ni
+Text Label 6300 3500 0    50   ~ 0
+SCK_ni
 $EndSCHEMATC
