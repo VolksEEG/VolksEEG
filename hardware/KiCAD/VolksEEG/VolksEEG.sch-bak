@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8150 3850
 Text Notes 1550 5550 0    50   ~ 0
-Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.\n* Power Port Names for Analogue PWR
+Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n* Double Check ADS1299 Connections.\n* Add component values.\n* Check SD Card connections.\n* Decoupling caps.\n* Check Power up sequencing.
 Wire Wire Line
 	6600 3400 6250 3400
 Wire Wire Line

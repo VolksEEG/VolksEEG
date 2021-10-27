@@ -48,60 +48,24 @@ F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81
 	1    2350 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:TPS72325Q U6
-U 1 1 615E50FC
-P 2350 5500
-F 0 "U6" H 2350 5925 50  0000 C CNN
-F 1 "TPS72325Q" H 2350 5834 50  0000 C CNN
-F 2 "VolksEEG:SOT95P280X145-5N" H 2350 5500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/gpn/tps723" H 2350 5550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS72325QDBVRQ1/2589811" H 2350 5500 50  0001 C CNN "Suppler 1 Link"
-F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS72325QDBVRQ1?qs=%2Fha2pyFaduiU3Dkt2kzLpQpe55eY5WGUGSBD4hXGNw6k%252BNKPQsTXmg%3D%3D" H 2350 5500 50  0001 C CNN "Suppler 2 Link"
-	1    2350 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 3400 1350 3550
 Wire Wire Line
 	1350 3550 1850 3550
 Wire Wire Line
-	2700 5300 3350 5300
-Wire Wire Line
-	2000 5300 1800 5300
-Wire Wire Line
-	1350 5300 1350 5150
+	850  5400 850  5250
 Text Notes 1950 3200 0    50   ~ 0
 +2.5V Voltage Supply
-Text Notes 1950 4950 0    50   ~ 0
+Text Notes 1650 4700 0    50   ~ 0
 -2.5V Voltage Supply
 Text Notes 2750 3550 0    50   ~ 0
 +2.5V@300mA
 Wire Wire Line
 	2700 3550 3350 3550
-Text Notes 2750 5300 0    50   ~ 0
+Text Notes 3150 5100 0    50   ~ 0
 -2.5V@200mA
 Wire Wire Line
 	2000 4050 2000 3950
-Wire Wire Line
-	2000 5800 2000 5700
-$Comp
-L Device:C C7
-U 1 1 615F4A86
-P 2850 5900
-F 0 "C7" H 2965 5946 50  0000 L CNN
-F 1 "10n" H 2965 5855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 5750 50  0001 C CNN
-F 3 "~" H 2850 5900 50  0001 C CNN
-	1    2850 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 6100 2850 6050
-Wire Wire Line
-	2850 5750 2850 5700
-Wire Wire Line
-	2850 5700 2700 5700
 $Comp
 L Device:C C8
 U 1 1 615F6FAA
@@ -125,13 +89,12 @@ F 3 "~" H 3350 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 5800 1350 5700
+	850  5900 850  5800
 Wire Wire Line
-	1350 5400 1350 5300
-Connection ~ 1350 5300
+	850  5500 850  5400
+Connection ~ 850  5400
 Wire Wire Line
 	3350 5400 3350 5300
-Connection ~ 3350 5300
 Wire Wire Line
 	3350 5800 3350 5700
 Wire Wire Line
@@ -157,12 +120,12 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 616634E2
-P 1350 5550
-F 0 "C?" H 1465 5596 50  0000 L CNN
-F 1 "2.2u" H 1465 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1388 5400 50  0001 C CNN
-F 3 "~" H 1350 5550 50  0001 C CNN
-	1    1350 5550
+P 850 5650
+F 0 "C?" H 965 5696 50  0000 L CNN
+F 1 "2.2u" H 965 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 888 5500 50  0001 C CNN
+F 3 "~" H 850 5650 50  0001 C CNN
+	1    850  5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -326,34 +289,23 @@ $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 61834E8D
-P 1350 5800
-F 0 "#PWR?" H 1350 5550 50  0001 C CNN
-F 1 "GNDA" H 1355 5627 50  0000 C CNN
-F 2 "" H 1350 5800 50  0001 C CNN
-F 3 "" H 1350 5800 50  0001 C CNN
-	1    1350 5800
+P 850 5900
+F 0 "#PWR?" H 850 5650 50  0001 C CNN
+F 1 "GNDA" H 855 5727 50  0000 C CNN
+F 2 "" H 850 5900 50  0001 C CNN
+F 3 "" H 850 5900 50  0001 C CNN
+	1    850  5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 618352D3
-P 2000 5800
-F 0 "#PWR?" H 2000 5550 50  0001 C CNN
-F 1 "GNDA" H 2005 5627 50  0000 C CNN
-F 2 "" H 2000 5800 50  0001 C CNN
-F 3 "" H 2000 5800 50  0001 C CNN
-	1    2000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61835725
-P 2850 6100
-F 0 "#PWR?" H 2850 5850 50  0001 C CNN
-F 1 "GNDA" H 2855 5927 50  0000 C CNN
-F 2 "" H 2850 6100 50  0001 C CNN
-F 3 "" H 2850 6100 50  0001 C CNN
-	1    2850 6100
+P 1300 6350
+F 0 "#PWR?" H 1300 6100 50  0001 C CNN
+F 1 "GNDA" H 1305 6177 50  0000 C CNN
+F 2 "" H 1300 6350 50  0001 C CNN
+F 3 "" H 1300 6350 50  0001 C CNN
+	1    1300 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1076,13 +1028,6 @@ Wire Wire Line
 	2300 1700 2450 1700
 Wire Wire Line
 	3800 1950 3800 1850
-Wire Wire Line
-	2000 5550 1800 5550
-Wire Wire Line
-	1800 5550 1800 5300
-Connection ~ 1800 5300
-Wire Wire Line
-	1800 5300 1350 5300
 $Comp
 L Device:R R?
 U 1 1 61C452C6
@@ -1210,12 +1155,52 @@ $EndComp
 $Comp
 L VolksEEG:-3V3A #PWR?
 U 1 1 61CE6D2F
-P 1350 5150
-F 0 "#PWR?" H 1350 5000 50  0001 C CNN
-F 1 "-3V3A" H 1365 5323 50  0000 C CNN
-F 2 "" H 1350 5150 50  0001 C CNN
-F 3 "" H 1350 5150 50  0001 C CNN
-	1    1350 5150
+P 850 5250
+F 0 "#PWR?" H 850 5100 50  0001 C CNN
+F 1 "-3V3A" H 865 5423 50  0000 C CNN
+F 2 "" H 850 5250 50  0001 C CNN
+F 3 "" H 850 5250 50  0001 C CNN
+	1    850  5250
 	1    0    0    -1  
 $EndComp
+$Comp
+L VolksEEG:ADP7182ACPZ-2.5-R7 U?
+U 1 1 61D5868A
+P 1500 5400
+F 0 "U?" H 2300 5887 60  0000 C CNN
+F 1 "ADP7182ACPZ-2.5-R7" H 2300 5781 60  0000 C CNN
+F 2 "CP_8_11_ADI" H 2300 5740 60  0001 C CNN
+F 3 "" H 1500 5400 60  0000 C CNN
+	1    1500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  5400 1200 5400
+Wire Wire Line
+	1500 5500 1500 5400
+Connection ~ 1500 5400
+Wire Wire Line
+	3100 5400 3100 5300
+Wire Wire Line
+	3350 5300 3100 5300
+Connection ~ 3350 5300
+Connection ~ 3100 5300
+Wire Wire Line
+	1500 5700 1300 5700
+Wire Wire Line
+	1300 5700 1300 5400
+Connection ~ 1300 5400
+Wire Wire Line
+	1300 5400 1500 5400
+Wire Wire Line
+	1300 6350 1300 6200
+Wire Wire Line
+	1300 6200 1500 6200
+Wire Wire Line
+	1500 5800 1200 5800
+Wire Wire Line
+	1200 5800 1200 5400
+Connection ~ 1200 5400
+Wire Wire Line
+	1200 5400 1300 5400
 $EndSCHEMATC
