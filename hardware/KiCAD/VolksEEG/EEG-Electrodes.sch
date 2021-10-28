@@ -321,14 +321,14 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 61ADFC5E
-P 3100 5050
+P 2900 5050
 AR Path="/615BA18D/61ADFC5E" Ref="R?"  Part="1" 
 AR Path="/615BA110/61ADFC5E" Ref="R?"  Part="1" 
-F 0 "R?" V 2893 5050 50  0000 C CNN
-F 1 "4.99k" V 2984 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3030 5050 50  0001 C CNN
-F 3 "~" H 3100 5050 50  0001 C CNN
-	1    3100 5050
+F 0 "R?" V 2693 5050 50  0000 C CNN
+F 1 "1M" V 2784 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5050 50  0001 C CNN
+F 3 "~" H 2900 5050 50  0001 C CNN
+	1    2900 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -347,31 +347,28 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 61ADFC6A
-P 2750 5050
+P 3300 5050
 AR Path="/615BA18D/61ADFC6A" Ref="C?"  Part="1" 
 AR Path="/615BA110/61ADFC6A" Ref="C?"  Part="1" 
-F 0 "C?" H 2865 5096 50  0000 L CNN
-F 1 "33n" H 2865 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2788 4900 50  0001 C CNN
-F 3 "~" H 2750 5050 50  0001 C CNN
-	1    2750 5050
+F 0 "C?" H 3415 5096 50  0000 L CNN
+F 1 "1.5n" H 3415 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3338 4900 50  0001 C CNN
+F 3 "~" H 3300 5050 50  0001 C CNN
+	1    3300 5050
 	-1   0    0    1   
 $EndComp
 Text HLabel 2200 5200 0    50   Input ~ 0
 BIAS_OUT
 Wire Wire Line
-	2200 4900 2750 4900
+	2200 4900 2900 4900
 Wire Wire Line
-	2750 5200 2200 5200
+	3300 5200 2900 5200
 Wire Wire Line
-	2750 4900 3100 4900
-Connection ~ 2750 4900
+	3300 4900 2900 4900
+Connection ~ 3300 5200
 Wire Wire Line
-	3100 5200 2750 5200
-Connection ~ 2750 5200
-Wire Wire Line
-	5650 5200 3100 5200
-Connection ~ 3100 5200
+	5650 5200 3300 5200
+Connection ~ 2900 5200
 $Comp
 L Connector_Generic:Conn_01x10 J?
 U 1 1 61B400D9
@@ -445,4 +442,7 @@ Wire Wire Line
 	7750 3650 8300 3650
 Text Notes 3400 1600 0    50   ~ 0
 RC values chosen to give roughly 1KHz -3dB point
+Connection ~ 2900 4900
+Wire Wire Line
+	2900 5200 2200 5200
 $EndSCHEMATC

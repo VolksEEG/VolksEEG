@@ -100,7 +100,6 @@ Wire Wire Line
 Connection ~ 5550 6000
 Wire Wire Line
 	5550 6350 5550 6250
-Connection ~ 5550 6350
 Connection ~ 5550 6250
 Wire Wire Line
 	5550 6250 5550 6150
@@ -460,10 +459,7 @@ F 3 "~" H 6150 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 6350 5800 6350
-Wire Wire Line
 	5800 6350 6150 6350
-Connection ~ 5800 6350
 Wire Wire Line
 	6150 6000 6150 6050
 Wire Wire Line
@@ -474,8 +470,7 @@ Connection ~ 5800 6000
 Wire Wire Line
 	5800 6000 6150 6000
 Wire Wire Line
-	6150 6600 6150 6500
-Connection ~ 6150 6350
+	5550 6600 5550 6500
 Wire Wire Line
 	6150 5950 6150 6000
 Connection ~ 6150 6000
@@ -720,10 +715,10 @@ $EndComp
 Text HLabel 5850 2550 2    50   Input ~ 0
 GNDA
 Wire Wire Line
-	6550 6500 6150 6500
-Connection ~ 6150 6500
+	5650 6500 5550 6500
+Connection ~ 5550 6500
 Wire Wire Line
-	6150 6500 6150 6350
+	5550 6500 5550 6350
 $Comp
 L power:+2V5 #PWR?
 U 1 1 61C857AB
@@ -908,19 +903,20 @@ $EndComp
 Wire Wire Line
 	5700 2550 5850 2550
 Connection ~ 5700 2550
-Text HLabel 6550 6500 2    50   Input ~ 0
+Text HLabel 5650 6500 2    50   Input ~ 0
 GNDD
-Wire Bus Line
-	1750 5450 3700 5450
 $Comp
 L power:GNDD #PWR?
 U 1 1 618C346D
-P 6150 6600
-F 0 "#PWR?" H 6150 6350 50  0001 C CNN
-F 1 "GNDD" H 6154 6445 50  0000 C CNN
-F 2 "" H 6150 6600 50  0001 C CNN
-F 3 "" H 6150 6600 50  0001 C CNN
-	1    6150 6600
+P 5550 6600
+F 0 "#PWR?" H 5550 6350 50  0001 C CNN
+F 1 "GNDD" H 5554 6445 50  0000 C CNN
+F 2 "" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0001 C CNN
+	1    5550 6600
 	1    0    0    -1  
 $EndComp
+Connection ~ 5550 6350
+Wire Bus Line
+	1750 5450 3700 5450
 $EndSCHEMATC

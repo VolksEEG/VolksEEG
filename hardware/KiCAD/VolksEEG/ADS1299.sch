@@ -45,7 +45,7 @@ AIN7
 Text HLabel 3500 3950 0    50   Input ~ 0
 AIN8
 Wire Wire Line
-	3500 4250 4150 4250
+	3500 4250 3700 4250
 Wire Wire Line
 	3500 4350 4150 4350
 Wire Wire Line
@@ -100,7 +100,6 @@ Wire Wire Line
 Connection ~ 5550 6000
 Wire Wire Line
 	5550 6350 5550 6250
-Connection ~ 5550 6350
 Connection ~ 5550 6250
 Wire Wire Line
 	5550 6250 5550 6150
@@ -380,8 +379,8 @@ $Comp
 L Device:R R?
 U 1 1 617D1100
 P 6650 2050
-F 0 "R?" V 6750 1950 50  0000 L CNN
-F 1 "?" V 6750 2100 50  0000 L CNN
+F 0 "R?" V 6750 2100 50  0000 L CNN
+F 1 "10K" V 6750 1900 50  0000 L CNN
 F 2 "" V 6580 2050 50  0001 C CNN
 F 3 "~" H 6650 2050 50  0001 C CNN
 	1    6650 2050
@@ -460,10 +459,7 @@ F 3 "~" H 6150 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 6350 5800 6350
-Wire Wire Line
 	5800 6350 6150 6350
-Connection ~ 5800 6350
 Wire Wire Line
 	6150 6000 6150 6050
 Wire Wire Line
@@ -474,8 +470,7 @@ Connection ~ 5800 6000
 Wire Wire Line
 	5800 6000 6150 6000
 Wire Wire Line
-	6150 6600 6150 6500
-Connection ~ 6150 6350
+	5550 6600 5550 6500
 Wire Wire Line
 	6150 5950 6150 6000
 Connection ~ 6150 6000
@@ -720,10 +715,10 @@ $EndComp
 Text HLabel 5850 2550 2    50   Input ~ 0
 GNDA
 Wire Wire Line
-	6550 6500 6150 6500
-Connection ~ 6150 6500
+	5650 6500 5550 6500
+Connection ~ 5550 6500
 Wire Wire Line
-	6150 6500 6150 6350
+	5550 6500 5550 6350
 $Comp
 L power:+2V5 #PWR?
 U 1 1 61C857AB
@@ -908,19 +903,67 @@ $EndComp
 Wire Wire Line
 	5700 2550 5850 2550
 Connection ~ 5700 2550
-Text HLabel 6550 6500 2    50   Input ~ 0
+Text HLabel 5650 6500 2    50   Input ~ 0
 GNDD
-Wire Bus Line
-	1750 5450 3700 5450
 $Comp
 L power:GNDD #PWR?
 U 1 1 618C346D
-P 6150 6600
-F 0 "#PWR?" H 6150 6350 50  0001 C CNN
-F 1 "GNDD" H 6154 6445 50  0000 C CNN
-F 2 "" H 6150 6600 50  0001 C CNN
-F 3 "" H 6150 6600 50  0001 C CNN
-	1    6150 6600
+P 5550 6600
+F 0 "#PWR?" H 5550 6350 50  0001 C CNN
+F 1 "GNDD" H 5554 6445 50  0000 C CNN
+F 2 "" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0001 C CNN
+	1    5550 6600
 	1    0    0    -1  
 $EndComp
+Connection ~ 5550 6350
+$Comp
+L power:GNDA #PWR?
+U 1 1 619136C2
+P 6150 6450
+F 0 "#PWR?" H 6150 6200 50  0001 C CNN
+F 1 "GNDA" H 6155 6277 50  0000 C CNN
+F 2 "" H 6150 6450 50  0001 C CNN
+F 3 "" H 6150 6450 50  0001 C CNN
+	1    6150 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6350 6150 6450
+Connection ~ 6150 6350
+$Comp
+L Device:R R?
+U 1 1 6191B069
+P 2900 4100
+F 0 "R?" H 2970 4146 50  0000 L CNN
+F 1 "10K" H 2970 4055 50  0000 L CNN
+F 2 "" V 2830 4100 50  0001 C CNN
+F 3 "~" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6191B9AF
+P 2500 4000
+F 0 "#PWR?" H 2500 3850 50  0001 C CNN
+F 1 "+3V3" H 2515 4173 50  0000 C CNN
+F 2 "" H 2500 4000 50  0001 C CNN
+F 3 "" H 2500 4000 50  0001 C CNN
+	1    2500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4100 2500 4100
+Wire Wire Line
+	2500 4100 2500 4000
+Wire Wire Line
+	3050 4100 3700 4100
+Wire Wire Line
+	3700 4100 3700 4250
+Wire Bus Line
+	1750 5450 3700 5450
+Connection ~ 3700 4250
+Wire Wire Line
+	3700 4250 4150 4250
 $EndSCHEMATC

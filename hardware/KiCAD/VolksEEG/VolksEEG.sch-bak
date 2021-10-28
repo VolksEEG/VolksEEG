@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8150 3850
 Text Notes 1550 5550 0    50   ~ 0
-Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Double Check ADS1299 Connections.\n* Add component values.\n  - NRF Done\n* Decoupling caps.\n* Check Power up sequencing.
+Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Double Check ADS1299 Connections.\n* Add component values.\n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Decoupling caps.\n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Check Power up sequencing.
 Wire Wire Line
 	6600 3400 6250 3400
 Wire Wire Line
