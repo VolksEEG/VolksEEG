@@ -94,18 +94,10 @@ Wire Wire Line
 	6400 2100 6400 3250
 Wire Wire Line
 	4800 2100 6400 2100
-Connection ~ 6400 3250
-Wire Wire Line
-	6400 3250 6600 3250
 Wire Wire Line
 	5050 3150 5050 3250
 Wire Wire Line
 	5050 3250 5250 3250
-Wire Wire Line
-	6400 4250 4950 4250
-Wire Wire Line
-	4950 4250 4950 3400
-Connection ~ 4950 3400
 $Sheet
 S 8150 1750 800  2350
 U 615BA18D
@@ -144,7 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8150 3850
 Text Notes 1550 5550 0    50   ~ 0
-Known Remaining Tasks:\n* Add Debugging bits, Test points, 0Ohm Links, indicator LEDs? \n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Double Check ADS1299 Connections.\n* Add component values.\n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Decoupling caps.\n  - NRF Done\n  - Isolation Done\n  - ADS Power Done\n* Check Power up sequencing.
+Known Remaining Tasks:\n* Check Power up sequencing.
 Wire Wire Line
 	6600 3400 6250 3400
 Wire Wire Line
@@ -162,11 +154,8 @@ F4 "+2V5" O R 6250 3400 50
 F5 "-2V5" O R 6250 3550 50 
 F6 "+5V" I L 5250 3250 50 
 F7 "GNDA" O R 6250 3700 50 
+F8 "+3V3A" O R 6250 3850 50 
 $EndSheet
-Wire Wire Line
-	6400 3850 6400 4250
-Wire Wire Line
-	6600 3850 6400 3850
 $Sheet
 S 6600 1750 1050 2350
 U 615BA110
@@ -186,13 +175,14 @@ F12 "AIN2" I R 7650 2400 50
 F13 "AIN3" I R 7650 2550 50 
 F14 "AIN4" I R 7650 2700 50 
 F15 "ADS_nDRDY" O L 6600 3000 50 
-F16 "+3V3" I L 6600 3250 50 
+F16 "+3V3A" I L 6600 3850 50 
 F17 "+2V5" I L 6600 3400 50 
 F18 "-2V5" I L 6600 3550 50 
-F19 "GNDD" I L 6600 3850 50 
-F20 "REF" I R 7650 3550 50 
-F21 "BIAS_OUT" O R 7650 3700 50 
-F22 "BIAS_INV" O R 7650 3850 50 
-F23 "GNDA" I L 6600 3700 50 
+F19 "REF" I R 7650 3550 50 
+F20 "BIAS_OUT" O R 7650 3700 50 
+F21 "BIAS_INV" O R 7650 3850 50 
+F22 "GNDA" I L 6600 3700 50 
 $EndSheet
+Wire Wire Line
+	6250 3850 6600 3850
 $EndSCHEMATC

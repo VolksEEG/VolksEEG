@@ -1058,10 +1058,10 @@ Wire Wire Line
 Connection ~ 1850 1900
 Wire Wire Line
 	1850 1900 1850 1950
-Text HLabel 5100 1850 2    50   Output ~ 0
+Text HLabel 5250 1850 2    50   Output ~ 0
 GNDA
 Wire Wire Line
-	4900 1850 5100 1850
+	4900 1850 5250 1850
 $Comp
 L power:GNDD #PWR?
 U 1 1 61C5E767
@@ -1329,4 +1329,9 @@ Wire Wire Line
 Connection ~ 3800 1950
 Wire Wire Line
 	3800 1950 3800 1850
+Text HLabel 5250 1300 2    50   Output ~ 0
++3V3A
+Wire Wire Line
+	5150 1300 5250 1300
+Connection ~ 5150 1300
 $EndSCHEMATC
