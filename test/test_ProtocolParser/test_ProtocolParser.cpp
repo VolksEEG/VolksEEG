@@ -14,9 +14,6 @@ void test_ProtocolParser_SetValue(void) {
     TEST_ASSERT_EQUAL(100, uut.GetValue());
 }
 
-//
-//  entry point for ProtocolParser tests
-//
 int main(int argc, char **argv) {
     UNITY_BEGIN();
     RUN_TEST(test_ProtocolParser_SetValue);
