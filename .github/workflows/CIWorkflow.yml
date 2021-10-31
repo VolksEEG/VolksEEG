@@ -24,11 +24,11 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Run tests on the native platform
-    run: platformio test -e native
+      run: platformio test -e native
   check:
     needs: test
     runs-on: windows-latest
     steps:
     - name: Run cpp check on the native platform
-    run: platformio check -e native
+      run: platformio check -e native
     
