@@ -16,16 +16,19 @@ jobs:
   build:
     needs: setup
     runs-on: windows-latest
+    steps:
     - name: Build software for the feather sense board.
       run: platformio run -e adafruit_feather_nrf52840_sense
   test:
     needs: build
     runs-on: windows-latest
+    steps:
     - name: Run tests on the native platform
     run: platformio test -e native
   check:
     needs: test
     runs-on: windows-latest
+    steps:
     - name: Run cpp check on the native platform
     run: platformio check -e native
     
