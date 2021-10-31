@@ -9,3 +9,4 @@
 
 #define pinMode(a, b)
 #define digitalWrite(a, b)
+#define digitalRead(a)          (0)
