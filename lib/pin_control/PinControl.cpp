@@ -8,6 +8,11 @@
 #endif
 
 //
+// Const definitions
+//
+const uint8_t PinControl::HEARTBEAT_LED_PIN = LED_BUILTIN;
+
+//
 // Constructor
 //
 PinControl::PinControl() :
@@ -52,16 +57,9 @@ void PinControl::SetHeartbeatLedState(eSetPinState newState)
 }
 
 //
-//  Unit testing helpers.
+//  returns true if heartbeat LED is on.
 //
-#ifdef UNIT_TEST
-
-//
-//  helper to get the current heartbeat LED state.
-//
-PinControl::ePinState PinControl::GetHeartbeatLedState()
+bool PinControl::IsHeartbeatLedActive()
 {
-    return mHeartbeatLedState;
+    return (Active == mHeartbeatLedState);
 }
-
-#endif

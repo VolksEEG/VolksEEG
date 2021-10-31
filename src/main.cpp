@@ -58,19 +58,22 @@ void loop() {
 //
 void heartbeatUpdate()
 {
-  // set LED on it counter is less than the on time
-  if (heartbeatDutyCounter < HEARTBEAT_ON_COUNT)
+  const uint8_t NEXT_DUTY_COUNT = (heartbeatDutyCounter + 1);
+  heartbeatDutyCounter = (NEXT_DUTY_COUNT >= HEARTBEAT_MAX_COUNT) ? 0 : NEXT_DUTY_COUNT; 
+
+  // set LED on it counter is less than the on time and is not active
+  if  (
+        (heartbeatDutyCounter < HEARTBEAT_ON_COUNT)
+        && (!pinControl.IsHeartbeatLedActive()) 
+      )
   {
     pinControl.SetHeartbeatLedState(PinControl::eSetPinState::SetActive);
-  }
-  else 
-  {
-    pinControl.SetHeartbeatLedState(PinControl::eSetPinState::SetInactive);
+    
+    return;
   }
   
-  // increment the counter and roll over at the max count.
-  if (++heartbeatDutyCounter >= HEARTBEAT_MAX_COUNT)
+  if (pinControl.IsHeartbeatLedActive()) 
   {
-    heartbeatDutyCounter = 0;
+    pinControl.SetHeartbeatLedState(PinControl::eSetPinState::SetInactive);
   }
 }

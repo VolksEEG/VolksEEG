@@ -8,24 +8,20 @@ class PinControl {
 
     public:
 
-        enum ePinState {Inactive, Active};
         enum eSetPinState {SetInactive, SetActive, SetToggle};
         
         PinControl();
 
         void SetHeartbeatLedState(eSetPinState newState);
-
-        #ifdef UNIT_TEST
-
-        PinControl::ePinState GetHeartbeatLedState();
-
-        #endif
+        bool IsHeartbeatLedActive();
 
     protected:
 
     private:
 
-        static const uint8_t HEARTBEAT_LED_PIN = 13;
+        static const uint8_t HEARTBEAT_LED_PIN;
+
+        enum ePinState {Inactive, Active};
 
         ePinState mHeartbeatLedState;
 

@@ -11,7 +11,7 @@ void test_PinControlInitialStateOfHeartbeatLED(void)
 {
     uut = PinControl();
 
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Inactive, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(false, uut.IsHeartbeatLedActive());
 }
 
 //
@@ -22,12 +22,12 @@ void test_PinControlSetHeartbeatLEDActive(void)
     uut = PinControl();
 
     // initially inactive
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Inactive, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(false, uut.IsHeartbeatLedActive());
 
     uut.SetHeartbeatLedState(PinControl::eSetPinState::SetActive);
 
     // now active
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Active, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(true, uut.IsHeartbeatLedActive());
 }
 
 //
@@ -38,17 +38,17 @@ void test_PinControlToggleHeartbeatLEDState(void)
     uut = PinControl();
 
     // initially inactive
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Inactive, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(false, uut.IsHeartbeatLedActive());
 
     uut.SetHeartbeatLedState(PinControl::eSetPinState::SetToggle);
 
     // now active
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Active, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(true, uut.IsHeartbeatLedActive());
     
     uut.SetHeartbeatLedState(PinControl::eSetPinState::SetToggle);
 
     // and back to inactive
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Inactive, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(false, uut.IsHeartbeatLedActive());
 }
 
 //
@@ -61,12 +61,12 @@ void test_PinControlSetHeartbeatLEDInactive(void)
     uut.SetHeartbeatLedState(PinControl::eSetPinState::SetActive);
 
     // active
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Active, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(true, uut.IsHeartbeatLedActive());
     
     uut.SetHeartbeatLedState(PinControl::eSetPinState::SetInactive);
 
     // now inactive
-    TEST_ASSERT_EQUAL(PinControl::ePinState::Inactive, uut.GetHeartbeatLedState());
+    TEST_ASSERT_EQUAL(false, uut.IsHeartbeatLedActive());
 
 }
 
