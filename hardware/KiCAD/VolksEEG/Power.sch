@@ -233,7 +233,6 @@ Wire Wire Line
 Connection ~ 7250 1450
 Wire Wire Line
 	7250 1550 7250 1450
-Connection ~ 6850 1450
 Wire Wire Line
 	6850 1550 6850 1450
 Wire Wire Line
@@ -319,8 +318,6 @@ F 3 "~" H 9000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 1300 10500 1450
-Wire Wire Line
 	10500 1950 10500 1850
 $Comp
 L Device:C C4
@@ -355,8 +352,6 @@ Wire Wire Line
 	8000 2000 8000 1950
 Text Notes 7950 1100 0    50   ~ 0
 -3.3V Voltage Supply
-Wire Wire Line
-	6850 1450 6850 1300
 $Comp
 L VolksEEG:LM2660MX U4
 U 1 1 615E37EC
@@ -431,7 +426,7 @@ $EndComp
 Wire Wire Line
 	3800 1400 3800 1300
 NoConn ~ 3150 1700
-Text Notes 2450 950  0    50   ~ 0
+Text Notes 2250 2400 0    50   ~ 0
 3.3V Digital Voltage Supply
 Wire Wire Line
 	3150 1300 3800 1300
@@ -456,8 +451,6 @@ Text HLabel 1500 1300 0    50   Input ~ 0
 +5V
 Wire Wire Line
 	1500 1300 1850 1300
-Wire Wire Line
-	4900 1100 4900 1300
 Text HLabel 4000 950  2    50   Output ~ 0
 +3V3
 Wire Wire Line
@@ -538,8 +531,6 @@ Wire Wire Line
 	2300 1950 2300 1700
 Wire Wire Line
 	2300 1700 2450 1700
-Wire Wire Line
-	3800 2450 3800 2350
 $Comp
 L Device:R R?
 U 1 1 61C452C6
@@ -553,7 +544,6 @@ F 3 "~" H 4300 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 1850 3800 1850
-Connection ~ 3800 1850
 Wire Wire Line
 	3800 1850 3800 1700
 Wire Wire Line
@@ -561,8 +551,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 1700 4900 1850
 Connection ~ 4900 1850
-Wire Wire Line
-	4900 1850 4900 1950
 Text HLabel 1500 1900 0    50   Input ~ 0
 GNDD
 Wire Wire Line
@@ -614,39 +602,6 @@ F 1 "GNDD" H 3804 2295 50  0000 C CNN
 F 2 "" H 3800 2450 50  0001 C CNN
 F 3 "" H 3800 2450 50  0001 C CNN
 	1    3800 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61CE45B3
-P 4900 1100
-F 0 "#PWR?" H 4900 950 50  0001 C CNN
-F 1 "+3V3A" H 4915 1273 50  0000 C CNN
-F 2 "" H 4900 1100 50  0001 C CNN
-F 3 "" H 4900 1100 50  0001 C CNN
-	1    4900 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61CE4ACE
-P 6850 1300
-F 0 "#PWR?" H 6850 1150 50  0001 C CNN
-F 1 "+3V3A" H 6865 1473 50  0000 C CNN
-F 2 "" H 6850 1300 50  0001 C CNN
-F 3 "" H 6850 1300 50  0001 C CNN
-	1    6850 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:-3V3A #PWR?
-U 1 1 61CE6601
-P 10500 1300
-F 0 "#PWR?" H 10500 1150 50  0001 C CNN
-F 1 "-3V3A" H 10515 1473 50  0000 C CNN
-F 2 "" H 10500 1300 50  0001 C CNN
-F 3 "" H 10500 1300 50  0001 C CNN
-	1    10500 1300
 	1    0    0    -1  
 $EndComp
 Connection ~ 4100 5250
@@ -706,78 +661,11 @@ Wire Wire Line
 	6050 3350 6050 3500
 Wire Wire Line
 	6050 5450 6050 5250
-$Comp
-L Device:R R?
-U 1 1 6181B55F
-P 4750 2150
-AR Path="/615BA20B/6181B55F" Ref="R?"  Part="1" 
-AR Path="/615BA255/6181B55F" Ref="R?"  Part="1" 
-F 0 "R?" V 4543 2150 50  0000 C CNN
-F 1 "0R" V 4634 2150 50  0000 C CNN
-F 2 "" V 4680 2150 50  0001 C CNN
-F 3 "~" H 4750 2150 50  0001 C CNN
-	1    4750 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 2000 4750 1950
-Wire Wire Line
-	4750 1950 4900 1950
-Wire Wire Line
-	4750 2300 4750 2350
-Text Notes 4000 2900 0    50   ~ 0
-Through hole \n1/4 Watt Resistor \nfootprint to \nsolder tinned wire \nas a scope probe \nground connection\nfor GNDD & GNDA.
-Wire Wire Line
-	4750 2350 4900 2350
-Connection ~ 4900 1950
-Wire Wire Line
-	4900 1950 4900 2350
-Connection ~ 4900 2350
-Wire Wire Line
-	4900 2350 4900 2450
-$Comp
-L Device:R R?
-U 1 1 61837466
-P 3950 2150
-AR Path="/615BA20B/61837466" Ref="R?"  Part="1" 
-AR Path="/615BA255/61837466" Ref="R?"  Part="1" 
-F 0 "R?" V 3743 2150 50  0000 C CNN
-F 1 "0R" V 3834 2150 50  0000 C CNN
-F 2 "" V 3880 2150 50  0001 C CNN
-F 3 "~" H 3950 2150 50  0001 C CNN
-	1    3950 2150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3950 2000 3950 1950
-Wire Wire Line
-	3950 2300 3950 2350
-Wire Wire Line
-	3950 2350 3800 2350
-Connection ~ 3800 2350
-Wire Wire Line
-	3800 2350 3800 1950
-Wire Wire Line
-	3950 1950 3800 1950
-Connection ~ 3800 1950
-Wire Wire Line
-	3800 1950 3800 1850
 Text HLabel 5250 1300 2    50   Output ~ 0
 +3V3A
 Wire Wire Line
 	5150 1300 5250 1300
 Connection ~ 5150 1300
-$Comp
-L power:VDD #PWR?
-U 1 1 61A12BC7
-P 9500 4650
-F 0 "#PWR?" H 9500 4500 50  0001 C CNN
-F 1 "VDD" H 9515 4823 50  0000 C CNN
-F 2 "" H 9500 4650 50  0001 C CNN
-F 3 "" H 9500 4650 50  0001 C CNN
-	1    9500 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 61A129B0
@@ -819,11 +707,6 @@ Connection ~ 9500 5350
 Wire Wire Line
 	9500 5350 9500 5450
 Wire Wire Line
-	9500 4750 9700 4750
-Connection ~ 9500 4750
-Wire Wire Line
-	9500 4750 9500 4650
-Wire Wire Line
 	9700 5350 9500 5350
 Wire Wire Line
 	9700 5200 9700 5350
@@ -831,8 +714,6 @@ Wire Wire Line
 	9700 4750 9700 4900
 Wire Wire Line
 	9300 5200 9300 5350
-Wire Wire Line
-	9300 4750 9500 4750
 Wire Wire Line
 	9300 4900 9300 4750
 $Comp
@@ -1242,23 +1123,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 3500 2750 3500
 Wire Wire Line
-	2100 3350 2100 3500
-Wire Wire Line
 	2100 3500 2600 3500
 Wire Wire Line
 	2100 3600 2100 3500
-Connection ~ 2100 3500
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61CE56F9
-P 2100 3350
-F 0 "#PWR?" H 2100 3200 50  0001 C CNN
-F 1 "+3V3A" H 2115 3523 50  0000 C CNN
-F 2 "" H 2100 3350 50  0001 C CNN
-F 3 "" H 2100 3350 50  0001 C CNN
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 618339B8
@@ -1286,7 +1153,7 @@ Wire Wire Line
 Connection ~ 2300 5250
 Wire Wire Line
 	2300 5250 2500 5250
-Text Notes 3200 1300 0    50   ~ 0
+Text Notes 2450 2500 0    50   ~ 0
 +3.3V@150mA
 Wire Wire Line
 	4200 1300 3800 1300
@@ -1309,18 +1176,86 @@ Wire Wire Line
 Wire Wire Line
 	3800 1300 3800 950 
 Wire Wire Line
-	2200 5250 2200 5100
+	2000 5250 2300 5250
+Connection ~ 3800 1850
+Wire Wire Line
+	3800 1950 3800 1850
+Connection ~ 3800 1950
+Wire Wire Line
+	3950 1950 3800 1950
+Wire Wire Line
+	3800 2350 3800 1950
+Connection ~ 3800 2350
+Wire Wire Line
+	3950 2350 3800 2350
+Wire Wire Line
+	3950 2300 3950 2350
+Wire Wire Line
+	3950 2000 3950 1950
 $Comp
-L VolksEEG:-3V3A #PWR?
-U 1 1 61CE6D2F
-P 2200 5100
-F 0 "#PWR?" H 2200 4950 50  0001 C CNN
-F 1 "-3V3A" H 2215 5273 50  0000 C CNN
-F 2 "" H 2200 5100 50  0001 C CNN
-F 3 "" H 2200 5100 50  0001 C CNN
-	1    2200 5100
+L Device:R R?
+U 1 1 61837466
+P 3950 2150
+AR Path="/615BA20B/61837466" Ref="R?"  Part="1" 
+AR Path="/615BA255/61837466" Ref="R?"  Part="1" 
+F 0 "R?" V 3743 2150 50  0000 C CNN
+F 1 "0R" V 3834 2150 50  0000 C CNN
+F 2 "" V 3880 2150 50  0001 C CNN
+F 3 "~" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 2350 4900 2450
+Connection ~ 4900 2350
+Wire Wire Line
+	4900 1950 4900 2350
+Connection ~ 4900 1950
+Wire Wire Line
+	4750 2350 4900 2350
+Text Notes 4000 2900 0    50   ~ 0
+Through hole \n1/4 Watt Resistor \nfootprint to \nsolder tinned wire \nas a scope probe \nground connection\nfor GNDD & GNDA.
+Wire Wire Line
+	4750 2300 4750 2350
+Wire Wire Line
+	4750 1950 4900 1950
+Wire Wire Line
+	4750 2000 4750 1950
+$Comp
+L Device:R R?
+U 1 1 6181B55F
+P 4750 2150
+AR Path="/615BA20B/6181B55F" Ref="R?"  Part="1" 
+AR Path="/615BA255/6181B55F" Ref="R?"  Part="1" 
+F 0 "R?" V 4543 2150 50  0000 C CNN
+F 1 "0R" V 4634 2150 50  0000 C CNN
+F 2 "" V 4680 2150 50  0001 C CNN
+F 3 "~" H 4750 2150 50  0001 C CNN
+	1    4750 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 5250 2300 5250
+	4900 1850 4900 1950
+Wire Wire Line
+	3800 2450 3800 2350
+Text Notes 8100 2400 0    50   ~ 0
+LV and FC need jumpers
+Text Notes 8650 3850 0    50   ~ 0
+What are these for?
+Text Label 7050 1450 0    50   ~ 0
++3V3A
+Text Label 4600 1300 0    50   ~ 0
++3V3A
+Text Label 2300 3500 0    50   ~ 0
++3V3A
+Text Label 3350 1300 0    50   ~ 0
++3V3
+Text Label 9400 4750 0    50   ~ 0
++3V3
+Text Label 10250 1450 0    50   ~ 0
+-3V3A
+Text Label 2000 5250 0    50   ~ 0
+-3V3A
+Wire Wire Line
+	9300 4750 9700 4750
 $EndSCHEMATC

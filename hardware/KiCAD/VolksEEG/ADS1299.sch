@@ -411,8 +411,6 @@ Connection ~ 6650 2250
 Wire Wire Line
 	3300 1500 3550 1500
 Wire Wire Line
-	6650 1500 6650 1600
-Wire Wire Line
 	5900 1600 6650 1600
 Wire Wire Line
 	5900 1600 5900 1800
@@ -601,8 +599,6 @@ Wire Wire Line
 	3550 850  3550 750 
 Wire Wire Line
 	3550 750  3800 750 
-Wire Wire Line
-	3800 750  3800 700 
 Wire Wire Line
 	3800 850  3800 750 
 Connection ~ 3800 750 
@@ -847,9 +843,7 @@ F 3 "~" H 2900 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 4100 2500 4100
-Wire Wire Line
-	2500 4100 2500 4000
+	2750 4100 2350 4100
 Wire Wire Line
 	3050 4100 3700 4100
 Wire Wire Line
@@ -861,58 +855,6 @@ Wire Wire Line
 	5550 6350 5800 6350
 Connection ~ 5550 6350
 Connection ~ 5800 6350
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 619467FC
-P 3800 700
-AR Path="/615BA255/619467FC" Ref="#PWR?"  Part="1" 
-AR Path="/615BA110/619467FC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3800 550 50  0001 C CNN
-F 1 "+3V3A" H 3815 873 50  0000 C CNN
-F 2 "" H 3800 700 50  0001 C CNN
-F 3 "" H 3800 700 50  0001 C CNN
-	1    3800 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 6194CA89
-P 6650 1500
-AR Path="/615BA255/6194CA89" Ref="#PWR?"  Part="1" 
-AR Path="/615BA110/6194CA89" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6650 1350 50  0001 C CNN
-F 1 "+3V3A" H 6665 1673 50  0000 C CNN
-F 2 "" H 6650 1500 50  0001 C CNN
-F 3 "" H 6650 1500 50  0001 C CNN
-	1    6650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61952D7C
-P 2500 4000
-AR Path="/615BA255/61952D7C" Ref="#PWR?"  Part="1" 
-AR Path="/615BA110/61952D7C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 3850 50  0001 C CNN
-F 1 "+3V3A" H 2515 4173 50  0000 C CNN
-F 2 "" H 2500 4000 50  0001 C CNN
-F 3 "" H 2500 4000 50  0001 C CNN
-	1    2500 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61959043
-P 1400 6350
-AR Path="/615BA255/61959043" Ref="#PWR?"  Part="1" 
-AR Path="/615BA110/61959043" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1400 6200 50  0001 C CNN
-F 1 "+3V3A" H 1415 6523 50  0000 C CNN
-F 2 "" H 1400 6350 50  0001 C CNN
-F 3 "" H 1400 6350 50  0001 C CNN
-	1    1400 6350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J?
 U 1 1 61960524
@@ -929,15 +871,21 @@ Wire Wire Line
 Wire Wire Line
 	1650 6300 1650 6400
 Wire Wire Line
-	1650 6400 1400 6400
-Wire Wire Line
-	1400 6400 1400 6350
+	1650 6400 1350 6400
 Wire Wire Line
 	1650 6700 1750 6700
 Wire Wire Line
 	1750 6700 1750 6300
 Wire Wire Line
 	1650 6700 1650 6650
+Text Label 3900 750  0    50   ~ 0
++3V3A
+Text Label 2350 4100 0    50   ~ 0
++3V3A
+Text Label 1350 6400 0    50   ~ 0
++3V3A
+Text Label 6750 1600 0    50   ~ 0
++3V3A
 Wire Bus Line
 	1750 5450 3700 5450
 $EndSCHEMATC

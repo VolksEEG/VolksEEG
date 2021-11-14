@@ -60,19 +60,6 @@ Wire Wire Line
 	5600 2450 5400 2450
 Text HLabel 9950 2000 2    50   Output ~ 0
 +5V
-$Comp
-L power:VDD #PWR?
-U 1 1 61A63F07
-P 5350 1300
-AR Path="/615BA255/61A63F07" Ref="#PWR?"  Part="1" 
-AR Path="/61731DC5/61A63F07" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 1150 50  0001 C CNN
-F 1 "VDD" H 5365 1473 50  0000 C CNN
-F 2 "" H 5350 1300 50  0001 C CNN
-F 3 "" H 5350 1300 50  0001 C CNN
-	1    5350 1300
-	-1   0    0    -1  
-$EndComp
 Text HLabel 5550 1400 2    50   Input ~ 0
 +3V3
 $Comp
@@ -109,8 +96,6 @@ F 3 "" H 3200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 1300 5350 1400
-Wire Wire Line
 	2050 1850 2050 1900
 Wire Wire Line
 	2000 2450 2450 2450
@@ -122,7 +107,6 @@ Wire Wire Line
 	2000 2750 3050 2750
 Wire Wire Line
 	5550 1400 5350 1400
-Connection ~ 5350 1400
 Wire Wire Line
 	5350 1400 5350 1550
 $Comp
@@ -329,80 +313,6 @@ Connection ~ 5400 2450
 Wire Wire Line
 	5400 2450 4200 2450
 $Comp
-L Device:LED D?
-U 1 1 618CA26A
-P 8300 4950
-AR Path="/615BA20B/618CA26A" Ref="D?"  Part="1" 
-AR Path="/61731DC5/618CA26A" Ref="D?"  Part="1" 
-F 0 "D?" H 8400 4800 50  0000 C CNN
-F 1 "Blue" H 8200 4800 50  0000 C CNN
-F 2 "" H 8300 4950 50  0001 C CNN
-F 3 "~" H 8300 4950 50  0001 C CNN
-	1    8300 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 618CA270
-P 7600 5450
-AR Path="/615BA20B/618CA270" Ref="R?"  Part="1" 
-AR Path="/61731DC5/618CA270" Ref="R?"  Part="1" 
-F 0 "R?" V 7393 5450 50  0000 C CNN
-F 1 "220R" V 7484 5450 50  0000 C CNN
-F 2 "" V 7530 5450 50  0001 C CNN
-F 3 "~" H 7600 5450 50  0001 C CNN
-	1    7600 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 618CCE26
-P 7600 4950
-AR Path="/615BA20B/618CCE26" Ref="D?"  Part="1" 
-AR Path="/61731DC5/618CCE26" Ref="D?"  Part="1" 
-F 0 "D?" H 7700 4800 50  0000 C CNN
-F 1 "Green" H 7500 4800 50  0000 C CNN
-F 2 "" H 7600 4950 50  0001 C CNN
-F 3 "~" H 7600 4950 50  0001 C CNN
-	1    7600 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 618CCE2C
-P 8300 5450
-AR Path="/615BA20B/618CCE2C" Ref="R?"  Part="1" 
-AR Path="/61731DC5/618CCE2C" Ref="R?"  Part="1" 
-F 0 "R?" V 8093 5450 50  0000 C CNN
-F 1 "330R" V 8184 5450 50  0000 C CNN
-F 2 "" V 8230 5450 50  0001 C CNN
-F 3 "~" H 8300 5450 50  0001 C CNN
-	1    8300 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 618CF753
-P 8300 5750
-F 0 "#PWR?" H 8300 5500 50  0001 C CNN
-F 1 "GNDD" H 8304 5595 50  0000 C CNN
-F 2 "" H 8300 5750 50  0001 C CNN
-F 3 "" H 8300 5750 50  0001 C CNN
-	1    8300 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 618CFAF8
-P 7600 5750
-F 0 "#PWR?" H 7600 5500 50  0001 C CNN
-F 1 "GNDD" H 7604 5595 50  0000 C CNN
-F 2 "" H 7600 5750 50  0001 C CNN
-F 3 "" H 7600 5750 50  0001 C CNN
-	1    7600 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 618D0E10
 P 9600 1900
@@ -413,27 +323,6 @@ F 3 "" H 9600 1900 50  0001 C CNN
 	1    9600 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 618DD1F4
-P 8300 4650
-F 0 "#PWR?" H 8300 4500 50  0001 C CNN
-F 1 "+5V" H 8315 4823 50  0000 C CNN
-F 2 "" H 8300 4650 50  0001 C CNN
-F 3 "" H 8300 4650 50  0001 C CNN
-	1    8300 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 5100 7600 5300
-Wire Wire Line
-	7600 5600 7600 5750
-Wire Wire Line
-	8300 5750 8300 5600
-Wire Wire Line
-	8300 5300 8300 5100
-Wire Wire Line
-	8300 4800 8300 4650
 $Comp
 L VolksEEG:ADUM240E1BRIZ-RL U?
 U 1 1 618102ED
@@ -450,19 +339,6 @@ Wire Wire Line
 	2450 2150 2450 2450
 Wire Wire Line
 	2450 2450 3350 2450
-Wire Wire Line
-	4600 2150 4600 2300
-$Comp
-L VolksEEG:+3V3_ni #PWR?
-U 1 1 61D4B6F0
-P 4600 2150
-F 0 "#PWR?" H 4600 2000 50  0001 C CNN
-F 1 "+3V3_ni" H 4615 2323 50  0000 C CNN
-F 2 "" H 4600 2150 50  0001 C CNN
-F 3 "" H 4600 2150 50  0001 C CNN
-	1    4600 2150
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 2300 4200 2300
 $Comp
@@ -527,21 +403,6 @@ F 3 "" H 5400 4950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 6187250B
-P 5400 4250
-AR Path="/615BA255/6187250B" Ref="#PWR?"  Part="1" 
-AR Path="/61731DC5/6187250B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5400 4100 50  0001 C CNN
-F 1 "VDD" H 5415 4423 50  0000 C CNN
-F 2 "" H 5400 4250 50  0001 C CNN
-F 3 "" H 5400 4250 50  0001 C CNN
-	1    5400 4250
-	-1   0    0    -1  
-$EndComp
-Text HLabel 5600 4350 2    50   Input ~ 0
-+3V3
-$Comp
 L VolksEEG:GND_ni #PWR?
 U 1 1 61872512
 P 3250 6100
@@ -553,16 +414,9 @@ F 3 "" H 3250 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 4250 5400 4350
-Wire Wire Line
 	2100 4800 2100 4850
 Wire Wire Line
 	2050 5400 2500 5400
-Wire Wire Line
-	5600 4350 5400 4350
-Connection ~ 5400 4350
-Wire Wire Line
-	5400 4350 5400 4500
 $Comp
 L Device:C C?
 U 1 1 61872528
@@ -587,7 +441,6 @@ F 3 "~" H 2100 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 4600 5400 4500
-Connection ~ 5400 4500
 Connection ~ 2100 4400
 $Comp
 L Connector:TestPoint TP?
@@ -809,21 +662,6 @@ Text Notes 7950 3150 0    100  ~ 0
 Wire Wire Line
 	2050 1450 1700 1450
 Connection ~ 2050 1450
-$Comp
-L power:VDD #PWR?
-U 1 1 618CFDA1
-P 7600 4650
-AR Path="/615BA255/618CFDA1" Ref="#PWR?"  Part="1" 
-AR Path="/61731DC5/618CFDA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 4500 50  0001 C CNN
-F 1 "VDD" H 7615 4823 50  0000 C CNN
-F 2 "" H 7600 4650 50  0001 C CNN
-F 3 "" H 7600 4650 50  0001 C CNN
-	1    7600 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 4650 7600 4800
 Wire Wire Line
 	2100 4400 1750 4400
 Text Label 7800 2000 0    50   ~ 0
@@ -837,4 +675,111 @@ Wire Wire Line
 	8200 2000 8300 2000
 Wire Wire Line
 	7750 2000 8200 2000
+Wire Wire Line
+	7600 4650 7600 4800
+Wire Wire Line
+	8300 4800 8300 4650
+Wire Wire Line
+	8300 5300 8300 5100
+Wire Wire Line
+	8300 5750 8300 5600
+Wire Wire Line
+	7600 5600 7600 5750
+Wire Wire Line
+	7600 5100 7600 5300
+$Comp
+L power:+5V #PWR?
+U 1 1 618DD1F4
+P 8300 4650
+F 0 "#PWR?" H 8300 4500 50  0001 C CNN
+F 1 "+5V" H 8315 4823 50  0000 C CNN
+F 2 "" H 8300 4650 50  0001 C CNN
+F 3 "" H 8300 4650 50  0001 C CNN
+	1    8300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 618CFAF8
+P 7600 5750
+F 0 "#PWR?" H 7600 5500 50  0001 C CNN
+F 1 "GNDD" H 7604 5595 50  0000 C CNN
+F 2 "" H 7600 5750 50  0001 C CNN
+F 3 "" H 7600 5750 50  0001 C CNN
+	1    7600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 618CF753
+P 8300 5750
+F 0 "#PWR?" H 8300 5500 50  0001 C CNN
+F 1 "GNDD" H 8304 5595 50  0000 C CNN
+F 2 "" H 8300 5750 50  0001 C CNN
+F 3 "" H 8300 5750 50  0001 C CNN
+	1    8300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618CCE2C
+P 8300 5450
+AR Path="/615BA20B/618CCE2C" Ref="R?"  Part="1" 
+AR Path="/61731DC5/618CCE2C" Ref="R?"  Part="1" 
+F 0 "R?" V 8093 5450 50  0000 C CNN
+F 1 "330R" V 8184 5450 50  0000 C CNN
+F 2 "" V 8230 5450 50  0001 C CNN
+F 3 "~" H 8300 5450 50  0001 C CNN
+	1    8300 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 618CCE26
+P 7600 4950
+AR Path="/615BA20B/618CCE26" Ref="D?"  Part="1" 
+AR Path="/61731DC5/618CCE26" Ref="D?"  Part="1" 
+F 0 "D?" H 7700 4800 50  0000 C CNN
+F 1 "Green" H 7500 4800 50  0000 C CNN
+F 2 "" H 7600 4950 50  0001 C CNN
+F 3 "~" H 7600 4950 50  0001 C CNN
+	1    7600 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618CA270
+P 7600 5450
+AR Path="/615BA20B/618CA270" Ref="R?"  Part="1" 
+AR Path="/61731DC5/618CA270" Ref="R?"  Part="1" 
+F 0 "R?" V 7393 5450 50  0000 C CNN
+F 1 "220R" V 7484 5450 50  0000 C CNN
+F 2 "" V 7530 5450 50  0001 C CNN
+F 3 "~" H 7600 5450 50  0001 C CNN
+	1    7600 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 618CA26A
+P 8300 4950
+AR Path="/615BA20B/618CA26A" Ref="D?"  Part="1" 
+AR Path="/61731DC5/618CA26A" Ref="D?"  Part="1" 
+F 0 "D?" H 8400 4800 50  0000 C CNN
+F 1 "Blue" H 8200 4800 50  0000 C CNN
+F 2 "" H 8300 4950 50  0001 C CNN
+F 3 "~" H 8300 4950 50  0001 C CNN
+	1    8300 4950
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 2300 2    50   ~ 0
++3V3_ni
+Text Label 4800 4500 0    50   ~ 0
++3V3
+Text Label 4750 1550 0    50   ~ 0
++3V3
+Text Label 7350 4650 0    50   ~ 0
++3V3
+Wire Wire Line
+	7600 4650 7350 4650
 $EndSCHEMATC
