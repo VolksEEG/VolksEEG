@@ -76,17 +76,6 @@ $EndComp
 Text HLabel 5550 1400 2    50   Input ~ 0
 +3V3
 $Comp
-L VolksEEG:+3V3_ni #PWR?
-U 1 1 61BD5B0A
-P 8200 1900
-F 0 "#PWR?" H 8200 1750 50  0001 C CNN
-F 1 "+3V3_ni" H 8215 2073 50  0000 C CNN
-F 2 "" H 8200 1900 50  0001 C CNN
-F 3 "" H 8200 1900 50  0001 C CNN
-	1    8200 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L VolksEEG:GND_ni #PWR?
 U 1 1 61BD6486
 P 8200 2450
@@ -119,21 +108,8 @@ F 3 "" H 3200 3150 50  0001 C CNN
 	1    3200 3150
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:+3V3_ni #PWR?
-U 1 1 61BD925C
-P 2050 1300
-F 0 "#PWR?" H 2050 1150 50  0001 C CNN
-F 1 "+3V3_ni" H 2065 1473 50  0000 C CNN
-F 2 "" H 2050 1300 50  0001 C CNN
-F 3 "" H 2050 1300 50  0001 C CNN
-	1    2050 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 1300 5350 1400
-Wire Wire Line
-	2050 1450 2050 1300
 Wire Wire Line
 	2050 1850 2050 1900
 Wire Wire Line
@@ -174,7 +150,6 @@ $EndComp
 Wire Wire Line
 	5350 1650 5350 1550
 Connection ~ 5350 1550
-Connection ~ 2050 1450
 $Comp
 L Connector:TestPoint TP?
 U 1 1 61EB76CD
@@ -222,12 +197,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 617B0F77
-P 7950 1900
-F 0 "TP?" H 8008 2018 50  0000 L CNN
-F 1 "GNDD_tp" H 8008 1927 50  0001 L CNN
-F 2 "" H 8150 1900 50  0001 C CNN
-F 3 "~" H 8150 1900 50  0001 C CNN
-	1    7950 1900
+P 8200 1900
+F 0 "TP?" H 8258 2018 50  0000 L CNN
+F 1 "GNDD_tp" H 8258 1927 50  0001 L CNN
+F 2 "" H 8400 1900 50  0001 C CNN
+F 3 "~" H 8400 1900 50  0001 C CNN
+	1    8200 1900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -428,19 +403,6 @@ F 3 "" H 7600 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 618CFDA1
-P 7600 4650
-AR Path="/615BA255/618CFDA1" Ref="#PWR?"  Part="1" 
-AR Path="/61731DC5/618CFDA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 4500 50  0001 C CNN
-F 1 "VDD" H 7615 4823 50  0000 C CNN
-F 2 "" H 7600 4650 50  0001 C CNN
-F 3 "" H 7600 4650 50  0001 C CNN
-	1    7600 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 618D0E10
 P 9600 1900
@@ -462,8 +424,6 @@ F 3 "" H 8300 4650 50  0001 C CNN
 	1    8300 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 4650 7600 4800
 Wire Wire Line
 	7600 5100 7600 5300
 Wire Wire Line
@@ -592,21 +552,8 @@ F 3 "" H 3250 6100 50  0001 C CNN
 	1    3250 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:+3V3_ni #PWR?
-U 1 1 61872518
-P 2100 4250
-F 0 "#PWR?" H 2100 4100 50  0001 C CNN
-F 1 "+3V3_ni" H 2115 4423 50  0000 C CNN
-F 2 "" H 2100 4250 50  0001 C CNN
-F 3 "" H 2100 4250 50  0001 C CNN
-	1    2100 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 4250 5400 4350
-Wire Wire Line
-	2100 4400 2100 4250
 Wire Wire Line
 	2100 4800 2100 4850
 Wire Wire Line
@@ -824,17 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2300 7950 2300
 Wire Wire Line
-	8300 2000 8200 2000
-Wire Wire Line
-	8200 2000 8200 1900
-Wire Wire Line
-	8200 2000 7950 2000
-Connection ~ 8200 2000
-Wire Wire Line
-	7950 1900 7950 2000
-Connection ~ 7950 2000
-Wire Wire Line
-	7950 2000 7750 2000
+	8200 1900 8200 2000
 Wire Wire Line
 	9600 2300 9600 2450
 Wire Wire Line
@@ -869,4 +806,35 @@ Wire Wire Line
 	9850 2000 9950 2000
 Text Notes 7950 3150 0    100  ~ 0
 5V Boost Converter\n(Isolation)
+Wire Wire Line
+	2050 1450 1700 1450
+Connection ~ 2050 1450
+$Comp
+L power:VDD #PWR?
+U 1 1 618CFDA1
+P 7600 4650
+AR Path="/615BA255/618CFDA1" Ref="#PWR?"  Part="1" 
+AR Path="/61731DC5/618CFDA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7600 4500 50  0001 C CNN
+F 1 "VDD" H 7615 4823 50  0000 C CNN
+F 2 "" H 7600 4650 50  0001 C CNN
+F 3 "" H 7600 4650 50  0001 C CNN
+	1    7600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4650 7600 4800
+Wire Wire Line
+	2100 4400 1750 4400
+Text Label 7800 2000 0    50   ~ 0
++3V3_ni
+Text Label 1750 4400 0    50   ~ 0
++3V3_ni
+Text Label 1700 1450 0    50   ~ 0
++3V3_ni
+Connection ~ 8200 2000
+Wire Wire Line
+	8200 2000 8300 2000
+Wire Wire Line
+	7750 2000 8200 2000
 $EndSCHEMATC
