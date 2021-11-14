@@ -13,49 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:VDDA #PWR023
-U 1 1 61612D87
-P 5600 3350
-F 0 "#PWR023" H 5600 3200 50  0001 C CNN
-F 1 "VDDA" H 5615 3523 50  0000 C CNN
-F 2 "" H 5600 3350 50  0001 C CNN
-F 3 "" H 5600 3350 50  0001 C CNN
-	1    5600 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VSSA #PWR025
-U 1 1 61613584
-P 5600 5100
-F 0 "#PWR025" H 5600 4950 50  0001 C CNN
-F 1 "VSSA" H 5615 5273 50  0000 C CNN
-F 2 "" H 5600 5100 50  0001 C CNN
-F 3 "" H 5600 5100 50  0001 C CNN
-	1    5600 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:TPS78425Q U5
-U 1 1 615E458D
-P 3100 3700
-F 0 "U5" H 3100 4125 50  0000 C CNN
-F 1 "TPS78425Q" H 3100 4034 50  0000 C CNN
-F 2 "VolksEEG:SOT95P280X145-5N" H 3100 3700 50  0001 C CNN
-F 3 "https://www.ti.com/lit/gpn/tps784-q1" H 3100 3700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS78425QDBVRQ1/13563001" H 3100 3700 50  0001 C CNN "Suppler 1 Link"
-F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81r%252BiQLm7BRHMcAKEdEeyg%3D%3D" H 3100 3700 50  0001 C CNN "Suppler 2 Link"
-	1    3100 3700
-	1    0    0    -1  
-$EndComp
-Text Notes 2650 4650 0    50   ~ 0
+Text Notes 2650 4450 0    50   ~ 0
 +2.5V Voltage Supply
-Text Notes 3500 3500 0    50   ~ 0
+Text Notes 2750 4350 0    50   ~ 0
 +2.5V@300mA
-Text Notes 3900 5050 0    50   ~ 0
+Text Notes 2700 6350 0    50   ~ 0
 -2.5V@200mA
-Wire Wire Line
-	2750 4000 2750 3900
 $Comp
 L Device:C C?
 U 1 1 61711D0F
@@ -67,8 +30,6 @@ F 3 "~" H 5600 3750 50  0001 C CNN
 	1    5600 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 3350 5600 3500
 $Comp
 L Device:L L?
 U 1 1 617157C6
@@ -98,21 +59,19 @@ F 3 "~" H 5600 5500 50  0001 C CNN
 	1    5600 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 5100 5600 5250
 $Comp
 L Device:L L?
 U 1 1 6171CAC4
-P 5050 5250
-F 0 "L?" V 5240 5250 50  0000 C CNN
-F 1 "3.3u" V 5149 5250 50  0000 C CNN
-F 2 "" H 5050 5250 50  0001 C CNN
-F 3 "~" H 5050 5250 50  0001 C CNN
-	1    5050 5250
+P 4550 5250
+F 0 "L?" V 4740 5250 50  0000 C CNN
+F 1 "3.3u" V 4649 5250 50  0000 C CNN
+F 2 "" H 4550 5250 50  0001 C CNN
+F 3 "~" H 4550 5250 50  0001 C CNN
+	1    4550 5250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5200 5250 5600 5250
+	4700 5250 5600 5250
 Connection ~ 5600 5250
 Wire Wire Line
 	5600 5250 5600 5350
@@ -121,12 +80,12 @@ Wire Wire Line
 $Comp
 L power:GNDA #PWR?
 U 1 1 61833DC2
-P 2750 4000
-F 0 "#PWR?" H 2750 3750 50  0001 C CNN
-F 1 "GNDA" H 2755 3827 50  0000 C CNN
-F 2 "" H 2750 4000 50  0001 C CNN
-F 3 "" H 2750 4000 50  0001 C CNN
-	1    2750 4000
+P 2700 4000
+F 0 "#PWR?" H 2700 3750 50  0001 C CNN
+F 1 "GNDA" H 2705 3827 50  0000 C CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -198,74 +157,71 @@ $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 618326A1
-P 8000 2000
-F 0 "#PWR?" H 8000 1750 50  0001 C CNN
-F 1 "GNDA" H 8005 1827 50  0000 C CNN
-F 2 "" H 8000 2000 50  0001 C CNN
-F 3 "" H 8000 2000 50  0001 C CNN
-	1    8000 2000
+P 7650 2000
+F 0 "#PWR?" H 7650 1750 50  0001 C CNN
+F 1 "GNDA" H 7655 1827 50  0000 C CNN
+F 2 "" H 7650 2000 50  0001 C CNN
+F 3 "" H 7650 2000 50  0001 C CNN
+	1    7650 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 618322D3
-P 7250 1950
-F 0 "#PWR?" H 7250 1700 50  0001 C CNN
-F 1 "GNDA" H 7255 1777 50  0000 C CNN
-F 2 "" H 7250 1950 50  0001 C CNN
-F 3 "" H 7250 1950 50  0001 C CNN
-	1    7250 1950
+P 6900 1950
+F 0 "#PWR?" H 6900 1700 50  0001 C CNN
+F 1 "GNDA" H 6905 1777 50  0000 C CNN
+F 2 "" H 6900 1950 50  0001 C CNN
+F 3 "" H 6900 1950 50  0001 C CNN
+	1    6900 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 61831F11
-P 6850 1950
-F 0 "#PWR?" H 6850 1700 50  0001 C CNN
-F 1 "GNDA" H 6855 1777 50  0000 C CNN
-F 2 "" H 6850 1950 50  0001 C CNN
-F 3 "" H 6850 1950 50  0001 C CNN
-	1    6850 1950
+P 6500 1950
+F 0 "#PWR?" H 6500 1700 50  0001 C CNN
+F 1 "GNDA" H 6505 1777 50  0000 C CNN
+F 2 "" H 6500 1950 50  0001 C CNN
+F 3 "" H 6500 1950 50  0001 C CNN
+	1    6500 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 1450 8000 1450
-Connection ~ 7250 1450
+	6900 1450 7650 1450
+Connection ~ 6900 1450
 Wire Wire Line
-	7250 1550 7250 1450
+	6900 1550 6900 1450
 Wire Wire Line
-	6850 1550 6850 1450
+	6500 1550 6500 1450
 Wire Wire Line
-	6850 1450 7250 1450
+	6500 1450 6900 1450
 Wire Wire Line
-	7250 1950 7250 1850
+	6900 1950 6900 1850
 Wire Wire Line
-	6850 1950 6850 1850
+	6500 1950 6500 1850
 $Comp
 L Device:C C?
 U 1 1 61739A33
-P 6850 1700
-F 0 "C?" H 6965 1746 50  0000 L CNN
-F 1 "10u" H 6965 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6888 1550 50  0001 C CNN
-F 3 "~" H 6850 1700 50  0001 C CNN
-	1    6850 1700
+P 6500 1700
+F 0 "C?" H 6615 1746 50  0000 L CNN
+F 1 "10u" H 6615 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6538 1550 50  0001 C CNN
+F 3 "~" H 6500 1700 50  0001 C CNN
+	1    6500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 61739A27
-P 7250 1700
-F 0 "C?" H 7365 1746 50  0000 L CNN
-F 1 "1u" H 7365 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7288 1550 50  0001 C CNN
-F 3 "~" H 7250 1700 50  0001 C CNN
-	1    7250 1700
+P 6900 1700
+F 0 "C?" H 7015 1746 50  0000 L CNN
+F 1 "1u" H 7015 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6938 1550 50  0001 C CNN
+F 3 "~" H 6900 1700 50  0001 C CNN
+	1    6900 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 9000 1450
-Wire Wire Line
-	9000 1450 8700 1450
 Wire Wire Line
 	10500 1450 10500 1550
 Connection ~ 10500 1450
@@ -330,39 +286,37 @@ F 3 "~" H 10500 1700 50  0001 C CNN
 	1    10500 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8700 1950
-NoConn ~ 8700 1850
-NoConn ~ 8700 1750
+NoConn ~ 8350 1750
 Wire Wire Line
-	7650 1850 8000 1850
+	7300 1850 7650 1850
 Wire Wire Line
-	8000 1550 7650 1550
+	7650 1550 7300 1550
 $Comp
 L Device:C C2
 U 1 1 615F2071
-P 7650 1700
-F 0 "C2" H 7765 1746 50  0000 L CNN
-F 1 "10u" H 7765 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7688 1550 50  0001 C CNN
-F 3 "~" H 7650 1700 50  0001 C CNN
-	1    7650 1700
+P 7300 1700
+F 0 "C2" H 7415 1746 50  0000 L CNN
+F 1 "10u" H 7415 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7338 1550 50  0001 C CNN
+F 3 "~" H 7300 1700 50  0001 C CNN
+	1    7300 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 2000 8000 1950
-Text Notes 7950 1100 0    50   ~ 0
+	7650 2000 7650 1950
+Text Notes 7600 1100 0    50   ~ 0
 -3.3V Voltage Supply
 $Comp
 L VolksEEG:LM2660MX U4
 U 1 1 615E37EC
-P 8350 1650
-F 0 "U4" H 8350 2075 50  0000 C CNN
-F 1 "LM2660MX" H 8350 1984 50  0000 C CNN
-F 2 "VolksEEG:SOIC127P599X175-8N" H 8350 1650 50  0001 C CNN
-F 3 "https://www.ti.com/lit/gpn/LM2660" H 8200 1950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2660MX-NOPB/366876?s=N4IgTCBcDaIDIFkwDZkAYEA0D0A5A8gAoBCABCALoC%2BQA" H 8350 1650 50  0001 C CNN "Supplier 1 Link"
-F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM2660MX-NOPB?qs=%2Fha2pyFadugHGOygNHaYnDjgJHODW6F6O01kwvJjsKBnt2qN9JbSfA%3D%3D" H 8350 1650 50  0001 C CNN "Supplier 2 Link"
-	1    8350 1650
+P 8000 1650
+F 0 "U4" H 8000 2075 50  0000 C CNN
+F 1 "LM2660MX" H 8000 1984 50  0000 C CNN
+F 2 "VolksEEG:SOIC127P599X175-8N" H 8000 1650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/LM2660" H 7850 1950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2660MX-NOPB/366876?s=N4IgTCBcDaIDIFkwDZkAYEA0D0A5A8gAoBCABCALoC%2BQA" H 8000 1650 50  0001 C CNN "Supplier 1 Link"
+F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM2660MX-NOPB?qs=%2Fha2pyFadugHGOygNHaYnDjgJHODW6F6O01kwvJjsKBnt2qN9JbSfA%3D%3D" H 8000 1650 50  0001 C CNN "Supplier 2 Link"
+	1    8000 1650
 	1    0    0    -1  
 $EndComp
 Connection ~ 3800 1300
@@ -425,26 +379,10 @@ F 3 "~" H 1850 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 1400 3800 1300
-NoConn ~ 3150 1700
 Text Notes 2250 2400 0    50   ~ 0
 3.3V Digital Voltage Supply
 Wire Wire Line
 	3150 1300 3800 1300
-$Comp
-L VolksEEG:LP3990MF-3.3 U?
-U 1 1 6195A2CF
-P 2800 1500
-AR Path="/615BA255/6195A2CF" Ref="U?"  Part="1" 
-AR Path="/61731DC5/6195A2CF" Ref="U?"  Part="1" 
-F 0 "U?" H 2800 1925 50  0000 C CNN
-F 1 "LP3990MF-3.3" H 2800 1834 50  0000 C CNN
-F 2 "VolksEEG:SOT95P280X145-5N" H 2800 1500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/gpn/LP3990" H 2800 1900 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LP3990MF-3-3-NOPB/953453?s=N4IgTCBcDaIDIAUDMBOFAGAsgMQLRIDokB6AOQHkEAhAAhAF0BfIA" H 2800 1500 50  0001 C CNN "Supplier 1 Link"
-F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LP3990MF-33-NOPB?qs=1FNqv8aZn1ScRIqY9rNFxg%3D%3D" H 2800 1500 50  0001 C CNN "Supplier 2 Link"
-	1    2800 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 1400 1850 1300
 Text HLabel 1500 1300 0    50   Input ~ 0
@@ -462,32 +400,6 @@ Text HLabel 6350 3500 2    50   Output ~ 0
 +2V5
 Text HLabel 6300 5250 2    50   Output ~ 0
 -2V5
-$Comp
-L Device:C C?
-U 1 1 619D4E35
-P 3500 4100
-F 0 "C?" H 3615 4146 50  0000 L CNN
-F 1 "10n" H 3615 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 3950 50  0001 C CNN
-F 3 "~" H 3500 4100 50  0001 C CNN
-	1    3500 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 4300 3500 4250
-Wire Wire Line
-	3500 3950 3500 3900
-$Comp
-L power:GNDA #PWR?
-U 1 1 619D4E3E
-P 3500 4300
-F 0 "#PWR?" H 3500 4050 50  0001 C CNN
-F 1 "GNDA" H 3505 4127 50  0000 C CNN
-F 2 "" H 3500 4300 50  0001 C CNN
-F 3 "" H 3500 4300 50  0001 C CNN
-	1    3500 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 61A11C09
@@ -688,19 +600,6 @@ F 3 "" H 9500 5450 50  0001 C CNN
 	1    9500 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 61A0DC07
-P 8700 4650
-AR Path="/615BA110/61A0DC07" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/61A0DC07" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8700 4500 50  0001 C CNN
-F 1 "VDDA" H 8715 4823 50  0000 C CNN
-F 2 "" H 8700 4650 50  0001 C CNN
-F 3 "" H 8700 4650 50  0001 C CNN
-	1    8700 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 5350 9300 5350
 Connection ~ 9500 5350
@@ -748,11 +647,6 @@ Connection ~ 8700 5350
 Wire Wire Line
 	8700 5350 8700 5450
 Wire Wire Line
-	8700 4750 8900 4750
-Connection ~ 8700 4750
-Wire Wire Line
-	8700 4750 8700 4650
-Wire Wire Line
 	8900 5350 8700 5350
 Wire Wire Line
 	8900 5200 8900 5350
@@ -760,8 +654,6 @@ Wire Wire Line
 	8900 4750 8900 4900
 Wire Wire Line
 	8500 5200 8500 5350
-Wire Wire Line
-	8500 4750 8700 4750
 Wire Wire Line
 	8500 4900 8500 4750
 $Comp
@@ -790,78 +682,12 @@ F 3 "~" H 8500 5050 50  0001 C CNN
 	1    8500 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 61875BDF
-P 7900 3300
-AR Path="/615BA110/61875BDF" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/61875BDF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7900 3150 50  0001 C CNN
-F 1 "VDDA" H 7915 3473 50  0000 C CNN
-F 2 "" H 7900 3300 50  0001 C CNN
-F 3 "" H 7900 3300 50  0001 C CNN
-	1    7900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 61875BD9
-P 7900 4650
-AR Path="/615BA110/61875BD9" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/61875BD9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7900 4500 50  0001 C CNN
-F 1 "VDDA" H 7915 4823 50  0000 C CNN
-F 2 "" H 7900 4650 50  0001 C CNN
-F 3 "" H 7900 4650 50  0001 C CNN
-	1    7900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VSSA #PWR?
-U 1 1 61875BD3
-P 7900 4100
-AR Path="/615BA110/61875BD3" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/61875BD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7900 3950 50  0001 C CNN
-F 1 "VSSA" H 7915 4273 50  0000 C CNN
-F 2 "" H 7900 4100 50  0001 C CNN
-F 3 "" H 7900 4100 50  0001 C CNN
-	1    7900 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VSSA #PWR?
-U 1 1 61875BCD
-P 7900 5450
-AR Path="/615BA110/61875BCD" Ref="#PWR?"  Part="1" 
-AR Path="/615BA255/61875BCD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7900 5300 50  0001 C CNN
-F 1 "VSSA" H 7915 5623 50  0000 C CNN
-F 2 "" H 7900 5450 50  0001 C CNN
-F 3 "" H 7900 5450 50  0001 C CNN
-	1    7900 5450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7900 4000 7700 4000
-Connection ~ 7900 4000
-Wire Wire Line
-	7900 4000 7900 4100
-Wire Wire Line
-	7900 3400 8100 3400
-Connection ~ 7900 3400
-Wire Wire Line
-	7900 3400 7900 3300
-Wire Wire Line
-	8100 4000 7900 4000
 Wire Wire Line
 	8100 3850 8100 4000
 Wire Wire Line
 	8100 3400 8100 3550
 Wire Wire Line
 	7700 3850 7700 4000
-Wire Wire Line
-	7700 3400 7900 3400
 Wire Wire Line
 	7700 3550 7700 3400
 $Comp
@@ -891,25 +717,11 @@ F 3 "~" H 7700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5350 7700 5350
-Connection ~ 7900 5350
-Wire Wire Line
-	7900 5350 7900 5450
-Wire Wire Line
-	7900 4750 8100 4750
-Connection ~ 7900 4750
-Wire Wire Line
-	7900 4750 7900 4650
-Wire Wire Line
-	8100 5350 7900 5350
-Wire Wire Line
 	8100 5200 8100 5350
 Wire Wire Line
 	8100 4750 8100 4900
 Wire Wire Line
 	7700 5200 7700 5350
-Wire Wire Line
-	7700 4750 7900 4750
 Wire Wire Line
 	7700 4900 7700 4750
 $Comp
@@ -1057,9 +869,7 @@ Wire Wire Line
 	3650 5250 4100 5250
 Connection ~ 3650 5250
 Wire Wire Line
-	4100 5250 4900 5250
-Wire Wire Line
-	3500 3900 3450 3900
+	4100 5250 4400 5250
 Wire Wire Line
 	3450 3500 3900 3500
 $Comp
@@ -1238,18 +1048,14 @@ Wire Wire Line
 	4900 1850 4900 1950
 Wire Wire Line
 	3800 2450 3800 2350
-Text Notes 8100 2400 0    50   ~ 0
-LV and FC need jumpers
 Text Notes 8650 3850 0    50   ~ 0
 What are these for?
-Text Label 7050 1450 0    50   ~ 0
+Text Label 6700 1450 0    50   ~ 0
 +3V3A
 Text Label 4600 1300 0    50   ~ 0
 +3V3A
 Text Label 2300 3500 0    50   ~ 0
 +3V3A
-Text Label 3350 1300 0    50   ~ 0
-+3V3
 Text Label 9400 4750 0    50   ~ 0
 +3V3
 Text Label 10250 1450 0    50   ~ 0
@@ -1258,4 +1064,112 @@ Text Label 2000 5250 0    50   ~ 0
 -3V3A
 Wire Wire Line
 	9300 4750 9700 4750
+Text Label 5350 3500 0    50   ~ 0
++2V5
+Text Label 7950 3400 0    50   ~ 0
++2V5
+Text Label 7950 4750 0    50   ~ 0
++2V5
+Text Label 8750 4750 0    50   ~ 0
++2V5
+Wire Wire Line
+	7700 4750 8100 4750
+Wire Wire Line
+	8500 4750 8900 4750
+Wire Wire Line
+	7700 3400 8100 3400
+Text Label 7800 5350 0    50   ~ 0
+-2V5
+Text Label 7800 4000 0    50   ~ 0
+-2V5
+Text Label 5650 5250 0    50   ~ 0
+-2V5
+Wire Wire Line
+	7700 5350 8100 5350
+Wire Wire Line
+	7700 4000 8100 4000
+$Comp
+L VolksEEG:LP3990MF-3.3 U?
+U 1 1 6196AD3E
+P 2800 1500
+F 0 "U?" H 2800 1925 50  0000 C CNN
+F 1 "LP3990MF-3.3" H 2800 1834 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2800 850 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/LP3990" H 2800 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LP3990MF-3-3-NOPB/953453?s=N4IgTCBcDaIDIAUDMBOFAGAsgMQLRIDokB6AOQHkEAhAAhAF0BfIA" H 3150 650 50  0001 C CNN "Supplier 1 Link"
+F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LP3990MF-33-NOPB?qs=1FNqv8aZn1ScRIqY9rNFxg%3D%3D" H 3300 1000 50  0001 C CNN "Supplier 2 Link"
+	1    2800 1500
+	1    0    0    -1  
+$EndComp
+Text Label 3350 1300 0    50   ~ 0
++3V3
+$Comp
+L VolksEEG:TPS78425Q U?
+U 1 1 61972632
+P 3100 3700
+F 0 "U?" H 3100 4125 50  0000 C CNN
+F 1 "TPS78425Q" H 3100 4034 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3450 3300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tps784-q1" H 3100 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS78425QDBVRQ1/13563001" H 3600 3150 50  0001 C CNN "Suppler 1 Link"
+F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81r%252BiQLm7BRHMcAKEdEeyg%3D%3D" H 3600 3250 50  0001 C CNN "Suppler 2 Link"
+	1    3100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3900 2700 3900
+Wire Wire Line
+	2700 3900 2700 4000
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 6197F713
+P 8700 2100
+F 0 "JP?" V 8700 2175 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 8745 2174 50  0001 L CNN
+F 2 "" H 8700 2100 50  0001 C CNN
+F 3 "~" H 8700 2100 50  0001 C CNN
+	1    8700 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 1850 8700 1850
+Wire Wire Line
+	8700 1850 8700 2000
+$Comp
+L power:GNDA #PWR?
+U 1 1 619A5A7A
+P 8700 2250
+F 0 "#PWR?" H 8700 2000 50  0001 C CNN
+F 1 "GNDA" H 8705 2077 50  0000 C CNN
+F 2 "" H 8700 2250 50  0001 C CNN
+F 3 "" H 8700 2250 50  0001 C CNN
+	1    8700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2250 8700 2200
+Wire Wire Line
+	8450 1950 8350 1950
+Wire Wire Line
+	8450 1950 8450 2050
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 61981349
+P 8450 2150
+F 0 "JP?" V 8450 2198 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 8495 2198 50  0001 L CNN
+F 2 "" H 8450 2150 50  0001 C CNN
+F 3 "~" H 8450 2150 50  0001 C CNN
+	1    8450 2150
+	0    1    1    0   
+$EndComp
+Text Label 8350 2300 2    50   ~ 0
++3V3A
+Wire Wire Line
+	8350 2300 8450 2300
+Wire Wire Line
+	8450 2300 8450 2250
+Wire Wire Line
+	8350 1450 9000 1450
+Connection ~ 9000 1450
 $EndSCHEMATC

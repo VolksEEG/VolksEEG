@@ -436,9 +436,6 @@ Text HLabel 6100 800  2    50   Input ~ 0
 +2V5
 Wire Wire Line
 	6100 800  5900 800 
-Connection ~ 5900 800 
-Wire Wire Line
-	5900 800  5900 750 
 Text HLabel 6900 1600 2    50   Input ~ 0
 +3V3A
 Wire Wire Line
@@ -467,8 +464,6 @@ Wire Wire Line
 Connection ~ 5800 6000
 Wire Wire Line
 	5800 6000 6150 6000
-Wire Wire Line
-	6150 5950 6150 6000
 Connection ~ 6150 6000
 Wire Wire Line
 	6150 6000 6550 6000
@@ -509,8 +504,6 @@ REF
 Wire Wire Line
 	3500 5600 4150 5600
 Wire Wire Line
-	2750 2400 2750 2450
-Wire Wire Line
 	2750 3850 4150 3850
 Wire Wire Line
 	4150 3650 2750 3650
@@ -544,7 +537,6 @@ Wire Wire Line
 	2750 2650 2750 2850
 Wire Wire Line
 	2750 2450 4150 2450
-Connection ~ 2750 2450
 Wire Wire Line
 	2750 2450 2750 2650
 $Comp
@@ -673,30 +665,8 @@ Text Label 1850 5800 1    50   ~ 0
 GPIO_3
 Text Label 1950 5800 1    50   ~ 0
 GPIO_4
-$Comp
-L power:-2V5 #PWR?
-U 1 1 61C7B555
-P 6150 5950
-F 0 "#PWR?" H 6150 6050 50  0001 C CNN
-F 1 "-2V5" H 6165 6123 50  0000 C CNN
-F 2 "" H 6150 5950 50  0001 C CNN
-F 3 "" H 6150 5950 50  0001 C CNN
-	1    6150 5950
-	1    0    0    -1  
-$EndComp
 Text HLabel 5850 2550 2    50   Input ~ 0
 GNDA
-$Comp
-L power:+2V5 #PWR?
-U 1 1 61C857AB
-P 5900 750
-F 0 "#PWR?" H 5900 600 50  0001 C CNN
-F 1 "+2V5" H 5915 923 50  0000 C CNN
-F 2 "" H 5900 750 50  0001 C CNN
-F 3 "" H 5900 750 50  0001 C CNN
-	1    5900 750 
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:-2V5 #PWR?
 U 1 1 61C86288
@@ -753,28 +723,6 @@ F 3 "" H 7500 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:-2V5 #PWR?
-U 1 1 61C86FED
-P 2400 4900
-F 0 "#PWR?" H 2400 5000 50  0001 C CNN
-F 1 "-2V5" H 2415 5073 50  0000 C CNN
-F 2 "" H 2400 4900 50  0001 C CNN
-F 3 "" H 2400 4900 50  0001 C CNN
-	1    2400 4900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:-2V5 #PWR?
-U 1 1 61C87E18
-P 1950 6450
-F 0 "#PWR?" H 1950 6550 50  0001 C CNN
-F 1 "-2V5" H 1965 6623 50  0000 C CNN
-F 2 "" H 1950 6450 50  0001 C CNN
-F 3 "" H 1950 6450 50  0001 C CNN
-	1    1950 6450
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GNDA #PWR?
 U 1 1 61C885C8
 P 1850 6700
@@ -785,35 +733,8 @@ F 3 "" H 1850 6700 50  0001 C CNN
 	1    1850 6700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+2V5 #PWR?
-U 1 1 61C88C39
-P 1650 6650
-F 0 "#PWR?" H 1650 6500 50  0001 C CNN
-F 1 "+2V5" H 1665 6823 50  0000 C CNN
-F 2 "" H 1650 6650 50  0001 C CNN
-F 3 "" H 1650 6650 50  0001 C CNN
-	1    1650 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 6700 1850 6300
-Wire Wire Line
-	2650 4750 2400 4750
-Wire Wire Line
-	2400 4750 2400 4900
-Connection ~ 2650 4750
-$Comp
-L power:+2V5 #PWR?
-U 1 1 61CCB2FD
-P 2750 2400
-F 0 "#PWR?" H 2750 2250 50  0001 C CNN
-F 1 "+2V5" H 2765 2573 50  0000 C CNN
-F 2 "" H 2750 2400 50  0001 C CNN
-F 3 "" H 2750 2400 50  0001 C CNN
-	1    2750 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 2550 5850 2550
 Connection ~ 5700 2550
@@ -873,19 +794,29 @@ Wire Wire Line
 Wire Wire Line
 	1650 6400 1350 6400
 Wire Wire Line
-	1650 6700 1750 6700
-Wire Wire Line
 	1750 6700 1750 6300
-Wire Wire Line
-	1650 6700 1650 6650
 Text Label 3900 750  0    50   ~ 0
 +3V3A
 Text Label 2350 4100 0    50   ~ 0
 +3V3A
 Text Label 1350 6400 0    50   ~ 0
 +3V3A
-Text Label 6750 1600 0    50   ~ 0
+Text Label 6400 1600 0    50   ~ 0
 +3V3A
+Text Label 5600 1350 0    50   ~ 0
++2V5
+Text Label 2850 2450 0    50   ~ 0
++2V5
+Text Label 1450 6700 0    50   ~ 0
++2V5
+Wire Wire Line
+	1450 6700 1750 6700
+Text Label 5900 6000 0    50   ~ 0
+-2V5
+Text Label 2750 4750 0    50   ~ 0
+-2V5
 Wire Bus Line
 	1750 5450 3700 5450
+Text Label 1950 6450 0    50   ~ 0
+-2V5
 $EndSCHEMATC
