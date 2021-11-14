@@ -530,12 +530,6 @@ Wire Wire Line
 	2950 1950 2950 1850
 Wire Wire Line
 	2950 1850 3550 1850
-Wire Wire Line
-	4150 5250 3750 5250
-Wire Wire Line
-	4150 5150 3700 5150
-Wire Wire Line
-	3650 5050 4150 5050
 $Comp
 L Device:R R34
 U 1 1 61B84C6B
@@ -710,94 +704,74 @@ Wire Wire Line
 Connection ~ 6800 5450
 Text Label 3800 5350 0    50   ~ 0
 GPIO_4
-Wire Wire Line
-	3350 5350 3650 5050
-Wire Wire Line
-	3700 5150 3500 5350
-Wire Wire Line
-	3750 5250 3650 5350
-Wire Wire Line
-	3800 5350 4150 5350
-Entry Wire Line
-	3250 5450 3350 5350
-Entry Wire Line
-	3400 5450 3500 5350
-Entry Wire Line
-	3550 5450 3650 5350
-Entry Wire Line
-	3700 5450 3800 5350
-Text Label 1950 6450 0    50   ~ 0
+Text Label 2250 5700 0    50   ~ 0
 -2V5
-Wire Wire Line
-	1450 6700 1750 6700
-Text Label 1450 6700 0    50   ~ 0
+Text Label 2250 5500 0    50   ~ 0
 +2V5
-Text Label 1350 6400 0    50   ~ 0
+Text Label 2250 5400 0    50   ~ 0
 +3V3A
 Wire Wire Line
-	1750 6700 1750 6300
+	2250 5500 2600 5500
 Wire Wire Line
-	1650 6400 1350 6400
-Wire Wire Line
-	1650 6300 1650 6400
-Wire Wire Line
-	1950 6300 1950 6450
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J5
-U 1 1 61960524
-P 1850 6000
-F 0 "J5" V 1854 6180 50  0000 L CNN
-F 1 "Conn_02x04_Counter_Clockwise" V 1945 6180 50  0000 L CNN
-F 2 "" H 1850 6000 50  0001 C CNN
-F 3 "~" H 1850 6000 50  0001 C CNN
-	1    1850 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 6700 1850 6300
+	2600 5700 2250 5700
 $Comp
 L power:GNDA #PWR046
 U 1 1 61C885C8
-P 1850 6700
-F 0 "#PWR046" H 1850 6450 50  0001 C CNN
-F 1 "GNDA" H 1855 6527 50  0000 C CNN
-F 2 "" H 1850 6700 50  0001 C CNN
-F 3 "" H 1850 6700 50  0001 C CNN
-	1    1850 6700
+P 2550 5750
+F 0 "#PWR046" H 2550 5500 50  0001 C CNN
+F 1 "GNDA" H 2555 5577 50  0000 C CNN
+F 2 "" H 2550 5750 50  0001 C CNN
+F 3 "" H 2550 5750 50  0001 C CNN
+	1    2550 5750
 	1    0    0    -1  
 $EndComp
-Text Label 1950 5800 1    50   ~ 0
-GPIO_4
-Text Label 1850 5800 1    50   ~ 0
-GPIO_3
-Text Label 1750 5800 1    50   ~ 0
-GPIO_2
-Text Label 1650 5800 1    50   ~ 0
-GPIO_1
-Wire Wire Line
-	1650 5550 1650 5800
-Wire Wire Line
-	1750 5550 1750 5800
-Wire Wire Line
-	1850 5550 1850 5800
-Wire Wire Line
-	1950 5550 1950 5800
-Entry Wire Line
-	1950 5550 2050 5450
-Entry Wire Line
-	1850 5550 1950 5450
-Entry Wire Line
-	1750 5550 1850 5450
-Entry Wire Line
-	1650 5550 1750 5450
 NoConn ~ 4150 2200
 NoConn ~ 4150 1650
 NoConn ~ 4150 2000
 NoConn ~ 4150 5700
-Wire Bus Line
-	1750 5450 3700 5450
 Wire Wire Line
-	3500 5600 4150 5600
-Text HLabel 3500 5600 0    50   Input ~ 0
+	4100 5600 4150 5600
+Text HLabel 4100 5600 0    50   Input ~ 0
 REF
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J5
+U 1 1 61960524
+P 2900 5500
+F 0 "J5" H 2950 5700 50  0000 L CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 2995 5680 50  0001 L CNN
+F 2 "" H 2900 5500 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5750 2550 5600
+Wire Wire Line
+	2550 5600 2600 5600
+Wire Wire Line
+	2250 5400 2600 5400
+Wire Wire Line
+	3450 5400 3450 5050
+Wire Wire Line
+	3450 5050 4150 5050
+Wire Wire Line
+	3100 5400 3450 5400
+Wire Wire Line
+	3550 5500 3550 5150
+Wire Wire Line
+	3550 5150 4150 5150
+Wire Wire Line
+	3100 5500 3550 5500
+Wire Wire Line
+	3650 5250 3650 5600
+Wire Wire Line
+	3650 5250 4150 5250
+Wire Wire Line
+	3100 5600 3650 5600
+Wire Wire Line
+	3750 5700 3750 5350
+Wire Wire Line
+	3750 5350 4150 5350
+Wire Wire Line
+	3100 5700 3750 5700
 $EndSCHEMATC
