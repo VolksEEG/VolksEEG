@@ -48,97 +48,14 @@ F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81
 	1    3100 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 3350 2100 3500
-Wire Wire Line
-	2100 3500 2600 3500
-Wire Wire Line
-	1600 5350 1600 5200
-Text Notes 2700 3150 0    50   ~ 0
+Text Notes 2650 4650 0    50   ~ 0
 +2.5V Voltage Supply
-Text Notes 2400 4650 0    50   ~ 0
--2.5V Voltage Supply
 Text Notes 3500 3500 0    50   ~ 0
 +2.5V@300mA
-Wire Wire Line
-	3450 3500 4100 3500
 Text Notes 3900 5050 0    50   ~ 0
 -2.5V@200mA
 Wire Wire Line
 	2750 4000 2750 3900
-$Comp
-L Device:C C8
-U 1 1 615F6FAA
-P 4100 3750
-F 0 "C8" H 4215 3796 50  0000 L CNN
-F 1 "2.2u" H 4215 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 3600 50  0001 C CNN
-F 3 "~" H 4100 3750 50  0001 C CNN
-	1    4100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 615F7350
-P 4100 5500
-F 0 "C9" H 4215 5546 50  0000 L CNN
-F 1 "2.2u" H 4215 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 5350 50  0001 C CNN
-F 3 "~" H 4100 5500 50  0001 C CNN
-	1    4100 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 5850 1600 5750
-Wire Wire Line
-	1600 5450 1600 5350
-Connection ~ 1600 5350
-Wire Wire Line
-	4100 5350 4100 5250
-Wire Wire Line
-	4100 5750 4100 5650
-Wire Wire Line
-	4100 3900 4100 4000
-Wire Wire Line
-	4100 3600 4100 3500
-Wire Wire Line
-	2100 3600 2100 3500
-Connection ~ 2100 3500
-Wire Wire Line
-	2100 4000 2100 3900
-$Comp
-L Device:C C?
-U 1 1 616629CA
-P 2100 3750
-F 0 "C?" H 2215 3796 50  0000 L CNN
-F 1 "2.2u" H 2215 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2138 3600 50  0001 C CNN
-F 3 "~" H 2100 3750 50  0001 C CNN
-	1    2100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 616634E2
-P 1600 5600
-F 0 "C?" H 1715 5646 50  0000 L CNN
-F 1 "2.2u" H 1715 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1638 5450 50  0001 C CNN
-F 3 "~" H 1600 5600 50  0001 C CNN
-	1    1600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6170FA02
-P 4550 3750
-F 0 "C?" H 4665 3796 50  0000 L CNN
-F 1 "10u" H 4665 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4588 3600 50  0001 C CNN
-F 3 "~" H 4550 3750 50  0001 C CNN
-	1    4550 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 61711D0F
@@ -152,11 +69,6 @@ F 3 "~" H 5600 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 3350 5600 3500
-Wire Wire Line
-	4100 3500 4550 3500
-Wire Wire Line
-	4550 3500 4550 3600
-Connection ~ 4100 3500
 $Comp
 L Device:L L?
 U 1 1 617157C6
@@ -169,28 +81,12 @@ F 3 "~" H 5050 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4550 3500 4900 3500
-Connection ~ 4550 3500
-Wire Wire Line
 	5200 3500 5600 3500
 Connection ~ 5600 3500
 Wire Wire Line
 	5600 3500 5600 3600
 Wire Wire Line
 	5600 4000 5600 3900
-Wire Wire Line
-	4550 4000 4550 3900
-$Comp
-L Device:C C?
-U 1 1 6171CAB5
-P 4550 5500
-F 0 "C?" H 4665 5546 50  0000 L CNN
-F 1 "10u" H 4665 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4588 5350 50  0001 C CNN
-F 3 "~" H 4550 5500 50  0001 C CNN
-	1    4550 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 6171CABB
@@ -204,10 +100,6 @@ F 3 "~" H 5600 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 5100 5600 5250
-Wire Wire Line
-	4100 5250 4550 5250
-Wire Wire Line
-	4550 5250 4550 5350
 $Comp
 L Device:L L?
 U 1 1 6171CAC4
@@ -220,28 +112,12 @@ F 3 "~" H 5050 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4550 5250 4900 5250
-Connection ~ 4550 5250
-Wire Wire Line
 	5200 5250 5600 5250
 Connection ~ 5600 5250
 Wire Wire Line
 	5600 5250 5600 5350
 Wire Wire Line
 	5600 5750 5600 5650
-Wire Wire Line
-	4550 5750 4550 5650
-$Comp
-L power:GNDA #PWR?
-U 1 1 618339B8
-P 2100 4000
-F 0 "#PWR?" H 2100 3750 50  0001 C CNN
-F 1 "GNDA" H 2105 3827 50  0000 C CNN
-F 2 "" H 2100 4000 50  0001 C CNN
-F 3 "" H 2100 4000 50  0001 C CNN
-	1    2100 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 61833DC2
@@ -255,28 +131,6 @@ F 3 "" H 2750 4000 50  0001 C CNN
 $EndComp
 $Comp
 L power:GNDA #PWR?
-U 1 1 61834203
-P 4100 4000
-F 0 "#PWR?" H 4100 3750 50  0001 C CNN
-F 1 "GNDA" H 4105 3827 50  0000 C CNN
-F 2 "" H 4100 4000 50  0001 C CNN
-F 3 "" H 4100 4000 50  0001 C CNN
-	1    4100 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61834625
-P 4550 4000
-F 0 "#PWR?" H 4550 3750 50  0001 C CNN
-F 1 "GNDA" H 4555 3827 50  0000 C CNN
-F 2 "" H 4550 4000 50  0001 C CNN
-F 3 "" H 4550 4000 50  0001 C CNN
-	1    4550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
 U 1 1 61834A53
 P 5600 4000
 F 0 "#PWR?" H 5600 3750 50  0001 C CNN
@@ -284,50 +138,6 @@ F 1 "GNDA" H 5605 3827 50  0000 C CNN
 F 2 "" H 5600 4000 50  0001 C CNN
 F 3 "" H 5600 4000 50  0001 C CNN
 	1    5600 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61834E8D
-P 1600 5850
-F 0 "#PWR?" H 1600 5600 50  0001 C CNN
-F 1 "GNDA" H 1605 5677 50  0000 C CNN
-F 2 "" H 1600 5850 50  0001 C CNN
-F 3 "" H 1600 5850 50  0001 C CNN
-	1    1600 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 618352D3
-P 2050 6300
-F 0 "#PWR?" H 2050 6050 50  0001 C CNN
-F 1 "GNDA" H 2055 6127 50  0000 C CNN
-F 2 "" H 2050 6300 50  0001 C CNN
-F 3 "" H 2050 6300 50  0001 C CNN
-	1    2050 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61835B83
-P 4100 5750
-F 0 "#PWR?" H 4100 5500 50  0001 C CNN
-F 1 "GNDA" H 4105 5577 50  0000 C CNN
-F 2 "" H 4100 5750 50  0001 C CNN
-F 3 "" H 4100 5750 50  0001 C CNN
-	1    4100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61835FED
-P 4550 5750
-F 0 "#PWR?" H 4550 5500 50  0001 C CNN
-F 1 "GNDA" H 4555 5577 50  0000 C CNN
-F 2 "" H 4550 5750 50  0001 C CNN
-F 3 "" H 4550 5750 50  0001 C CNN
-	1    4550 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -562,8 +372,6 @@ F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM2660MX-NOPB?qs=%2Fh
 $EndComp
 Connection ~ 3800 1300
 Wire Wire Line
-	4200 1300 3800 1300
-Wire Wire Line
 	4900 1300 4900 1400
 Connection ~ 4900 1300
 Wire Wire Line
@@ -623,8 +431,6 @@ $EndComp
 Wire Wire Line
 	3800 1400 3800 1300
 NoConn ~ 3150 1700
-Text Notes 3200 1300 0    50   ~ 0
-+3.3V@150mA
 Text Notes 2450 950  0    50   ~ 0
 3.3V Digital Voltage Supply
 Wire Wire Line
@@ -659,8 +465,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 3750 2600 3500
 Connection ~ 2600 3500
-Wire Wire Line
-	2600 3500 2750 3500
 Text HLabel 6350 3500 2    50   Output ~ 0
 +2V5
 Text HLabel 6300 5250 2    50   Output ~ 0
@@ -668,29 +472,27 @@ Text HLabel 6300 5250 2    50   Output ~ 0
 $Comp
 L Device:C C?
 U 1 1 619D4E35
-P 3600 4100
-F 0 "C?" H 3715 4146 50  0000 L CNN
-F 1 "10n" H 3715 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3638 3950 50  0001 C CNN
-F 3 "~" H 3600 4100 50  0001 C CNN
-	1    3600 4100
+P 3500 4100
+F 0 "C?" H 3615 4146 50  0000 L CNN
+F 1 "10n" H 3615 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 3950 50  0001 C CNN
+F 3 "~" H 3500 4100 50  0001 C CNN
+	1    3500 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4300 3600 4250
+	3500 4300 3500 4250
 Wire Wire Line
-	3600 3950 3600 3900
-Wire Wire Line
-	3600 3900 3450 3900
+	3500 3950 3500 3900
 $Comp
 L power:GNDA #PWR?
 U 1 1 619D4E3E
-P 3600 4300
-F 0 "#PWR?" H 3600 4050 50  0001 C CNN
-F 1 "GNDA" H 3605 4127 50  0000 C CNN
-F 2 "" H 3600 4300 50  0001 C CNN
-F 3 "" H 3600 4300 50  0001 C CNN
-	1    3600 4300
+P 3500 4300
+F 0 "#PWR?" H 3500 4050 50  0001 C CNN
+F 1 "GNDA" H 3505 4127 50  0000 C CNN
+F 2 "" H 3500 4300 50  0001 C CNN
+F 3 "" H 3500 4300 50  0001 C CNN
+	1    3500 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -814,10 +616,6 @@ F 3 "" H 3800 2450 50  0001 C CNN
 	1    3800 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 1300 3800 950 
-Wire Wire Line
-	3800 950  4000 950 
 $Comp
 L VolksEEG:+3V3A #PWR?
 U 1 1 61CE45B3
@@ -841,17 +639,6 @@ F 3 "" H 6850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VolksEEG:+3V3A #PWR?
-U 1 1 61CE56F9
-P 2100 3350
-F 0 "#PWR?" H 2100 3200 50  0001 C CNN
-F 1 "+3V3A" H 2115 3523 50  0000 C CNN
-F 2 "" H 2100 3350 50  0001 C CNN
-F 3 "" H 2100 3350 50  0001 C CNN
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L VolksEEG:-3V3A #PWR?
 U 1 1 61CE6601
 P 10500 1300
@@ -862,71 +649,7 @@ F 3 "" H 10500 1300 50  0001 C CNN
 	1    10500 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:-3V3A #PWR?
-U 1 1 61CE6D2F
-P 1600 5200
-F 0 "#PWR?" H 1600 5050 50  0001 C CNN
-F 1 "-3V3A" H 1615 5373 50  0000 C CNN
-F 2 "" H 1600 5200 50  0001 C CNN
-F 3 "" H 1600 5200 50  0001 C CNN
-	1    1600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L VolksEEG:ADP7182ACPZ-2.5-R7 U?
-U 1 1 61D5868A
-P 2250 5350
-F 0 "U?" H 3050 5837 60  0000 C CNN
-F 1 "ADP7182ACPZ-2.5-R7" H 3050 5731 60  0000 C CNN
-F 2 "CP_8_11_ADI" H 3050 5690 60  0001 C CNN
-F 3 "" H 2250 5350 60  0000 C CNN
-	1    2250 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 5350 1950 5350
-Wire Wire Line
-	2250 5450 2250 5350
-Connection ~ 2250 5350
-Wire Wire Line
-	3850 5350 3850 5250
-Wire Wire Line
-	4100 5250 3850 5250
 Connection ~ 4100 5250
-Connection ~ 3850 5250
-Wire Wire Line
-	2250 5650 2050 5650
-Wire Wire Line
-	2050 5650 2050 5350
-Connection ~ 2050 5350
-Wire Wire Line
-	2050 5350 2250 5350
-Wire Wire Line
-	2050 6300 2050 6150
-Wire Wire Line
-	2050 6150 2250 6150
-Wire Wire Line
-	2250 5750 1950 5750
-Wire Wire Line
-	1950 5750 1950 5350
-Connection ~ 1950 5350
-Wire Wire Line
-	1950 5350 2050 5350
-$Comp
-L Connector:TestPoint TP?
-U 1 1 617F0E86
-P 3800 850
-F 0 "TP?" H 3858 922 50  0000 L CNN
-F 1 "VDD_+3V3" H 3858 877 50  0001 L CNN
-F 2 "" H 4000 850 50  0001 C CNN
-F 3 "~" H 4000 850 50  0001 C CNN
-	1    3800 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 850  3800 950 
-Connection ~ 3800 950 
 $Comp
 L Connector:TestPoint TP?
 U 1 1 617F8D83
@@ -1334,4 +1057,270 @@ F 3 "~" H 7700 5050 50  0001 C CNN
 	1    7700 5050
 	1    0    0    -1  
 $EndComp
+Text Notes 2600 6450 0    50   ~ 0
+-2.5V Voltage Supply
+Wire Wire Line
+	2300 5750 2300 5650
+Wire Wire Line
+	2300 5350 2300 5250
+$Comp
+L Device:C C?
+U 1 1 616634E2
+P 2300 5500
+F 0 "C?" H 2415 5546 50  0000 L CNN
+F 1 "2.2u" H 2415 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2338 5350 50  0001 C CNN
+F 3 "~" H 2300 5500 50  0001 C CNN
+	1    2300 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61834E8D
+P 2300 5750
+F 0 "#PWR?" H 2300 5500 50  0001 C CNN
+F 1 "GNDA" H 2305 5577 50  0000 C CNN
+F 2 "" H 2300 5750 50  0001 C CNN
+F 3 "" H 2300 5750 50  0001 C CNN
+	1    2300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 618352D3
+P 3050 5850
+F 0 "#PWR?" H 3050 5600 50  0001 C CNN
+F 1 "GNDA" H 3055 5677 50  0000 C CNN
+F 2 "" H 3050 5850 50  0001 C CNN
+F 3 "" H 3050 5850 50  0001 C CNN
+	1    3050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VolksEEG:ADP7182ACPZ-2.5-R7 U?
+U 1 1 61D5868A
+P 3050 5350
+AR Path="/61D5868A" Ref="U?"  Part="1" 
+AR Path="/615BA255/61D5868A" Ref="U?"  Part="1" 
+F 0 "U?" H 3050 5800 60  0000 C CNN
+F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
+F 2 "CP_8_11_ADI" H 3850 5690 60  0001 C CNN
+F 3 "" H 3050 5350 60  0000 C CNN
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5850 3050 5800
+Wire Wire Line
+	2650 5500 2500 5500
+Wire Wire Line
+	2500 5500 2500 5250
+Connection ~ 2500 5250
+Wire Wire Line
+	2500 5250 2650 5250
+$Comp
+L Device:C C9
+U 1 1 615F7350
+P 3650 5500
+F 0 "C9" H 3765 5546 50  0000 L CNN
+F 1 "2.2u" H 3765 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3688 5350 50  0001 C CNN
+F 3 "~" H 3650 5500 50  0001 C CNN
+	1    3650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5350 3650 5250
+Wire Wire Line
+	3650 5750 3650 5650
+$Comp
+L Device:C C?
+U 1 1 6171CAB5
+P 4100 5500
+F 0 "C?" H 4215 5546 50  0000 L CNN
+F 1 "10u" H 4215 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 5350 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5250 4100 5350
+Wire Wire Line
+	4100 5750 4100 5650
+$Comp
+L power:GNDA #PWR?
+U 1 1 61835B83
+P 3650 5750
+F 0 "#PWR?" H 3650 5500 50  0001 C CNN
+F 1 "GNDA" H 3655 5577 50  0000 C CNN
+F 2 "" H 3650 5750 50  0001 C CNN
+F 3 "" H 3650 5750 50  0001 C CNN
+	1    3650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61835FED
+P 4100 5750
+F 0 "#PWR?" H 4100 5500 50  0001 C CNN
+F 1 "GNDA" H 4105 5577 50  0000 C CNN
+F 2 "" H 4100 5750 50  0001 C CNN
+F 3 "" H 4100 5750 50  0001 C CNN
+	1    4100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5250 3650 5250
+Wire Wire Line
+	3650 5250 4100 5250
+Connection ~ 3650 5250
+Wire Wire Line
+	4100 5250 4900 5250
+Wire Wire Line
+	3500 3900 3450 3900
+Wire Wire Line
+	3450 3500 3900 3500
+$Comp
+L power:GNDA #PWR?
+U 1 1 61834625
+P 4350 4000
+F 0 "#PWR?" H 4350 3750 50  0001 C CNN
+F 1 "GNDA" H 4355 3827 50  0000 C CNN
+F 2 "" H 4350 4000 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61834203
+P 3900 4000
+F 0 "#PWR?" H 3900 3750 50  0001 C CNN
+F 1 "GNDA" H 3905 3827 50  0000 C CNN
+F 2 "" H 3900 4000 50  0001 C CNN
+F 3 "" H 3900 4000 50  0001 C CNN
+	1    3900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4000 4350 3900
+Wire Wire Line
+	4350 3500 4350 3600
+$Comp
+L Device:C C?
+U 1 1 6170FA02
+P 4350 3750
+F 0 "C?" H 4465 3796 50  0000 L CNN
+F 1 "10u" H 4465 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4388 3600 50  0001 C CNN
+F 3 "~" H 4350 3750 50  0001 C CNN
+	1    4350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3600 3900 3500
+Wire Wire Line
+	3900 3900 3900 4000
+$Comp
+L Device:C C8
+U 1 1 615F6FAA
+P 3900 3750
+F 0 "C8" H 4015 3796 50  0000 L CNN
+F 1 "2.2u" H 4015 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3938 3600 50  0001 C CNN
+F 3 "~" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	4350 3500 4900 3500
+Wire Wire Line
+	3900 3500 4350 3500
+Wire Wire Line
+	2600 3500 2750 3500
+Wire Wire Line
+	2100 3350 2100 3500
+Wire Wire Line
+	2100 3500 2600 3500
+Wire Wire Line
+	2100 3600 2100 3500
+Connection ~ 2100 3500
+$Comp
+L VolksEEG:+3V3A #PWR?
+U 1 1 61CE56F9
+P 2100 3350
+F 0 "#PWR?" H 2100 3200 50  0001 C CNN
+F 1 "+3V3A" H 2115 3523 50  0000 C CNN
+F 2 "" H 2100 3350 50  0001 C CNN
+F 3 "" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 618339B8
+P 2100 4000
+F 0 "#PWR?" H 2100 3750 50  0001 C CNN
+F 1 "GNDA" H 2105 3827 50  0000 C CNN
+F 2 "" H 2100 4000 50  0001 C CNN
+F 3 "" H 2100 4000 50  0001 C CNN
+	1    2100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 616629CA
+P 2100 3750
+F 0 "C?" H 2215 3796 50  0000 L CNN
+F 1 "2.2u" H 2215 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2138 3600 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4000 2100 3900
+Connection ~ 2300 5250
+Wire Wire Line
+	2300 5250 2500 5250
+Text Notes 3200 1300 0    50   ~ 0
++3.3V@150mA
+Wire Wire Line
+	4200 1300 3800 1300
+Connection ~ 3800 950 
+Wire Wire Line
+	3800 850  3800 950 
+$Comp
+L Connector:TestPoint TP?
+U 1 1 617F0E86
+P 3800 850
+F 0 "TP?" H 3858 922 50  0000 L CNN
+F 1 "VDD_+3V3" H 3858 877 50  0001 L CNN
+F 2 "" H 4000 850 50  0001 C CNN
+F 3 "~" H 4000 850 50  0001 C CNN
+	1    3800 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 950  4000 950 
+Wire Wire Line
+	3800 1300 3800 950 
+Wire Wire Line
+	2200 5250 2200 5100
+$Comp
+L VolksEEG:-3V3A #PWR?
+U 1 1 61CE6D2F
+P 2200 5100
+F 0 "#PWR?" H 2200 4950 50  0001 C CNN
+F 1 "-3V3A" H 2215 5273 50  0000 C CNN
+F 2 "" H 2200 5100 50  0001 C CNN
+F 3 "" H 2200 5100 50  0001 C CNN
+	1    2200 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5250 2300 5250
 $EndSCHEMATC
