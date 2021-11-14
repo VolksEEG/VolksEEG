@@ -60,7 +60,7 @@ Wire Wire Line
 	5600 2450 5400 2450
 Text HLabel 9950 2000 2    50   Output ~ 0
 +5V
-Text HLabel 5550 1400 2    50   Input ~ 0
+Text HLabel 5550 1550 2    50   Input ~ 0
 +3V3
 $Comp
 L VolksEEG:GND_ni #PWR?
@@ -106,9 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2750 3050 2750
 Wire Wire Line
-	5550 1400 5350 1400
-Wire Wire Line
-	5350 1400 5350 1550
+	5550 1550 5350 1550
 $Comp
 L Device:C C?
 U 1 1 61EA4FDB
