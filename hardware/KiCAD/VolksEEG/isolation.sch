@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7750 2000 0    50   Input ~ 0
+Text HLabel 7250 2000 0    50   Input ~ 0
 +3V3_ni
 Text HLabel 2000 2450 0    50   Input ~ 0
 MOSI_ni
@@ -31,10 +31,6 @@ Text HLabel 5600 2650 2    50   Output ~ 0
 nCS
 Text HLabel 5600 2750 2    50   Output ~ 0
 SCK
-Text HLabel 9950 2300 2    50   Output ~ 0
-GNDD
-Wire Wire Line
-	9950 2300 9850 2300
 $Comp
 L power:GNDD #PWR?
 U 1 1 618E335E
@@ -130,13 +126,13 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP23
 U 1 1 61EB76CD
-P 9850 2400
-F 0 "TP23" H 9908 2518 50  0000 L CNN
-F 1 "TestPoint" H 9908 2427 50  0001 L CNN
-F 2 "" H 10050 2400 50  0001 C CNN
-F 3 "~" H 10050 2400 50  0001 C CNN
-	1    9850 2400
-	1    0    0    1   
+P 9950 2300
+F 0 "TP23" V 9950 2500 50  0000 L CNN
+F 1 "TestPoint" H 10008 2327 50  0001 L CNN
+F 2 "" H 10150 2300 50  0001 C CNN
+F 3 "~" H 10150 2300 50  0001 C CNN
+	1    9950 2300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP22
@@ -163,13 +159,13 @@ $EndComp
 $Comp
 L Connector:TestPoint TP20
 U 1 1 617B0B48
-P 7950 2450
-F 0 "TP20" H 8008 2568 50  0000 L CNN
-F 1 "TestPoint" H 8008 2477 50  0001 L CNN
-F 2 "" H 8150 2450 50  0001 C CNN
-F 3 "~" H 8150 2450 50  0001 C CNN
-	1    7950 2450
-	-1   0    0    1   
+P 8000 2300
+F 0 "TP20" V 8000 2500 50  0000 L CNN
+F 1 "TestPoint" H 8058 2327 50  0001 L CNN
+F 2 "" H 8200 2300 50  0001 C CNN
+F 3 "~" H 8200 2300 50  0001 C CNN
+	1    8000 2300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP21
@@ -565,13 +561,9 @@ F 3 "" H 8750 1950 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8200 2450 8200 2300
-Wire Wire Line
-	7950 2450 7950 2300
 Connection ~ 8200 2300
 Wire Wire Line
 	8200 2300 8300 2300
-Wire Wire Line
-	7950 2300 8200 2300
 Wire Wire Line
 	8200 1900 8200 2000
 Wire Wire Line
@@ -590,18 +582,13 @@ Connection ~ 9300 2300
 Wire Wire Line
 	9300 2300 9600 2300
 Wire Wire Line
-	9850 2400 9850 2300
-Wire Wire Line
-	9600 2300 9850 2300
-Connection ~ 9850 2300
-Wire Wire Line
 	9850 1950 9850 2000
 Connection ~ 9850 2000
 Wire Wire Line
 	9850 2000 9950 2000
 Text Notes 7950 3150 0    100  ~ 0
 5V Boost Converter\n(Isolation)
-Text Label 7800 2000 0    50   ~ 0
+Text Label 7300 2000 0    50   ~ 0
 +3V3_ni
 Text Label 2350 4400 0    50   ~ 0
 +3V3_ni
@@ -611,7 +598,7 @@ Connection ~ 8200 2000
 Wire Wire Line
 	8200 2000 8300 2000
 Wire Wire Line
-	7750 2000 8200 2000
+	7250 2000 7700 2000
 Wire Wire Line
 	7600 4650 7600 4800
 Wire Wire Line
@@ -740,10 +727,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 1450 3000 1450
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP3
 U 1 1 619AB4BD
 P 3100 5250
-F 0 "JP?" H 3100 5371 50  0000 C CNN
+F 0 "JP3" H 3100 5371 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 3100 5371 50  0001 C CNN
 F 2 "" H 3100 5250 50  0001 C CNN
 F 3 "~" H 3100 5250 50  0001 C CNN
@@ -753,10 +740,10 @@ $EndComp
 Wire Wire Line
 	3000 5250 2700 5250
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP4
 U 1 1 619AEAC9
 P 4450 2300
-F 0 "JP?" H 4450 2421 50  0000 C CNN
+F 0 "JP4" H 4450 2421 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 4450 2421 50  0001 C CNN
 F 2 "" H 4450 2300 50  0001 C CNN
 F 3 "~" H 4450 2300 50  0001 C CNN
@@ -770,4 +757,21 @@ Wire Wire Line
 	4800 1550 5050 1550
 Wire Wire Line
 	4350 1550 4800 1550
+$Comp
+L Device:Jumper_NC_Small JP5
+U 1 1 6192FDD4
+P 7800 2000
+F 0 "JP5" H 7800 2121 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7800 2121 50  0001 C CNN
+F 2 "" H 7800 2000 50  0001 C CNN
+F 3 "~" H 7800 2000 50  0001 C CNN
+	1    7800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2000 8200 2000
+Wire Wire Line
+	8000 2300 8200 2300
+Wire Wire Line
+	9600 2300 9950 2300
 $EndSCHEMATC
