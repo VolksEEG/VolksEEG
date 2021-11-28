@@ -1,6 +1,8 @@
 For more information on VolksEEG (beyond this readme):
 - Further technical details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
-- The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4) 
+- The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4).
+- The PC Software repository may be found [here](https://github.com/VolksEEG/eeg-pc-software).
+- The Firmware repository may be found [here](https://github.com/VolksEEG/eeg-device-firmware).
 
 *The VolksEEG project will culminate in the creation of an open-source
 electroencephalogram (EEG) machine, fully-functional for clinical use.
