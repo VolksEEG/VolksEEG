@@ -1,35 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP +3.3V
-D Power symbol creates a global label with name "+3.3V"
-K power-flag
-$ENDCMP
-#
-$CMP +3.3V_copy
-D Power symbol creates a global label with name "+3.3V"
-K power-flag
-$ENDCMP
-#
-$CMP +3.3V_copy_copy
-D Power symbol creates a global label with name "+3.3V"
-K power-flag
-$ENDCMP
-#
-$CMP +3V3A
-D Power symbol creates a global label with name "+3V3"
-K power-flag
-$ENDCMP
-#
-$CMP +3V3_ni
-D Power symbol creates a global label with name "+3V3"
-K power-flag
-$ENDCMP
-#
-$CMP -3V3A
-D Power symbol creates a global label with name "+3V3"
-K power-flag
-$ENDCMP
-#
 $CMP 693061010911
 D CONN SD CARD PUSH-PUSH R/A SMD
 F https://www.we-online.com/catalog/datasheet/693061010911.pdf
