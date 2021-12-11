@@ -107,6 +107,8 @@ F 0 "C4" H 5050 1700 50  0000 R CNN
 F 1 "100n" H 5100 1800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4838 1600 50  0001 C CNN
 F 3 "~" H 4800 1750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4800 1750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 4800 1750 50  0001 C CNN "Part Number"
 	1    4800 1750
 	1    0    0    1   
 $EndComp
@@ -118,6 +120,8 @@ F 0 "C2" H 2885 1604 50  0000 R CNN
 F 1 "100n" H 2885 1695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 1500 50  0001 C CNN
 F 3 "~" H 3000 1650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3000 1650 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 3000 1650 50  0001 C CNN "Part Number"
 	1    3000 1650
 	1    0    0    1   
 $EndComp
@@ -129,8 +133,10 @@ U 1 1 61EB76CD
 P 9950 2300
 F 0 "TP23" V 9950 2500 50  0000 L CNN
 F 1 "TestPoint" H 10008 2327 50  0001 L CNN
-F 2 "" H 10150 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 10150 2300 50  0001 C CNN
 F 3 "~" H 10150 2300 50  0001 C CNN
+F 4 "N/A" H 9950 2300 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 9950 2300 50  0001 C CNN "Part Number"
 	1    9950 2300
 	0    1    -1   0   
 $EndComp
@@ -140,8 +146,10 @@ U 1 1 61EBA0D3
 P 9850 1950
 F 0 "TP22" H 9908 2068 50  0000 L CNN
 F 1 "TestPoint" H 9908 1977 50  0001 L CNN
-F 2 "" H 10050 1950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 10050 1950 50  0001 C CNN
 F 3 "~" H 10050 1950 50  0001 C CNN
+F 4 "N/A" H 9850 1950 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 9850 1950 50  0001 C CNN "Part Number"
 	1    9850 1950
 	1    0    0    -1  
 $EndComp
@@ -153,6 +161,8 @@ F 0 "C6" H 9200 2100 50  0000 R CNN
 F 1 "100n" H 9200 2200 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9338 2000 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9300 2150 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 9300 2150 50  0001 C CNN "Part Number"
 	1    9300 2150
 	-1   0    0    1   
 $EndComp
@@ -162,8 +172,10 @@ U 1 1 617B0B48
 P 8000 2300
 F 0 "TP20" V 8000 2500 50  0000 L CNN
 F 1 "TestPoint" H 8058 2327 50  0001 L CNN
-F 2 "" H 8200 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 8200 2300 50  0001 C CNN
 F 3 "~" H 8200 2300 50  0001 C CNN
+F 4 "N/A" H 8000 2300 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 8000 2300 50  0001 C CNN "Part Number"
 	1    8000 2300
 	0    -1   -1   0   
 $EndComp
@@ -173,8 +185,10 @@ U 1 1 617B0F77
 P 8200 1900
 F 0 "TP21" H 8258 2018 50  0000 L CNN
 F 1 "TestPoint" H 8258 1927 50  0001 L CNN
-F 2 "" H 8400 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 8400 1900 50  0001 C CNN
 F 3 "~" H 8400 1900 50  0001 C CNN
+F 4 "N/A" H 8200 1900 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 8200 1900 50  0001 C CNN "Part Number"
 	1    8200 1900
 	-1   0    0    -1  
 $EndComp
@@ -184,8 +198,10 @@ U 1 1 617C5C63
 P 4750 2850
 F 0 "TP14" H 4650 3100 50  0000 L CNN
 F 1 "TestPoint" H 4350 2900 50  0001 L CNN
-F 2 "" H 4950 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 4950 2850 50  0001 C CNN
 F 3 "~" H 4950 2850 50  0001 C CNN
+F 4 "N/A" H 4750 2850 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4750 2850 50  0001 C CNN "Part Number"
 	1    4750 2850
 	1    0    0    1   
 $EndComp
@@ -195,8 +211,10 @@ U 1 1 617D3824
 P 3050 2900
 F 0 "TP13" H 2950 3100 50  0000 L CNN
 F 1 "TestPoint" H 3108 2927 50  0001 L CNN
-F 2 "" H 3250 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 3250 2900 50  0001 C CNN
 F 3 "~" H 3250 2900 50  0001 C CNN
+F 4 "N/A" H 3050 2900 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 3050 2900 50  0001 C CNN "Part Number"
 	1    3050 2900
 	-1   0    0    1   
 $EndComp
@@ -206,8 +224,10 @@ U 1 1 617D56DF
 P 4950 3050
 F 0 "TP15" H 4850 3300 50  0000 L CNN
 F 1 "TestPoint" H 4550 3100 50  0001 L CNN
-F 2 "" H 5150 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5150 3050 50  0001 C CNN
 F 3 "~" H 5150 3050 50  0001 C CNN
+F 4 "N/A" H 4950 3050 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4950 3050 50  0001 C CNN "Part Number"
 	1    4950 3050
 	1    0    0    1   
 $EndComp
@@ -217,8 +237,10 @@ U 1 1 617D861C
 P 5200 2850
 F 0 "TP16" H 5100 3100 50  0000 L CNN
 F 1 "TestPoint" H 4800 2900 50  0001 L CNN
-F 2 "" H 5400 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5400 2850 50  0001 C CNN
 F 3 "~" H 5400 2850 50  0001 C CNN
+F 4 "N/A" H 5200 2850 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 5200 2850 50  0001 C CNN "Part Number"
 	1    5200 2850
 	1    0    0    1   
 $EndComp
@@ -228,8 +250,10 @@ U 1 1 617D8738
 P 5400 3050
 F 0 "TP18" H 5300 3300 50  0000 L CNN
 F 1 "TestPoint" H 5000 3100 50  0001 L CNN
-F 2 "" H 5600 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5600 3050 50  0001 C CNN
 F 3 "~" H 5600 3050 50  0001 C CNN
+F 4 "N/A" H 5400 3050 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 5400 3050 50  0001 C CNN "Part Number"
 	1    5400 3050
 	1    0    0    1   
 $EndComp
@@ -239,8 +263,10 @@ U 1 1 617D8854
 P 2850 2850
 F 0 "TP12" H 2750 3050 50  0000 L CNN
 F 1 "TestPoint" H 2908 2877 50  0001 L CNN
-F 2 "" H 3050 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 3050 2850 50  0001 C CNN
 F 3 "~" H 3050 2850 50  0001 C CNN
+F 4 "N/A" H 2850 2850 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 2850 2850 50  0001 C CNN "Part Number"
 	1    2850 2850
 	-1   0    0    1   
 $EndComp
@@ -250,8 +276,10 @@ U 1 1 617D8970
 P 2650 2400
 F 0 "TP10" H 2550 2600 50  0000 L CNN
 F 1 "TestPoint" H 2708 2427 50  0001 L CNN
-F 2 "" H 2850 2400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2850 2400 50  0001 C CNN
 F 3 "~" H 2850 2400 50  0001 C CNN
+F 4 "N/A" H 2650 2400 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 2650 2400 50  0001 C CNN "Part Number"
 	1    2650 2400
 	1    0    0    -1  
 $EndComp
@@ -261,8 +289,10 @@ U 1 1 617D8A96
 P 2450 2300
 F 0 "TP8" H 2400 2500 50  0000 L CNN
 F 1 "TestPoint" H 2508 2327 50  0001 L CNN
-F 2 "" H 2650 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2650 2300 50  0001 C CNN
 F 3 "~" H 2650 2300 50  0001 C CNN
+F 4 "N/A" H 2450 2300 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 2450 2300 50  0001 C CNN "Part Number"
 	1    2450 2300
 	1    0    0    -1  
 $EndComp
@@ -399,6 +429,8 @@ F 0 "C5" H 4900 4650 50  0000 R CNN
 F 1 "100n" H 4950 4750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4688 4550 50  0001 C CNN
 F 3 "~" H 4650 4700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4650 4700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 4650 4700 50  0001 C CNN "Part Number"
 	1    4650 4700
 	1    0    0    1   
 $EndComp
@@ -410,6 +442,8 @@ F 0 "C3" H 2735 4554 50  0000 R CNN
 F 1 "100n" H 2735 4645 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 4450 50  0001 C CNN
 F 3 "~" H 2850 4600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2850 4600 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 2850 4600 50  0001 C CNN "Part Number"
 	1    2850 4600
 	-1   0    0    1   
 $EndComp
@@ -421,8 +455,10 @@ U 1 1 6187255B
 P 2700 5650
 F 0 "TP11" H 2650 5850 50  0000 L CNN
 F 1 "TestPoint" H 2758 5677 50  0001 L CNN
-F 2 "" H 2900 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2900 5650 50  0001 C CNN
 F 3 "~" H 2900 5650 50  0001 C CNN
+F 4 "N/A" H 2700 5650 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 2700 5650 50  0001 C CNN "Part Number"
 	1    2700 5650
 	-1   0    0    1   
 $EndComp
@@ -432,8 +468,10 @@ U 1 1 61872561
 P 2500 5550
 F 0 "TP9" H 2450 5750 50  0000 L CNN
 F 1 "TestPoint" H 2558 5577 50  0001 L CNN
-F 2 "" H 2700 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2700 5550 50  0001 C CNN
 F 3 "~" H 2700 5550 50  0001 C CNN
+F 4 "N/A" H 2500 5550 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 2500 5550 50  0001 C CNN "Part Number"
 	1    2500 5550
 	-1   0    0    1   
 $EndComp
@@ -518,8 +556,10 @@ U 1 1 6187254F
 P 4950 5650
 F 0 "TP19" H 4850 5850 50  0000 L CNN
 F 1 "TestPoint" H 4550 5700 50  0001 L CNN
-F 2 "" H 5150 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5150 5650 50  0001 C CNN
 F 3 "~" H 5150 5650 50  0001 C CNN
+F 4 "N/A" H 4950 5650 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4950 5650 50  0001 C CNN "Part Number"
 	1    4950 5650
 	1    0    0    1   
 $EndComp
@@ -529,8 +569,10 @@ U 1 1 61872549
 P 4650 5600
 F 0 "TP17" H 4550 5800 50  0000 L CNN
 F 1 "TestPoint" H 4250 5650 50  0001 L CNN
-F 2 "" H 4850 5600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 4850 5600 50  0001 C CNN
 F 3 "~" H 4850 5600 50  0001 C CNN
+F 4 "N/A" H 4650 5600 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4650 5600 50  0001 C CNN "Part Number"
 	1    4650 5600
 	1    0    0    1   
 $EndComp
@@ -654,8 +696,10 @@ AR Path="/615BA20B/618CCE26" Ref="D?"  Part="1"
 AR Path="/61731DC5/618CCE26" Ref="D2"  Part="1" 
 F 0 "D2" H 7700 4800 50  0000 C CNN
 F 1 "Green" H 7500 4800 50  0000 C CNN
-F 2 "" H 7600 4950 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 4950 50  0001 C CNN
 F 3 "~" H 7600 4950 50  0001 C CNN
+F 4 "Stanley Electric Co" H 7600 4950 50  0001 C CNN "Manufacturer"
+F 5 "VFHL1116P-4BX3C-TR" H 7600 4950 50  0001 C CNN "Part Number"
 	1    7600 4950
 	0    -1   -1   0   
 $EndComp
@@ -679,9 +723,11 @@ P 8300 4950
 AR Path="/615BA20B/618CA26A" Ref="D?"  Part="1" 
 AR Path="/61731DC5/618CA26A" Ref="D3"  Part="1" 
 F 0 "D3" H 8400 4800 50  0000 C CNN
-F 1 "Blue" H 8200 4800 50  0000 C CNN
-F 2 "" H 8300 4950 50  0001 C CNN
+F 1 "Yellow" H 8200 4800 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 4950 50  0001 C CNN
 F 3 "~" H 8300 4950 50  0001 C CNN
+F 4 "VFHY1104P-4C42D-TR" H 8300 4950 50  0001 C CNN "Manufacturer"
+F 5 "VFHY1104P-4C42D-TR" H 8300 4950 50  0001 C CNN "Part Number"
 	1    8300 4950
 	0    -1   -1   0   
 $EndComp
@@ -732,8 +778,10 @@ U 1 1 619AB4BD
 P 3100 5250
 F 0 "JP3" H 3100 5371 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 3100 5371 50  0001 C CNN
-F 2 "" H 3100 5250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 3100 5250 50  0001 C CNN
 F 3 "~" H 3100 5250 50  0001 C CNN
+F 4 "N/A" H 3100 5250 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 3100 5250 50  0001 C CNN "Part Number"
 	1    3100 5250
 	1    0    0    -1  
 $EndComp
@@ -745,8 +793,10 @@ U 1 1 619AEAC9
 P 4450 2300
 F 0 "JP4" H 4450 2421 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 4450 2421 50  0001 C CNN
-F 2 "" H 4450 2300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4450 2300 50  0001 C CNN
 F 3 "~" H 4450 2300 50  0001 C CNN
+F 4 "N/A" H 4450 2300 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4450 2300 50  0001 C CNN "Part Number"
 	1    4450 2300
 	1    0    0    -1  
 $EndComp
@@ -763,8 +813,10 @@ U 1 1 6192FDD4
 P 7800 2000
 F 0 "JP5" H 7800 2121 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 7800 2121 50  0001 C CNN
-F 2 "" H 7800 2000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7800 2000 50  0001 C CNN
 F 3 "~" H 7800 2000 50  0001 C CNN
+F 4 "N/A" H 7800 2000 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 7800 2000 50  0001 C CNN "Part Number"
 	1    7800 2000
 	1    0    0    -1  
 $EndComp
