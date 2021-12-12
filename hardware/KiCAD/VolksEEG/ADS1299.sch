@@ -21,6 +21,8 @@ F 0 "U9" H 4850 6620 50  0000 C CNN
 F 1 "ADS1299IPAG" H 4850 6529 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4850 3850 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1299.pdf" H 4850 3850 50  0001 L BNN
+F 4 "Texas Instruments" H 4850 3850 50  0001 C CNN "Manufacturer"
+F 5 "ADS1299IPAG" H 4850 3850 50  0001 C CNN "Part Number"
 	1    4850 3850
 	1    0    0    -1  
 $EndComp
@@ -150,6 +152,8 @@ F 0 "R32" H 2120 4696 50  0000 L CNN
 F 1 "10K" H 2120 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1980 4650 50  0001 C CNN
 F 3 "~" H 2050 4650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 2050 4650 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 2050 4650 50  0001 C CNN "Part Number"
 	1    2050 4650
 	0    1    1    0   
 $EndComp
@@ -317,6 +321,8 @@ F 0 "R37" V 6750 2100 50  0000 L CNN
 F 1 "10K" V 6750 1900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 2050 50  0001 C CNN
 F 3 "~" H 6650 2050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 6650 2050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 6650 2050 50  0001 C CNN "Part Number"
 	1    6650 2050
 	-1   0    0    1   
 $EndComp
@@ -411,6 +417,8 @@ F 0 "R36" V 4150 900 50  0000 L CNN
 F 1 "10K" V 4150 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 1000 50  0001 C CNN
 F 3 "~" H 4050 1000 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4050 1000 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 4050 1000 50  0001 C CNN "Part Number"
 	1    4050 1000
 	-1   0    0    1   
 $EndComp
@@ -430,6 +438,8 @@ F 0 "R35" V 3900 900 50  0000 L CNN
 F 1 "10K" V 3900 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3730 1000 50  0001 C CNN
 F 3 "~" H 3800 1000 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 3800 1000 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 3800 1000 50  0001 C CNN "Part Number"
 	1    3800 1000
 	-1   0    0    1   
 $EndComp
@@ -484,6 +494,8 @@ F 0 "R34" V 3650 900 50  0000 L CNN
 F 1 "10K" V 3650 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3480 1000 50  0001 C CNN
 F 3 "~" H 3550 1000 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 3550 1000 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 3550 1000 50  0001 C CNN "Part Number"
 	1    3550 1000
 	-1   0    0    1   
 $EndComp
@@ -568,6 +580,8 @@ F 0 "R33" H 2970 4146 50  0000 L CNN
 F 1 "10K" H 2970 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 4100 50  0001 C CNN
 F 3 "~" H 2900 4100 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 2900 4100 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT10K0" H 2900 4100 50  0001 C CNN "Part Number"
 	1    2900 4100
 	0    1    1    0   
 $EndComp

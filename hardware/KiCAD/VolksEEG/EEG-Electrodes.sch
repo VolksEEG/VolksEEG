@@ -21,6 +21,8 @@ F 0 "R21" V 5593 1850 50  0000 C CNN
 F 1 "4.99k" V 5684 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 1850 50  0001 C CNN
 F 3 "~" H 5800 1850 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 1850 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 1850 50  0001 C CNN "Part Number"
 	1    5800 1850
 	0    1    1    0   
 $EndComp
@@ -61,6 +63,8 @@ F 0 "R22" V 5593 2150 50  0000 C CNN
 F 1 "4.99k" V 5684 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2150 50  0001 C CNN
 F 3 "~" H 5800 2150 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2150 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2150 50  0001 C CNN "Part Number"
 	1    5800 2150
 	0    1    1    0   
 $EndComp
@@ -72,6 +76,8 @@ F 0 "R23" V 5593 2450 50  0000 C CNN
 F 1 "4.99k" V 5684 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2450 50  0001 C CNN
 F 3 "~" H 5800 2450 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2450 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2450 50  0001 C CNN "Part Number"
 	1    5800 2450
 	0    1    1    0   
 $EndComp
@@ -83,6 +89,8 @@ F 0 "R25" V 5593 3050 50  0000 C CNN
 F 1 "4.99k" V 5684 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3050 50  0001 C CNN
 F 3 "~" H 5800 3050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3050 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3050 50  0001 C CNN "Part Number"
 	1    5800 3050
 	0    1    1    0   
 $EndComp
@@ -94,6 +102,8 @@ F 0 "R24" V 5593 2750 50  0000 C CNN
 F 1 "4.99k" V 5684 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2750 50  0001 C CNN
 F 3 "~" H 5800 2750 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2750 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2750 50  0001 C CNN "Part Number"
 	1    5800 2750
 	0    1    1    0   
 $EndComp
@@ -105,6 +115,8 @@ F 0 "R26" V 5593 3350 50  0000 C CNN
 F 1 "4.99k" V 5684 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3350 50  0001 C CNN
 F 3 "~" H 5800 3350 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3350 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3350 50  0001 C CNN "Part Number"
 	1    5800 3350
 	0    1    1    0   
 $EndComp
@@ -116,6 +128,8 @@ F 0 "R27" V 5593 3650 50  0000 C CNN
 F 1 "4.99k" V 5684 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3650 50  0001 C CNN
 F 3 "~" H 5800 3650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3650 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3650 50  0001 C CNN "Part Number"
 	1    5800 3650
 	0    1    1    0   
 $EndComp
@@ -127,6 +141,8 @@ F 0 "R28" V 5593 3950 50  0000 C CNN
 F 1 "4.99k" V 5684 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3950 50  0001 C CNN
 F 3 "~" H 5800 3950 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3950 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3950 50  0001 C CNN "Part Number"
 	1    5800 3950
 	0    1    1    0   
 $EndComp
@@ -249,6 +265,8 @@ F 0 "R29" V 5593 4600 50  0000 C CNN
 F 1 "4.99k" V 5684 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 4600 50  0001 C CNN
 F 3 "~" H 5800 4600 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 4600 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 4600 50  0001 C CNN "Part Number"
 	1    5800 4600
 	0    1    1    0   
 $EndComp
@@ -344,6 +362,8 @@ F 0 "R20" V 2693 5050 50  0000 C CNN
 F 1 "1M" V 2784 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5050 50  0001 C CNN
 F 3 "~" H 2900 5050 50  0001 C CNN
+F 4 "TE Connectivity Passive Product" H 2900 5050 50  0001 C CNN "Manufacturer"
+F 5 "CPF0603B1M0E1" H 2900 5050 50  0001 C CNN "Part Number"
 	1    2900 5050
 	1    0    0    -1  
 $EndComp
@@ -357,6 +377,8 @@ F 0 "R30" V 5593 5200 50  0000 C CNN
 F 1 "4.99k" V 5684 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 5200 50  0001 C CNN
 F 3 "~" H 5800 5200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 5200 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 5200 50  0001 C CNN "Part Number"
 	1    5800 5200
 	0    1    1    0   
 $EndComp

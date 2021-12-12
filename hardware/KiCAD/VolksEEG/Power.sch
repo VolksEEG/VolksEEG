@@ -336,6 +336,8 @@ F 2 "VolksEEG:SOIC127P599X175-8N" H 8000 1650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/LM2660" H 7850 1950 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2660MX-NOPB/366876?s=N4IgTCBcDaIDIFkwDZkAYEA0D0A5A8gAoBCABCALoC%2BQA" H 8000 1650 50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM2660MX-NOPB?qs=%2Fha2pyFadugHGOygNHaYnDjgJHODW6F6O01kwvJjsKBnt2qN9JbSfA%3D%3D" H 8000 1650 50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 8000 1650 50  0001 C CNN "Manufacturer"
+F 7 "LM2660MX" H 8000 1650 50  0001 C CNN "Part Number"
 	1    8000 1650
 	1    0    0    -1  
 $EndComp
@@ -471,6 +473,8 @@ F 0 "R31" V 4093 1850 50  0000 C CNN
 F 1 "0R" V 4184 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4230 1850 50  0001 C CNN
 F 3 "~" H 4300 1850 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 4300 1850 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 4300 1850 50  0001 C CNN "Part Number"
 	1    4300 1850
 	0    1    1    0   
 $EndComp
@@ -841,8 +845,10 @@ AR Path="/61D5868A" Ref="U?"  Part="1"
 AR Path="/615BA255/61D5868A" Ref="U6"  Part="1" 
 F 0 "U6" H 3050 5800 60  0000 C CNN
 F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
-F 2 "" H 3850 5690 60  0001 C CNN
+F 2 "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" H 3850 5690 60  0001 C CNN
 F 3 "" H 3050 5350 60  0000 C CNN
+F 4 "Analog Devices Inc." H 3050 5350 50  0001 C CNN "Manufacturer"
+F 5 "ADP7182ACPZN-2.5R7" H 3050 5350 50  0001 C CNN "Part Number"
 	1    3050 5350
 	1    0    0    -1  
 $EndComp
@@ -1088,6 +1094,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2800 850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/LP3990" H 2800 1900 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LP3990MF-3-3-NOPB/953453?s=N4IgTCBcDaIDIAUDMBOFAGAsgMQLRIDokB6AOQHkEAhAAhAF0BfIA" H 3150 650 50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LP3990MF-33-NOPB?qs=1FNqv8aZn1ScRIqY9rNFxg%3D%3D" H 3300 1000 50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 2800 1500 50  0001 C CNN "Manufacturer"
+F 7 "LP3990MF-3.3" H 2800 1500 50  0001 C CNN "Part Number"
 	1    2800 1500
 	1    0    0    -1  
 $EndComp
@@ -1103,6 +1111,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3450 3300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/tps784-q1" H 3100 3700 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS78425QDBVRQ1/13563001" H 0   0   50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81r%252BiQLm7BRHMcAKEdEeyg%3D%3D" H 0   0   50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 3100 3700 50  0001 C CNN "Manufacturer"
+F 7 "TPS78425QDBVRQ1" H 3100 3700 50  0001 C CNN "Part Number"
 	1    3100 3700
 	1    0    0    -1  
 $EndComp

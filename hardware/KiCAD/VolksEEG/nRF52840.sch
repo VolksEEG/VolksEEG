@@ -42,6 +42,8 @@ F 0 "R11" H 3870 4096 50  0000 L CNN
 F 1 "4K7" H 3870 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3730 4050 50  0001 C CNN
 F 3 "~" H 3800 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 3800 4050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT4K70" H 3800 4050 50  0001 C CNN "Part Number"
 	1    3800 4050
 	1    0    0    -1  
 $EndComp
@@ -53,6 +55,8 @@ F 0 "R12" H 4170 4096 50  0000 L CNN
 F 1 "4K7" H 4170 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4030 4050 50  0001 C CNN
 F 3 "~" H 4100 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4100 4050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT4K70" H 4100 4050 50  0001 C CNN "Part Number"
 	1    4100 4050
 	1    0    0    -1  
 $EndComp
@@ -97,6 +101,8 @@ F 0 "R10" H 3570 4096 50  0000 L CNN
 F 1 "4K7" H 3570 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3430 4050 50  0001 C CNN
 F 3 "~" H 3500 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 3500 4050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT4K70" H 3500 4050 50  0001 C CNN "Part Number"
 	1    3500 4050
 	1    0    0    -1  
 $EndComp
@@ -110,6 +116,8 @@ F 0 "R9" H 3270 4096 50  0000 L CNN
 F 1 "4K7" H 3270 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3130 4050 50  0001 C CNN
 F 3 "~" H 3200 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 3200 4050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT4K70" H 3200 4050 50  0001 C CNN "Part Number"
 	1    3200 4050
 	1    0    0    -1  
 $EndComp
@@ -296,6 +304,8 @@ F 0 "R8" H 2970 4096 50  0000 L CNN
 F 1 "4K7" H 2970 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 4050 50  0001 C CNN
 F 3 "~" H 2900 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 2900 4050 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT4K70" H 2900 4050 50  0001 C CNN "Part Number"
 	1    2900 4050
 	1    0    0    -1  
 $EndComp
@@ -316,6 +326,8 @@ F 0 "R15" V 6100 4100 50  0000 C CNN
 F 1 "0R" V 6200 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6330 4100 50  0001 C CNN
 F 3 "~" H 6400 4100 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 6400 4100 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 6400 4100 50  0001 C CNN "Part Number"
 	1    6400 4100
 	0    1    1    0   
 $EndComp
@@ -329,6 +341,8 @@ F 0 "R16" V 6250 4200 50  0000 C CNN
 F 1 "0R" V 6350 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 4200 50  0001 C CNN
 F 3 "~" H 6650 4200 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 6650 4200 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 6650 4200 50  0001 C CNN "Part Number"
 	1    6650 4200
 	0    1    1    0   
 $EndComp
@@ -373,6 +387,8 @@ F 0 "R6" V 2443 4400 50  0000 C CNN
 F 1 "0R" V 2534 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2580 4400 50  0001 C CNN
 F 3 "~" H 2650 4400 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2650 4400 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2650 4400 50  0001 C CNN "Part Number"
 	1    2650 4400
 	0    1    1    0   
 $EndComp
@@ -386,6 +402,8 @@ F 0 "R4" V 2100 4500 50  0000 C CNN
 F 1 "0R" V 2200 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2330 4500 50  0001 C CNN
 F 3 "~" H 2400 4500 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2400 4500 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2400 4500 50  0001 C CNN "Part Number"
 	1    2400 4500
 	0    1    1    0   
 $EndComp
@@ -399,6 +417,8 @@ F 0 "R1" V 1750 4600 50  0000 C CNN
 F 1 "0R" V 1850 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 4600 50  0001 C CNN
 F 3 "~" H 2150 4600 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2150 4600 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2150 4600 50  0001 C CNN "Part Number"
 	1    2150 4600
 	0    1    1    0   
 $EndComp
@@ -416,6 +436,8 @@ F 0 "R7" V 2950 4700 50  0000 C CNN
 F 1 "0R" V 3050 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2580 4700 50  0001 C CNN
 F 3 "~" H 2650 4700 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2650 4700 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2650 4700 50  0001 C CNN "Part Number"
 	1    2650 4700
 	0    1    1    0   
 $EndComp
@@ -429,6 +451,8 @@ F 0 "R5" V 2600 4800 50  0000 C CNN
 F 1 "0R" V 2700 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2330 4800 50  0001 C CNN
 F 3 "~" H 2400 4800 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2400 4800 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2400 4800 50  0001 C CNN "Part Number"
 	1    2400 4800
 	0    1    1    0   
 $EndComp
@@ -442,6 +466,8 @@ F 0 "R14" V 5943 4000 50  0000 C CNN
 F 1 "0R" V 6034 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6080 4000 50  0001 C CNN
 F 3 "~" H 6150 4000 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 6150 4000 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 6150 4000 50  0001 C CNN "Part Number"
 	1    6150 4000
 	0    1    1    0   
 $EndComp
@@ -453,6 +479,8 @@ F 0 "R2" V 2250 4900 50  0000 C CNN
 F 1 "0R" V 2350 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 4900 50  0001 C CNN
 F 3 "~" H 2150 4900 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 2150 4900 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 2150 4900 50  0001 C CNN "Part Number"
 	1    2150 4900
 	0    1    1    0   
 $EndComp
@@ -592,8 +620,10 @@ U 1 1 61E69046
 P 8000 1550
 F 0 "R17" V 7793 1550 50  0000 C CNN
 F 1 "2R2" V 7884 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 1550 50  0001 C CNN
+F 2 "VolksEEG:high_power_chip_resistor" V 7930 1550 50  0001 C CNN
 F 3 "~" H 8000 1550 50  0001 C CNN
+F 4 "TE Connectivity Passive Product" H 8000 1550 50  0001 C CNN "Manufacturer"
+F 5 "35502R2JT" H 8000 1550 50  0001 C CNN "Part Number"
 	1    8000 1550
 	-1   0    0    1   
 $EndComp
@@ -663,6 +693,8 @@ F 0 "U1" H 4900 5365 50  0000 C CNN
 F 1 "nRF52840-Feather-Sense-Board" H 4800 5300 50  0000 C CNN
 F 2 "VolksEEG:nRF52840_Feather_Sense" H 4550 5250 50  0001 C CNN
 F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-sense.pdf" H 4550 5250 50  0001 C CNN
+F 4 "adafruit" H 4900 4250 50  0001 C CNN "Manufacturer"
+F 5 "4516" H 4900 4250 50  0001 C CNN "Part Number"
 	1    4900 4250
 	1    0    0    -1  
 $EndComp

@@ -54,8 +54,6 @@ Wire Wire Line
 	5600 2450 5400 2450
 Text HLabel 9950 2000 2    50   Output ~ 0
 +5V
-Text HLabel 5050 1550 2    50   Input ~ 0
-+3V3
 $Comp
 L VolksEEG:GND_ni #PWR017
 U 1 1 61BD6486
@@ -337,8 +335,10 @@ U 1 1 618102ED
 P 3550 2450
 F 0 "U2" H 3775 3137 60  0000 C CNN
 F 1 "ADUM240E1BRIZ-RL" H 3775 3031 60  0000 C CNN
-F 2 "" H 4250 3140 60  0001 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x12.8mm_P1.27mm" H 4250 3140 60  0001 C CNN
 F 3 "" H 3650 2450 60  0000 C CNN
+F 4 "Analog Devices Inc." H 3550 2450 50  0001 C CNN "Manufacturer"
+F 5 "ADUM240E1BRIZ-RL" H 3550 2450 50  0001 C CNN "Part Number"
 	1    3550 2450
 	1    0    0    -1  
 $EndComp
@@ -347,8 +347,6 @@ Wire Wire Line
 	2450 2300 2450 2450
 Wire Wire Line
 	2450 2450 3350 2450
-Wire Wire Line
-	5000 2300 4550 2300
 $Comp
 L VolksEEG:GND_ni #PWR07
 U 1 1 61840AE5
@@ -486,8 +484,10 @@ U 1 1 6187257C
 P 4050 5400
 F 0 "U3" H 4275 6087 60  0000 C CNN
 F 1 "ADUM240E1BRIZ-RL" H 4275 5981 60  0000 C CNN
-F 2 "" H 4750 6090 60  0001 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x12.8mm_P1.27mm" H 4750 6090 60  0001 C CNN
 F 3 "" H 4150 5400 60  0000 C CNN
+F 4 "Analog Devices Inc." H 4050 5400 50  0001 C CNN "Manufacturer"
+F 5 "ADUM240E1BRIZ-RL" H 4050 5400 50  0001 C CNN "Part Number"
 	1    4050 5400
 	-1   0    0    -1  
 $EndComp
@@ -596,8 +596,10 @@ U 1 1 61814FEE
 P 8750 2150
 F 0 "U4" H 8750 2587 60  0000 C CNN
 F 1 "MEJ1S0305SC" H 8750 2481 60  0000 C CNN
-F 2 "MEJ1_SINGLE_SIP_MUR" H 8750 2440 60  0001 C CNN
+F 2 "VolksEEG:7SIP" H 8750 2440 60  0001 C CNN
 F 3 "" H 8750 1950 60  0000 C CNN
+F 4 "Murata Power Solutions Inc." H 8750 2150 50  0001 C CNN "Manufacturer"
+F 5 "MEJ1S0305SC" H 8750 2150 50  0001 C CNN "Part Number"
 	1    8750 2150
 	1    0    0    -1  
 $EndComp
@@ -682,9 +684,11 @@ P 8300 5450
 AR Path="/615BA20B/618CCE2C" Ref="R?"  Part="1" 
 AR Path="/61731DC5/618CCE2C" Ref="R19"  Part="1" 
 F 0 "R19" V 8093 5450 50  0000 C CNN
-F 1 "330R" V 8184 5450 50  0000 C CNN
+F 1 "1K" V 8184 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8230 5450 50  0001 C CNN
-F 3 "~" H 8300 5450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 8300 5450 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 8300 5450 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG1K00" H 8300 5450 50  0001 C CNN "Part Number"
 	1    8300 5450
 	-1   0    0    1   
 $EndComp
@@ -710,9 +714,11 @@ P 7600 5450
 AR Path="/615BA20B/618CA270" Ref="R?"  Part="1" 
 AR Path="/61731DC5/618CA270" Ref="R18"  Part="1" 
 F 0 "R18" V 7393 5450 50  0000 C CNN
-F 1 "220R" V 7484 5450 50  0000 C CNN
+F 1 "1K" V 7484 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7530 5450 50  0001 C CNN
-F 3 "~" H 7600 5450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7600 5450 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 7600 5450 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG1K00" H 7600 5450 50  0001 C CNN "Part Number"
 	1    7600 5450
 	-1   0    0    1   
 $EndComp
@@ -731,8 +737,6 @@ F 5 "VFHY1104P-4C42D-TR" H 8300 4950 50  0001 C CNN "Part Number"
 	1    8300 4950
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 2300 2    50   ~ 0
-+3V3_ni
 Text Label 5150 4500 2    50   ~ 0
 +3V3
 Text Label 4750 1550 0    50   ~ 0
@@ -741,8 +745,6 @@ Text Label 7350 4650 0    50   ~ 0
 +3V3
 Wire Wire Line
 	7600 4650 7350 4650
-Text Label 2700 5250 0    50   ~ 0
-+3V3
 Connection ~ 4650 5500
 Wire Wire Line
 	4650 5500 5150 5500
@@ -765,8 +767,6 @@ Wire Wire Line
 Connection ~ 2850 4400
 Wire Wire Line
 	2850 4400 3250 4400
-Wire Wire Line
-	2350 4400 2850 4400
 Connection ~ 3000 1450
 Wire Wire Line
 	3000 1450 3200 1450
@@ -785,8 +785,6 @@ F 5 "N/A" H 3100 5250 50  0001 C CNN "Part Number"
 	1    3100 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 5250 2700 5250
 $Comp
 L Device:Jumper_NC_Small JP4
 U 1 1 619AEAC9
@@ -803,8 +801,6 @@ $EndComp
 Wire Wire Line
 	4350 2300 4200 2300
 Connection ~ 4800 1550
-Wire Wire Line
-	4800 1550 5050 1550
 Wire Wire Line
 	4350 1550 4800 1550
 $Comp
@@ -826,4 +822,18 @@ Wire Wire Line
 	8000 2300 8200 2300
 Wire Wire Line
 	9600 2300 9950 2300
+Wire Wire Line
+	5000 2300 4550 2300
+Wire Wire Line
+	4800 1550 5050 1550
+Text HLabel 5050 1550 2    50   Input ~ 0
++3V3
+Text Label 5000 2300 2    50   ~ 0
++3V3
+Wire Wire Line
+	2350 4400 2850 4400
+Wire Wire Line
+	3000 5250 2700 5250
+Text Label 2700 5250 0    50   ~ 0
++3V3_ni
 $EndSCHEMATC
