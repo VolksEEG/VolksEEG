@@ -836,4 +836,20 @@ Wire Wire Line
 	3000 5250 2700 5250
 Text Label 2700 5250 0    50   ~ 0
 +3V3_ni
+Wire Notes Line
+	4750 2150 4750 2400
+Wire Notes Line
+	4750 2400 5150 2400
+Wire Notes Line
+	5150 2400 5150 2150
+Wire Notes Line
+	5150 2150 4750 2150
+Wire Notes Line
+	2650 5100 2650 5350
+Wire Notes Line
+	2650 5350 3050 5350
+Wire Notes Line
+	3050 5350 3050 5100
+Wire Notes Line
+	3050 5100 2650 5100
 $EndSCHEMATC

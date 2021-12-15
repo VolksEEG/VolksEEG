@@ -24,11 +24,7 @@ ADS-nCS_ni
 Text HLabel 1700 4800 0    50   Output ~ 0
 ADS-nRST_ni
 Wire Wire Line
-	5400 4000 6000 4000
-Wire Wire Line
-	6900 4100 6550 4100
-Wire Wire Line
-	5400 4200 6500 4200
+	5400 4000 5550 4000
 NoConn ~ 4400 3450
 NoConn ~ 4400 3600
 NoConn ~ 5400 3800
@@ -89,7 +85,7 @@ Text Label 7200 5650 0    50   ~ 0
 SCL_ni
 Text HLabel 1700 4900 0    50   Input ~ 0
 ADS-nDRDY_ni
-Text Label 1700 4400 2    50   ~ 0
+Text Label 1700 4500 2    50   ~ 0
 SD-nCD_ni
 Text HLabel 6150 3400 2    50   Output ~ 0
 +3V3_ni
@@ -106,7 +102,7 @@ F 5 "RMCF0603FT4K70" H 3500 4050 50  0001 C CNN "Part Number"
 	1    3500 4050
 	1    0    0    -1  
 $EndComp
-Text Label 1700 4600 2    50   ~ 0
+Text Label 1700 4400 2    50   ~ 0
 SD-nCS_ni
 $Comp
 L Device:R R9
@@ -157,11 +153,11 @@ F 3 "" H 7950 5850 50  0001 C CNN
 	1    7950 5850
 	1    0    0    -1  
 $EndComp
-Text Label 5650 4000 0    50   ~ 0
+Text Label 6450 4000 0    50   ~ 0
 MISO_ni
-Text Label 5650 4100 0    50   ~ 0
+Text Label 6450 4100 0    50   ~ 0
 MOSI_ni
-Text Label 5650 4200 0    50   ~ 0
+Text Label 6450 4200 0    50   ~ 0
 SCK_ni
 Wire Wire Line
 	6450 4700 6450 5550
@@ -314,40 +310,21 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 3200 3800
 Connection ~ 3200 3800
-Text Label 1700 4500 2    50   ~ 0
+Text Label 1700 4600 2    50   ~ 0
 SD-nWP_ni
-Wire Wire Line
-	6300 4000 6900 4000
 $Comp
 L Device:R R15
 U 1 1 61DF07C8
-P 6400 4100
-F 0 "R15" V 6100 4100 50  0000 C CNN
-F 1 "0R" V 6200 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6330 4100 50  0001 C CNN
-F 3 "~" H 6400 4100 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 6400 4100 50  0001 C CNN "Manufacturer"
-F 5 "TRR03EZPJ000" H 6400 4100 50  0001 C CNN "Part Number"
-	1    6400 4100
+P 5950 4100
+F 0 "R15" V 5650 4100 50  0000 C CNN
+F 1 "0R" V 5750 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5880 4100 50  0001 C CNN
+F 3 "~" H 5950 4100 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 5950 4100 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 5950 4100 50  0001 C CNN "Part Number"
+	1    5950 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6250 4100 5400 4100
-$Comp
-L Device:R R16
-U 1 1 61DF0A54
-P 6650 4200
-F 0 "R16" V 6250 4200 50  0000 C CNN
-F 1 "0R" V 6350 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 4200 50  0001 C CNN
-F 3 "~" H 6650 4200 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 6650 4200 50  0001 C CNN "Manufacturer"
-F 5 "TRR03EZPJ000" H 6650 4200 50  0001 C CNN "Part Number"
-	1    6650 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6800 4200 6900 4200
 Wire Wire Line
 	1700 4600 1950 4600
 Wire Wire Line
@@ -374,11 +351,6 @@ Wire Wire Line
 Connection ~ 3200 4700
 Wire Wire Line
 	3200 4700 4400 4700
-Wire Wire Line
-	2900 4200 2900 4700
-Connection ~ 2900 4700
-Wire Wire Line
-	2900 4700 3200 4700
 $Comp
 L Device:R R6
 U 1 1 61E02D80
@@ -441,8 +413,6 @@ F 5 "TRR03EZPJ000" H 2650 4700 50  0001 C CNN "Part Number"
 	1    2650 4700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2800 4700 2900 4700
 $Comp
 L Device:R R5
 U 1 1 61E05E7E
@@ -457,18 +427,18 @@ F 5 "TRR03EZPJ000" H 2400 4800 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 4800 4400 4800
+	2550 4800 2900 4800
 $Comp
 L Device:R R14
 U 1 1 61DF0030
-P 6150 4000
-F 0 "R14" V 5943 4000 50  0000 C CNN
-F 1 "0R" V 6034 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6080 4000 50  0001 C CNN
-F 3 "~" H 6150 4000 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 6150 4000 50  0001 C CNN "Manufacturer"
-F 5 "TRR03EZPJ000" H 6150 4000 50  0001 C CNN "Part Number"
-	1    6150 4000
+P 5700 4000
+F 0 "R14" V 5493 4000 50  0000 C CNN
+F 1 "0R" V 5584 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5630 4000 50  0001 C CNN
+F 3 "~" H 5700 4000 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 5700 4000 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 5700 4000 50  0001 C CNN "Part Number"
+	1    5700 4000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -788,4 +758,50 @@ Wire Wire Line
 	8350 1750 9100 1750
 Text Notes 8100 5150 0    50   ~ 0
 Footprint is not correct.
+Wire Wire Line
+	5850 4000 6900 4000
+Wire Wire Line
+	6100 4100 6900 4100
+$Comp
+L Device:R R16
+U 1 1 61DF0A54
+P 6200 4200
+F 0 "R16" V 5800 4200 50  0000 C CNN
+F 1 "0R" V 5900 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6130 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 6200 4200 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 6200 4200 50  0001 C CNN "Part Number"
+	1    6200 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 4200 6050 4200
+Wire Wire Line
+	5400 4100 5800 4100
+Wire Wire Line
+	6350 4200 6900 4200
+Wire Notes Line
+	5550 3700 6850 3700
+Wire Notes Line
+	6850 3700 6850 4300
+Wire Notes Line
+	6850 4300 5550 4300
+Wire Notes Line
+	5550 4300 5550 3700
+Wire Wire Line
+	2800 4700 3200 4700
+Wire Wire Line
+	2900 4200 2900 4800
+Connection ~ 2900 4800
+Wire Wire Line
+	2900 4800 4400 4800
+Wire Notes Line
+	1200 4250 1800 4250
+Wire Notes Line
+	1800 4250 1800 4650
+Wire Notes Line
+	1800 4650 1200 4650
+Wire Notes Line
+	1200 4650 1200 4250
 $EndSCHEMATC

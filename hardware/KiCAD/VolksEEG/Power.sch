@@ -837,21 +837,6 @@ F 3 "" H 3050 5850 50  0001 C CNN
 	1    3050 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:ADP7182ACPZ-2.5-R7 U?
-U 1 1 61D5868A
-P 3050 5350
-AR Path="/61D5868A" Ref="U?"  Part="1" 
-AR Path="/615BA255/61D5868A" Ref="U6"  Part="1" 
-F 0 "U6" H 3050 5800 60  0000 C CNN
-F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
-F 2 "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" H 3850 5690 60  0001 C CNN
-F 3 "" H 3050 5350 60  0000 C CNN
-F 4 "Analog Devices Inc." H 3050 5350 50  0001 C CNN "Manufacturer"
-F 5 "ADP7182ACPZN-2.5R7" H 3050 5350 50  0001 C CNN "Part Number"
-	1    3050 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 5850 3050 5800
 Wire Wire Line
@@ -1301,4 +1286,19 @@ Wire Wire Line
 Connection ~ 5300 3500
 Wire Wire Line
 	5300 3500 5550 3500
+$Comp
+L VolksEEG:ADP7182ACPZ-2.5-R7 U?
+U 1 1 61D5868A
+P 3050 5350
+AR Path="/61D5868A" Ref="U?"  Part="1" 
+AR Path="/615BA255/61D5868A" Ref="U6"  Part="1" 
+F 0 "U6" H 3050 5800 60  0000 C CNN
+F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
+F 2 "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" H 3850 5690 60  0001 C CNN
+F 3 "" H 3050 5350 60  0000 C CNN
+F 4 "Analog Devices Inc." H 3050 5350 50  0001 C CNN "Manufacturer"
+F 5 "ADP7182ACPZN-2.5R7" H 3050 5350 50  0001 C CNN "Part Number"
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
