@@ -27,6 +27,8 @@ F 0 "C25" H 4915 3796 50  0000 L CNN
 F 1 "10u" H 4915 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4838 3600 50  0001 C CNN
 F 3 "~" H 4800 3750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4800 3750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 4800 3750 50  0001 C CNN "Part Number"
 	1    4800 3750
 	1    0    0    -1  
 $EndComp
@@ -36,8 +38,10 @@ U 1 1 617157C6
 P 4500 3500
 F 0 "L3" V 4690 3500 50  0000 C CNN
 F 1 "3.3u" V 4599 3500 50  0000 C CNN
-F 2 "" H 4500 3500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 3500 50  0001 C CNN
 F 3 "~" H 4500 3500 50  0001 C CNN
+F 4 "TDK Corporation" H 4500 3500 50  0001 C CNN "Manufacturer"
+F 5 "MLZ2012A3R3WTD25" H 4500 3500 50  0001 C CNN "Part Number"
 	1    4500 3500
 	0    -1   -1   0   
 $EndComp
@@ -55,6 +59,8 @@ F 0 "C26" H 4965 5546 50  0000 L CNN
 F 1 "10u" H 4965 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4888 5350 50  0001 C CNN
 F 3 "~" H 4850 5500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4850 5500 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 4850 5500 50  0001 C CNN "Part Number"
 	1    4850 5500
 	1    0    0    -1  
 $EndComp
@@ -64,8 +70,10 @@ U 1 1 6171CAC4
 P 4450 5250
 F 0 "L2" V 4640 5250 50  0000 C CNN
 F 1 "3.3u" V 4549 5250 50  0000 C CNN
-F 2 "" H 4450 5250 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 5250 50  0001 C CNN
 F 3 "~" H 4450 5250 50  0001 C CNN
+F 4 "TDK Corporation" H 4450 5250 50  0001 C CNN "Manufacturer"
+F 5 "MLZ2012A3R3WTD25" H 4450 5250 50  0001 C CNN "Part Number"
 	1    4450 5250
 	0    -1   -1   0   
 $EndComp
@@ -206,6 +214,8 @@ F 0 "C28" H 6615 1746 50  0000 L CNN
 F 1 "10u" H 6615 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6538 1550 50  0001 C CNN
 F 3 "~" H 6500 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6500 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 6500 1700 50  0001 C CNN "Part Number"
 	1    6500 1700
 	1    0    0    -1  
 $EndComp
@@ -217,6 +227,8 @@ F 0 "C29" H 7015 1746 50  0000 L CNN
 F 1 "1u" H 7015 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6938 1550 50  0001 C CNN
 F 3 "~" H 6900 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6900 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 6900 1700 50  0001 C CNN "Part Number"
 	1    6900 1700
 	1    0    0    -1  
 $EndComp
@@ -240,8 +252,10 @@ U 1 1 6172C0C9
 P 9950 1450
 F 0 "L4" V 10140 1450 50  0000 C CNN
 F 1 "3.3u" V 10049 1450 50  0000 C CNN
-F 2 "" H 9950 1450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 1450 50  0001 C CNN
 F 3 "~" H 9950 1450 50  0001 C CNN
+F 4 "TDK Corporation" H 9950 1450 50  0001 C CNN "Manufacturer"
+F 5 "MLZ2012A3R3WTD25" H 9950 1450 50  0001 C CNN "Part Number"
 	1    9950 1450
 	0    -1   -1   0   
 $EndComp
@@ -257,6 +271,8 @@ F 0 "C39" H 9565 1746 50  0000 L CNN
 F 1 "10u" H 9565 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9488 1550 50  0001 C CNN
 F 3 "~" H 9450 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9450 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 9450 1700 50  0001 C CNN "Part Number"
 	1    9450 1700
 	1    0    0    -1  
 $EndComp
@@ -268,6 +284,8 @@ F 0 "C37" H 9115 1746 50  0000 L CNN
 F 1 "1u" H 9115 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 1550 50  0001 C CNN
 F 3 "~" H 9000 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9000 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 9000 1700 50  0001 C CNN "Part Number"
 	1    9000 1700
 	1    0    0    -1  
 $EndComp
@@ -281,6 +299,8 @@ F 0 "C41" H 10615 1746 50  0000 L CNN
 F 1 "10u" H 10615 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10538 1550 50  0001 C CNN
 F 3 "~" H 10500 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 10500 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 10500 1700 50  0001 C CNN "Part Number"
 	1    10500 1700
 	1    0    0    -1  
 $EndComp
@@ -297,6 +317,8 @@ F 0 "C30" H 7415 1746 50  0000 L CNN
 F 1 "10u" H 7415 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7338 1550 50  0001 C CNN
 F 3 "~" H 7300 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7300 1700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 7300 1700 50  0001 C CNN "Part Number"
 	1    7300 1700
 	1    0    0    -1  
 $EndComp
@@ -314,6 +336,8 @@ F 2 "VolksEEG:SOIC127P599X175-8N" H 8000 1650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/LM2660" H 7850 1950 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2660MX-NOPB/366876?s=N4IgTCBcDaIDIFkwDZkAYEA0D0A5A8gAoBCABCALoC%2BQA" H 8000 1650 50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM2660MX-NOPB?qs=%2Fha2pyFadugHGOygNHaYnDjgJHODW6F6O01kwvJjsKBnt2qN9JbSfA%3D%3D" H 8000 1650 50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 8000 1650 50  0001 C CNN "Manufacturer"
+F 7 "LM2660MX" H 8000 1650 50  0001 C CNN "Part Number"
 	1    8000 1650
 	1    0    0    -1  
 $EndComp
@@ -331,8 +355,10 @@ AR Path="/615BA255/6195A2AC" Ref="L1"  Part="1"
 AR Path="/61731DC5/6195A2AC" Ref="L?"  Part="1" 
 F 0 "L1" V 4540 1300 50  0000 C CNN
 F 1 "3.3u" V 4449 1300 50  0000 C CNN
-F 2 "" H 4350 1300 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 1300 50  0001 C CNN
 F 3 "~" H 4350 1300 50  0001 C CNN
+F 4 "TDK Corporation" H 4350 1300 50  0001 C CNN "Manufacturer"
+F 5 "MLZ2012A3R3WTD25" H 4350 1300 50  0001 C CNN "Part Number"
 	1    4350 1300
 	0    -1   -1   0   
 $EndComp
@@ -346,6 +372,8 @@ F 0 "C24" H 5015 1596 50  0000 L CNN
 F 1 "10u" H 5015 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4938 1400 50  0001 C CNN
 F 3 "~" H 4900 1550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4900 1550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 4900 1550 50  0001 C CNN "Part Number"
 	1    4900 1550
 	1    0    0    -1  
 $EndComp
@@ -359,6 +387,8 @@ F 0 "C20" H 3915 1596 50  0000 L CNN
 F 1 "2.2u" H 3915 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3838 1400 50  0001 C CNN
 F 3 "~" H 3800 1550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3800 1550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 3800 1550 50  0001 C CNN "Part Number"
 	1    3800 1550
 	1    0    0    -1  
 $EndComp
@@ -372,6 +402,8 @@ F 0 "C16" H 1965 1596 50  0000 L CNN
 F 1 "2.2u" H 1965 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1400 50  0001 C CNN
 F 3 "~" H 1850 1550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1850 1550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 1850 1550 50  0001 C CNN "Part Number"
 	1    1850 1550
 	1    0    0    -1  
 $EndComp
@@ -406,8 +438,10 @@ AR Path="/615BA110/61A11C09" Ref="C?"  Part="1"
 AR Path="/615BA255/61A11C09" Ref="C27"  Part="1" 
 F 0 "C27" H 5665 4496 50  0000 L CNN
 F 1 "100n" H 5665 4405 50  0000 L CNN
-F 2 "" H 5588 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5588 4300 50  0001 C CNN
 F 3 "~" H 5550 4450 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5550 4450 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 5550 4450 50  0001 C CNN "Part Number"
 	1    5550 4450
 	1    0    0    -1  
 $EndComp
@@ -439,6 +473,8 @@ F 0 "R31" V 4093 1850 50  0000 C CNN
 F 1 "0R" V 4184 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4230 1850 50  0001 C CNN
 F 3 "~" H 4300 1850 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 4300 1850 50  0001 C CNN "Manufacturer"
+F 5 "TRR03EZPJ000" H 4300 1850 50  0001 C CNN "Part Number"
 	1    4300 1850
 	0    1    1    0   
 $EndComp
@@ -511,8 +547,10 @@ U 1 1 617F8D83
 P 5150 1050
 F 0 "TP27" H 5208 1122 50  0000 L CNN
 F 1 "TestPoint" H 5208 1077 50  0001 L CNN
-F 2 "" H 5350 1050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5350 1050 50  0001 C CNN
 F 3 "~" H 5350 1050 50  0001 C CNN
+F 4 "N/A" H 5150 1050 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 5150 1050 50  0001 C CNN "Part Number"
 	1    5150 1050
 	1    0    0    -1  
 $EndComp
@@ -526,8 +564,10 @@ U 1 1 617FF5AB
 P 10750 1300
 F 0 "TP30" H 10808 1372 50  0000 L CNN
 F 1 "TestPoint" H 10808 1327 50  0001 L CNN
-F 2 "" H 10950 1300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 10950 1300 50  0001 C CNN
 F 3 "~" H 10950 1300 50  0001 C CNN
+F 4 "N/A" H 10750 1300 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 10750 1300 50  0001 C CNN "Part Number"
 	1    10750 1300
 	1    0    0    -1  
 $EndComp
@@ -541,8 +581,10 @@ U 1 1 6180C2F2
 P 5300 3450
 F 0 "TP28" H 5358 3522 50  0000 L CNN
 F 1 "TestPoint" H 5358 3477 50  0001 L CNN
-F 2 "" H 5500 3450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5500 3450 50  0001 C CNN
 F 3 "~" H 5500 3450 50  0001 C CNN
+F 4 "N/A" H 5300 3450 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 5300 3450 50  0001 C CNN "Part Number"
 	1    5300 3450
 	1    0    0    -1  
 $EndComp
@@ -552,8 +594,10 @@ U 1 1 6180CC5E
 P 5250 5200
 F 0 "TP29" H 5192 5272 50  0000 R CNN
 F 1 "TestPoint" H 5308 5227 50  0001 L CNN
-F 2 "" H 5450 5200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5450 5200 50  0001 C CNN
 F 3 "~" H 5450 5200 50  0001 C CNN
+F 4 "N/A" H 5250 5200 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 5250 5200 50  0001 C CNN "Part Number"
 	1    5250 5200
 	-1   0    0    -1  
 $EndComp
@@ -609,8 +653,10 @@ AR Path="/615BA110/61A0DBE9" Ref="C?"  Part="1"
 AR Path="/615BA255/61A0DBE9" Ref="C40"  Part="1" 
 F 0 "C40" H 9815 5096 50  0000 L CNN
 F 1 "1u" H 9815 5005 50  0000 L CNN
-F 2 "" H 9738 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9738 4900 50  0001 C CNN
 F 3 "~" H 9700 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9700 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 9700 5050 50  0001 C CNN "Part Number"
 	1    9700 5050
 	1    0    0    -1  
 $EndComp
@@ -622,8 +668,10 @@ AR Path="/615BA110/61A0DBE3" Ref="C?"  Part="1"
 AR Path="/615BA255/61A0DBE3" Ref="C38"  Part="1" 
 F 0 "C38" H 9415 5096 50  0000 L CNN
 F 1 "100n" H 9415 5005 50  0000 L CNN
-F 2 "" H 9338 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9338 4900 50  0001 C CNN
 F 3 "~" H 9300 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9300 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 9300 5050 50  0001 C CNN "Part Number"
 	1    9300 5050
 	1    0    0    -1  
 $EndComp
@@ -650,8 +698,10 @@ AR Path="/615BA110/61A0DBD1" Ref="C?"  Part="1"
 AR Path="/615BA255/61A0DBD1" Ref="C36"  Part="1" 
 F 0 "C36" H 9015 5096 50  0000 L CNN
 F 1 "1u" H 9015 5005 50  0000 L CNN
-F 2 "" H 8938 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8938 4900 50  0001 C CNN
 F 3 "~" H 8900 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 8900 5050 50  0001 C CNN "Part Number"
 	1    8900 5050
 	1    0    0    -1  
 $EndComp
@@ -663,8 +713,10 @@ AR Path="/615BA110/61A0DBCB" Ref="C?"  Part="1"
 AR Path="/615BA255/61A0DBCB" Ref="C35"  Part="1" 
 F 0 "C35" H 8615 5096 50  0000 L CNN
 F 1 "100n" H 8615 5005 50  0000 L CNN
-F 2 "" H 8538 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8538 4900 50  0001 C CNN
 F 3 "~" H 8500 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8500 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 8500 5050 50  0001 C CNN "Part Number"
 	1    8500 5050
 	1    0    0    -1  
 $EndComp
@@ -684,8 +736,10 @@ AR Path="/615BA110/61875BBB" Ref="C?"  Part="1"
 AR Path="/615BA255/61875BBB" Ref="C33"  Part="1" 
 F 0 "C33" H 8215 3746 50  0000 L CNN
 F 1 "1u" H 8215 3655 50  0000 L CNN
-F 2 "" H 8138 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8138 3550 50  0001 C CNN
 F 3 "~" H 8100 3700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8100 3700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 8100 3700 50  0001 C CNN "Part Number"
 	1    8100 3700
 	1    0    0    -1  
 $EndComp
@@ -697,8 +751,10 @@ AR Path="/615BA110/61875BB5" Ref="C?"  Part="1"
 AR Path="/615BA255/61875BB5" Ref="C31"  Part="1" 
 F 0 "C31" H 7815 3746 50  0000 L CNN
 F 1 "100n" H 7815 3655 50  0000 L CNN
-F 2 "" H 7738 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 3550 50  0001 C CNN
 F 3 "~" H 7700 3700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7700 3700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 7700 3700 50  0001 C CNN "Part Number"
 	1    7700 3700
 	1    0    0    -1  
 $EndComp
@@ -718,8 +774,10 @@ AR Path="/615BA110/61875BA3" Ref="C?"  Part="1"
 AR Path="/615BA255/61875BA3" Ref="C34"  Part="1" 
 F 0 "C34" H 8215 5096 50  0000 L CNN
 F 1 "1u" H 8215 5005 50  0000 L CNN
-F 2 "" H 8138 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8138 4900 50  0001 C CNN
 F 3 "~" H 8100 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8100 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KAFNNNE" H 8100 5050 50  0001 C CNN "Part Number"
 	1    8100 5050
 	1    0    0    -1  
 $EndComp
@@ -731,8 +789,10 @@ AR Path="/615BA110/61875B9D" Ref="C?"  Part="1"
 AR Path="/615BA255/61875B9D" Ref="C32"  Part="1" 
 F 0 "C32" H 7815 5096 50  0000 L CNN
 F 1 "100n" H 7815 5005 50  0000 L CNN
-F 2 "" H 7738 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 4900 50  0001 C CNN
 F 3 "~" H 7700 5050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7700 5050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KACNNNC" H 7700 5050 50  0001 C CNN "Part Number"
 	1    7700 5050
 	1    0    0    -1  
 $EndComp
@@ -750,6 +810,8 @@ F 0 "C18" H 2415 5546 50  0000 L CNN
 F 1 "2.2u" H 2415 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2338 5350 50  0001 C CNN
 F 3 "~" H 2300 5500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2300 5500 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 2300 5500 50  0001 C CNN "Part Number"
 	1    2300 5500
 	-1   0    0    -1  
 $EndComp
@@ -775,19 +837,6 @@ F 3 "" H 3050 5850 50  0001 C CNN
 	1    3050 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L VolksEEG:ADP7182ACPZ-2.5-R7 U?
-U 1 1 61D5868A
-P 3050 5350
-AR Path="/61D5868A" Ref="U?"  Part="1" 
-AR Path="/615BA255/61D5868A" Ref="U6"  Part="1" 
-F 0 "U6" H 3050 5800 60  0000 C CNN
-F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
-F 2 "" H 3850 5690 60  0001 C CNN
-F 3 "" H 3050 5350 60  0000 C CNN
-	1    3050 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 5850 3050 5800
 Wire Wire Line
@@ -805,6 +854,8 @@ F 0 "C19" H 3765 5546 50  0000 L CNN
 F 1 "2.2u" H 3765 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3688 5350 50  0001 C CNN
 F 3 "~" H 3650 5500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3650 5500 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 3650 5500 50  0001 C CNN "Part Number"
 	1    3650 5500
 	1    0    0    -1  
 $EndComp
@@ -820,6 +871,8 @@ F 0 "C22" H 4215 5546 50  0000 L CNN
 F 1 "10u" H 4215 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 5350 50  0001 C CNN
 F 3 "~" H 4100 5500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4100 5500 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 4100 5500 50  0001 C CNN "Part Number"
 	1    4100 5500
 	1    0    0    -1  
 $EndComp
@@ -892,6 +945,8 @@ F 0 "C23" H 4215 3796 50  0000 L CNN
 F 1 "10u" H 4215 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 3600 50  0001 C CNN
 F 3 "~" H 4100 3750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4100 3750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B106KPQNNNE" H 4100 3750 50  0001 C CNN "Part Number"
 	1    4100 3750
 	1    0    0    -1  
 $EndComp
@@ -907,6 +962,8 @@ F 0 "C21" H 3765 3796 50  0000 L CNN
 F 1 "2.2u" H 3765 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3688 3600 50  0001 C CNN
 F 3 "~" H 3650 3750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3650 3750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 3650 3750 50  0001 C CNN "Part Number"
 	1    3650 3750
 	1    0    0    -1  
 $EndComp
@@ -935,6 +992,8 @@ F 0 "C17" H 2465 3796 50  0000 L CNN
 F 1 "2.2u" H 2465 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2388 3600 50  0001 C CNN
 F 3 "~" H 2350 3750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2350 3750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 2350 3750 50  0001 C CNN "Part Number"
 	1    2350 3750
 	-1   0    0    -1  
 $EndComp
@@ -956,8 +1015,10 @@ U 1 1 617F0E86
 P 3800 850
 F 0 "TP25" H 3858 922 50  0000 L CNN
 F 1 "TestPoint" H 3858 877 50  0001 L CNN
-F 2 "" H 4000 850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 4000 850 50  0001 C CNN
 F 3 "~" H 4000 850 50  0001 C CNN
+F 4 "N/A" H 3800 850 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 3800 850 50  0001 C CNN "Part Number"
 	1    3800 850 
 	1    0    0    -1  
 $EndComp
@@ -1018,6 +1079,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2800 850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/LP3990" H 2800 1900 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LP3990MF-3-3-NOPB/953453?s=N4IgTCBcDaIDIAUDMBOFAGAsgMQLRIDokB6AOQHkEAhAAhAF0BfIA" H 3150 650 50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/LP3990MF-33-NOPB?qs=1FNqv8aZn1ScRIqY9rNFxg%3D%3D" H 3300 1000 50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 2800 1500 50  0001 C CNN "Manufacturer"
+F 7 "LP3990MF-3.3" H 2800 1500 50  0001 C CNN "Part Number"
 	1    2800 1500
 	1    0    0    -1  
 $EndComp
@@ -1033,6 +1096,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3450 3300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/tps784-q1" H 3100 3700 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS78425QDBVRQ1/13563001" H 0   0   50  0001 C CNN "Supplier 1 Link"
 F 5 "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS78425QDBVRQ1?qs=81r%252BiQLm7BRHMcAKEdEeyg%3D%3D" H 0   0   50  0001 C CNN "Supplier 2 Link"
+F 6 "Texas Instruments" H 3100 3700 50  0001 C CNN "Manufacturer"
+F 7 "TPS78425QDBVRQ1" H 3100 3700 50  0001 C CNN "Part Number"
 	1    3100 3700
 	1    0    0    -1  
 $EndComp
@@ -1048,6 +1113,8 @@ F 0 "JP2" V 8700 2175 50  0000 L CNN
 F 1 "Jumper_NC_Small" V 8745 2174 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 8700 2100 50  0001 C CNN
 F 3 "~" H 8700 2100 50  0001 C CNN
+F 4 "N/A" H 8700 2100 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 8700 2100 50  0001 C CNN "Part Number"
 	1    8700 2100
 	0    1    1    0   
 $EndComp
@@ -1080,6 +1147,8 @@ F 0 "JP1" V 8450 2198 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 8495 2198 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8450 2150 50  0001 C CNN
 F 3 "~" H 8450 2150 50  0001 C CNN
+F 4 "N/A" H 8450 2150 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 8450 2150 50  0001 C CNN "Part Number"
 	1    8450 2150
 	0    1    1    0   
 $EndComp
@@ -1098,8 +1167,10 @@ U 1 1 61921DA4
 P 3650 1950
 F 0 "TP24" V 3650 2200 50  0000 L CNN
 F 1 "TestPoint" H 3708 1977 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 3850 1950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm" H 3850 1950 50  0001 C CNN
 F 3 "~" H 3850 1950 50  0001 C CNN
+F 4 "N/A" H 3650 1950 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 3650 1950 50  0001 C CNN "Part Number"
 	1    3650 1950
 	0    -1   -1   0   
 $EndComp
@@ -1118,8 +1189,10 @@ U 1 1 61936B10
 P 4950 1950
 F 0 "TP26" V 4950 2200 50  0000 L CNN
 F 1 "TestPoint" H 5008 1977 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5150 1950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm" H 5150 1950 50  0001 C CNN
 F 3 "~" H 5150 1950 50  0001 C CNN
+F 4 "N/A" H 4950 1950 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 4950 1950 50  0001 C CNN "Part Number"
 	1    4950 1950
 	0    1    -1   0   
 $EndComp
@@ -1213,4 +1286,19 @@ Wire Wire Line
 Connection ~ 5300 3500
 Wire Wire Line
 	5300 3500 5550 3500
+$Comp
+L VolksEEG:ADP7182ACPZ-2.5-R7 U?
+U 1 1 61D5868A
+P 3050 5350
+AR Path="/61D5868A" Ref="U?"  Part="1" 
+AR Path="/615BA255/61D5868A" Ref="U6"  Part="1" 
+F 0 "U6" H 3050 5800 60  0000 C CNN
+F 1 "ADP7182ACPZ-2.5-R7" H 3050 5700 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 3850 5690 60  0001 C CNN
+F 3 "" H 3050 5350 60  0000 C CNN
+F 4 "Analog Devices Inc." H 3050 5350 50  0001 C CNN "Manufacturer"
+F 5 "ADP7182ACPZN-2.5R7" H 3050 5350 50  0001 C CNN "Part Number"
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

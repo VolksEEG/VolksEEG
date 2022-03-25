@@ -21,6 +21,8 @@ F 0 "R21" V 5593 1850 50  0000 C CNN
 F 1 "4.99k" V 5684 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 1850 50  0001 C CNN
 F 3 "~" H 5800 1850 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 1850 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 1850 50  0001 C CNN "Part Number"
 	1    5800 1850
 	0    1    1    0   
 $EndComp
@@ -30,8 +32,10 @@ U 1 1 615BE4A6
 P 2500 4350
 F 0 "C7" H 2615 4396 50  0000 L CNN
 F 1 "33n" H 2615 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 4200 50  0001 C CNN
 F 3 "~" H 2500 4350 50  0001 C CNN
+F 4 "KEMET" H 2500 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 2500 4350 50  0001 C CNN "Part Number"
 	1    2500 4350
 	1    0    0    -1  
 $EndComp
@@ -59,6 +63,8 @@ F 0 "R22" V 5593 2150 50  0000 C CNN
 F 1 "4.99k" V 5684 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2150 50  0001 C CNN
 F 3 "~" H 5800 2150 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2150 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2150 50  0001 C CNN "Part Number"
 	1    5800 2150
 	0    1    1    0   
 $EndComp
@@ -70,6 +76,8 @@ F 0 "R23" V 5593 2450 50  0000 C CNN
 F 1 "4.99k" V 5684 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2450 50  0001 C CNN
 F 3 "~" H 5800 2450 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2450 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2450 50  0001 C CNN "Part Number"
 	1    5800 2450
 	0    1    1    0   
 $EndComp
@@ -81,6 +89,8 @@ F 0 "R25" V 5593 3050 50  0000 C CNN
 F 1 "4.99k" V 5684 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3050 50  0001 C CNN
 F 3 "~" H 5800 3050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3050 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3050 50  0001 C CNN "Part Number"
 	1    5800 3050
 	0    1    1    0   
 $EndComp
@@ -92,6 +102,8 @@ F 0 "R24" V 5593 2750 50  0000 C CNN
 F 1 "4.99k" V 5684 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2750 50  0001 C CNN
 F 3 "~" H 5800 2750 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 2750 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 2750 50  0001 C CNN "Part Number"
 	1    5800 2750
 	0    1    1    0   
 $EndComp
@@ -103,6 +115,8 @@ F 0 "R26" V 5593 3350 50  0000 C CNN
 F 1 "4.99k" V 5684 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3350 50  0001 C CNN
 F 3 "~" H 5800 3350 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3350 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3350 50  0001 C CNN "Part Number"
 	1    5800 3350
 	0    1    1    0   
 $EndComp
@@ -114,6 +128,8 @@ F 0 "R27" V 5593 3650 50  0000 C CNN
 F 1 "4.99k" V 5684 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3650 50  0001 C CNN
 F 3 "~" H 5800 3650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3650 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3650 50  0001 C CNN "Part Number"
 	1    5800 3650
 	0    1    1    0   
 $EndComp
@@ -125,6 +141,8 @@ F 0 "R28" V 5593 3950 50  0000 C CNN
 F 1 "4.99k" V 5684 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3950 50  0001 C CNN
 F 3 "~" H 5800 3950 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 3950 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 3950 50  0001 C CNN "Part Number"
 	1    5800 3950
 	0    1    1    0   
 $EndComp
@@ -138,8 +156,10 @@ U 1 1 61AB19F6
 P 2900 4350
 F 0 "C8" H 3015 4396 50  0000 L CNN
 F 1 "33n" H 3015 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2938 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2938 4200 50  0001 C CNN
 F 3 "~" H 2900 4350 50  0001 C CNN
+F 4 "KEMET" H 2900 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 2900 4350 50  0001 C CNN "Part Number"
 	1    2900 4350
 	1    0    0    -1  
 $EndComp
@@ -149,8 +169,10 @@ U 1 1 61AB1D05
 P 3300 4350
 F 0 "C9" H 3415 4396 50  0000 L CNN
 F 1 "33n" H 3415 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3338 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3338 4200 50  0001 C CNN
 F 3 "~" H 3300 4350 50  0001 C CNN
+F 4 "KEMET" H 3300 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 3300 4350 50  0001 C CNN "Part Number"
 	1    3300 4350
 	1    0    0    -1  
 $EndComp
@@ -160,8 +182,10 @@ U 1 1 61AB1FA5
 P 3700 4350
 F 0 "C11" H 3815 4396 50  0000 L CNN
 F 1 "33n" H 3815 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3738 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3738 4200 50  0001 C CNN
 F 3 "~" H 3700 4350 50  0001 C CNN
+F 4 "KEMET" H 3700 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 3700 4350 50  0001 C CNN "Part Number"
 	1    3700 4350
 	1    0    0    -1  
 $EndComp
@@ -171,8 +195,10 @@ U 1 1 61AB22D6
 P 4100 4350
 F 0 "C12" H 4215 4396 50  0000 L CNN
 F 1 "33n" H 4215 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4138 4200 50  0001 C CNN
 F 3 "~" H 4100 4350 50  0001 C CNN
+F 4 "KEMET" H 4100 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 4100 4350 50  0001 C CNN "Part Number"
 	1    4100 4350
 	1    0    0    -1  
 $EndComp
@@ -182,8 +208,10 @@ U 1 1 61AB2629
 P 4500 4350
 F 0 "C13" H 4615 4396 50  0000 L CNN
 F 1 "33n" H 4615 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4538 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4538 4200 50  0001 C CNN
 F 3 "~" H 4500 4350 50  0001 C CNN
+F 4 "KEMET" H 4500 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 4500 4350 50  0001 C CNN "Part Number"
 	1    4500 4350
 	1    0    0    -1  
 $EndComp
@@ -193,8 +221,10 @@ U 1 1 61AB27FD
 P 4950 4350
 F 0 "C14" H 5065 4396 50  0000 L CNN
 F 1 "33n" H 5065 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4988 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4988 4200 50  0001 C CNN
 F 3 "~" H 4950 4350 50  0001 C CNN
+F 4 "KEMET" H 4950 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 4950 4350 50  0001 C CNN "Part Number"
 	1    4950 4350
 	1    0    0    -1  
 $EndComp
@@ -204,8 +234,10 @@ U 1 1 61AB2A6A
 P 5350 4350
 F 0 "C15" H 5465 4396 50  0000 L CNN
 F 1 "33n" H 5465 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5388 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5388 4200 50  0001 C CNN
 F 3 "~" H 5350 4350 50  0001 C CNN
+F 4 "KEMET" H 5350 4350 50  0001 C CNN "Manufacturer"
+F 5 "C0805C333F3GEC7210" H 5350 4350 50  0001 C CNN "Part Number"
 	1    5350 4350
 	1    0    0    -1  
 $EndComp
@@ -233,6 +265,8 @@ F 0 "R29" V 5593 4600 50  0000 C CNN
 F 1 "4.99k" V 5684 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 4600 50  0001 C CNN
 F 3 "~" H 5800 4600 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 4600 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 4600 50  0001 C CNN "Part Number"
 	1    5800 4600
 	0    1    1    0   
 $EndComp
@@ -328,6 +362,8 @@ F 0 "R20" V 2693 5050 50  0000 C CNN
 F 1 "1M" V 2784 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5050 50  0001 C CNN
 F 3 "~" H 2900 5050 50  0001 C CNN
+F 4 "TE Connectivity Passive Product" H 2900 5050 50  0001 C CNN "Manufacturer"
+F 5 "CPF0603B1M0E1" H 2900 5050 50  0001 C CNN "Part Number"
 	1    2900 5050
 	1    0    0    -1  
 $EndComp
@@ -341,6 +377,8 @@ F 0 "R30" V 5593 5200 50  0000 C CNN
 F 1 "4.99k" V 5684 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 5200 50  0001 C CNN
 F 3 "~" H 5800 5200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5800 5200 50  0001 C CNN "Manufacturer"
+F 5 "RNCF0603TKY4K99" H 5800 5200 50  0001 C CNN "Part Number"
 	1    5800 5200
 	0    1    1    0   
 $EndComp
@@ -354,6 +392,8 @@ F 0 "C10" H 3415 5096 50  0000 L CNN
 F 1 "1.5n" H 3415 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3338 4900 50  0001 C CNN
 F 3 "~" H 3300 5050 50  0001 C CNN
+F 4 "KYOCERA AVX" H 3300 5050 50  0001 C CNN "Manufacturer"
+F 5 "08055A152FAT2A" H 3300 5050 50  0001 C CNN "Part Number"
 	1    3300 5050
 	-1   0    0    1   
 $EndComp
@@ -375,8 +415,10 @@ U 1 1 61B400D9
 P 8500 3150
 F 0 "J4" H 8580 3142 50  0000 L CNN
 F 1 "Conn_01x10" H 8580 3051 50  0000 L CNN
-F 2 "" H 8500 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8500 3150 50  0001 C CNN
 F 3 "~" H 8500 3150 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 8500 3150 50  0001 C CNN "Manufacturer"
+F 5 "1-640456-0" H 8500 3150 50  0001 C CNN "Part Number"
 	1    8500 3150
 	1    0    0    -1  
 $EndComp
