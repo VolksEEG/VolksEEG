@@ -632,6 +632,9 @@
   )
 
   (gr_rect (start 136.906 61.468) (end 230.396 152) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 45e8a2e1-f7f1-4061-a2b5-49e0a1b2d479))
+  (gr_text "VolksEEG DevBoard - Rev 01\nNot for use as a medical device." (at 162.052 92.456) (layer "F.SilkS") (tstamp 826f3133-a2c1-4363-9cc3-dedcc3ffc0fe)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
 
   (segment (start 145 118.364) (end 146.27 117.094) (width 0.5) (layer "F.Cu") (net 1) (tstamp 44578ff5-49ad-4dc6-91e0-2073a101be05))
   (segment (start 146.27 117.094) (end 145 115.824) (width 0.5) (layer "F.Cu") (net 1) (tstamp 62fc2543-79a3-4086-9720-11477ed4646d))
