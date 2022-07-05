@@ -4,8 +4,8 @@ For more information on VolksEEG (beyond this readme):
 - The PC Software repository may be found [here](https://github.com/VolksEEG/eeg-pc-software).
 - The Firmware repository may be found [here](https://github.com/VolksEEG/eeg-device-firmware).
 
-*The VolksEEG project will culminate in the creation of an open-source
-electroencephalogram (EEG) machine, fully-functional for clinical use.
+*The VolksEEG project will result in the creation of an open-source
+electroencephalogram (EEG) machine, fully functional for clinical use.
 The device will obtain clearance by the USA FDA, and CE marking 
 (the equivalent of FDA clearance in the EU). Currently, no other 
 open-source electronic medical device has full regulatory clearance.*
