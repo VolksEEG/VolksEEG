@@ -124,7 +124,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1181100|393700|55f98994-e778-417d-a0ee-24b26d07a908|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1181100|609600|c15e6884-f720-4be5-9b05-91eba49a8648|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1181100|825500|97f93fe8-03e5-4b1d-9343-a657f9a8869a|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -366,7 +370,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../../../../../Temp/DevBoard3.dsn",
       "step": "",
       "vrml": ""
     },
