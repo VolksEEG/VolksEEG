@@ -1,4 +1,4 @@
-20149297097030137
+20200022580632451
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62895,6 +62895,13 @@ DFN NoLead
 9
 7
 Package_DFN_QFN
+DFN-6-1EP_2x1.6mm_P0.5mm_EP1.15x1.3mm
+DFN, 6 Pin (https://www.onsemi.com/pdf/datasheet/ncp349-d.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+9
+7
+Package_DFN_QFN
 DFN-6-1EP_2x1.8mm_P0.5mm_EP1.2x1.6mm
 DFN, 6 Pin (https://www.diodes.com/assets/Package-Files/U-DFN2018-6.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -63132,6 +63139,20 @@ DFN 0.5
 0
 8
 8
+Package_DFN_QFN
+DFN-10-1EP_2.6x2.6mm_P0.5mm_EP1.3x2.2mm
+DFN, 10 Pin (https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+15
+11
+Package_DFN_QFN
+DFN-10-1EP_2.6x2.6mm_P0.5mm_EP1.3x2.2mm_ThermalVias
+DFN, 10 Pin (https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+22
+11
 Package_DFN_QFN
 DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm
 DDB Package; 10-Lead Plastic DFN (3mm x 2mm) (see Linear Technology DFN_10_05-08-1722.pdf)
@@ -76300,6 +76321,20 @@ ESP32-S2  ESP32  WIFI
 43
 43
 RF_Module
+ESP32-S3-WROOM-1
+2.4 GHz Wi-Fi and Bluetooth module  https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+2.4 GHz Wi-Fi and Bluetooth module
+0
+62
+41
+RF_Module
+ESP32-S3-WROOM-1U
+2.4 GHz Wi-Fi and Bluetooth module  https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+2.4 GHz Wi-Fi and Bluetooth module
+0
+62
+41
+RF_Module
 ESP32-WROOM-32
 Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
@@ -85652,6 +85687,13 @@ varistor SIOV
 2
 2
 VolksEEG
+6-Jumper Header
+Supports 6 open/closed header jumpers
+6-Jumper DIP Header
+0
+12
+12
+VolksEEG
 ADS1299EEGFE-PDK
 
 
@@ -85665,6 +85707,13 @@ Adafruit_SD_Breakout
 0
 8
 8
+VolksEEG
+Sparkfun Tactile Switch
+
+
+0
+4
+4
 VolksEEG
 nRF52840_Feather_Sense
 
