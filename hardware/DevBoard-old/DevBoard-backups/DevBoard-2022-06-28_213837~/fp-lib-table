@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "VolksEEG")(type "KiCad")(uri "${KIPRJMOD}/VolksEEG.pretty")(options "")(descr ""))
-)
