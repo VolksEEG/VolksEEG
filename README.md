@@ -1,7 +1,8 @@
-For more information on VolksEEG (beyond this readme):
+# For more information on VolksEEG (beyond this readme):
+
 - Further technical details may be found on [our wiki](https://github.com/VolksEEG/VolksEEG/wiki). 
 - The start of a detailed project overview may be found [here](https://1drv.ms/w/s!AvEzNsBMxiAcpMBu5GTByJBZlJbeDA?e=k30pK4).
-- The PC Software repository may be found [here](https://github.com/VolksEEG/eeg-pc-software).
+- Our repositories may be found on Github [here](https://github.com/VolksEEG/).
 - The Firmware repository may be found [here](https://github.com/VolksEEG/eeg-device-firmware).
 
 *The VolksEEG project will result in the creation of an open-source
@@ -19,7 +20,7 @@ To sign up for updates about the project, head to [volkseeg.org](https://volksee
 
 Here is a video showing the real-time display of 32 waveform channels, from a UI proof-of-concept application:
 
-https://user-images.githubusercontent.com/58418/132131736-32bca075-f591-47dc-b3fa-c07dddc95de6.mp4
+<https://user-images.githubusercontent.com/58418/132131736-32bca075-f591-47dc-b3fa-c07dddc95de6.mp4>
 
 (The final device will display EEG channels rather than sine waves, of course.)
 

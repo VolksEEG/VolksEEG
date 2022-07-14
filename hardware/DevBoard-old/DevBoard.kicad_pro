@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -137,22 +137,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|1181100|393700|55f98994-e778-417d-a0ee-24b26d07a908|00000000-0000-0000-0000-000000000000",
-      "lib_symbol_issues|1181100|609600|c15e6884-f720-4be5-9b05-91eba49a8648|00000000-0000-0000-0000-000000000000",
-      "lib_symbol_issues|1181100|825500|97f93fe8-03e5-4b1d-9343-a657f9a8869a|00000000-0000-0000-0000-000000000000",
-      "pin_not_connected|889000|1739900|d8979be4-2a0b-464f-be20-ab2348e7eccc|00000000-0000-0000-0000-000000000000",
-      "pin_not_connected|889000|1765300|cff43f38-d3b2-4b7d-861d-056dabcab9a4|00000000-0000-0000-0000-000000000000",
-      "pin_not_connected|889000|1790700|86a5a8a0-41b2-4525-b05f-64a3ed0fc6d1|00000000-0000-0000-0000-000000000000",
-      "pin_to_pin|1143000|1790700|209f0ecb-46b8-45e6-a3fe-13164ffcf445|b8e19415-23ee-4e90-ac95-c0befd1efb2f",
-      "pin_to_pin|711200|495300|16d788ff-8095-44a1-ae6b-a3be663c252b|764e2bb8-89fe-4dad-946b-292150d2cad9",
-      "power_pin_not_driven|1143000|1917700|322a2dfa-4938-4267-a7f7-7098a4dbd93f|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|2298700|381000|35affec1-c7a3-4889-a4b6-6c100ce80ed3|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|2298700|406400|0359d702-2a88-4d30-8174-0f8abe71be10|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|711200|546100|89e96282-abd2-4fef-93ff-a42aa1c3d74d|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|711200|571500|5d2a2816-1403-45e1-ab03-2a60c05097cf|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|711200|596900|983c9529-fa45-4730-9861-2e61675c0e4f|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -347,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -357,8 +342,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "VolksEEG"
+    ],
+    "pinned_symbol_libs": [
+      "VolksEEG"
+    ]
   },
   "meta": {
     "filename": "DevBoard.kicad_pro",
@@ -384,14 +373,14 @@
         "wire_width": 6.0
       },
       {
-        "bus_width": 24.0,
+        "bus_width": 12.0,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.4,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.2,
         "name": "Power",
         "nets": [
           "/3V3_ads",
@@ -399,16 +388,16 @@
           "/3V3_sdc",
           "/5V_ads",
           "/5V_nrf",
-          "/5V_sdc",
+          "/BAT_nrf",
           "/GND",
           "/GND_nrf"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.2,
-        "via_drill": 0.6,
-        "wire_width": 12.0
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -421,7 +410,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "../../../../../../../Temp/DevBoard.dsn",
+      "specctra_dsn": "../../../../../../../Temp/DevBoard 2.dsn",
       "step": "",
       "vrml": ""
     },

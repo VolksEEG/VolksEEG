@@ -1,0 +1,3 @@
+*-backups
+*.kicad_pcb-bak
+*.kicad_sch-back
